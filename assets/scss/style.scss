@@ -1,5 +1,10 @@
+@import "theme/_default";
+@import "theme/_color";
+
 @import "components/_header";
 
+
+
 h1{
-    color:red
+    color:$dark-orange
 }

@@ -1,11 +1,110 @@
+a {
+  text-decoration: none !important; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+p {
+  margin: 0; }
+
+input[type=text] {
+  outline: 0; }
+
+input[type=text]:focus {
+  border: solid 1px #ccc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: none;
+  -moz-transition: none;
+  -webkit-transition: none; }
+
+.padding-none {
+  padding: 0 !important; }
+
+.margin-top {
+  margin-top: 1em !important; }
+
+.margin-top-20 {
+  margin-top: 20px !important; }
+
+.font-weight-light {
+  font-weight: 400 !important; }
+
+.font-weight-bold {
+  font-weight: 400 !important; }
+
+.txt-grey {
+  color: #6b7d85; }
+
+.txt-darkblue {
+  color: #1d3b48; }
+
 header {
-  font-size: 0.8em;
+  font-size: 14px;
   background: #fff;
-  border-bottom: solid 1px #999;
-}
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.13);
+  padding: 0; }
+  header .nav-logo {
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    background: url(https://dev.indexlivingmall.com/skin/frontend/indexliving-corporate/default/images/logo-2x.png) no-repeat right bottom;
+    padding-top: 2px;
+    background-size: contain; }
+  header .header-toplink {
+    padding: 0.4em 0.2em; }
+    header .header-toplink .list-inline-item {
+      margin-left: 4px; }
+  header .wrap-main-cat {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    vertical-align: bottom;
+    font-size: 15px;
+    font-weight: 700; }
+    header .wrap-main-cat .search-form {
+      width: 250px; }
+  header .active {
+    color: #f04723 !important;
+    border-bottom: solid 3px #f04723; }
+    header .active .icon-menu {
+      fill: #f04723 !important; }
+  header .main-cat {
+    padding: 0.7em 0.8em 1em; }
+    header .main-cat .icon-menu {
+      padding: 0 0 0 0.5em; }
+  header .search-form {
+    display: inline-block;
+    width: 250px;
+    margin: 0 3em; }
+    header .search-form input[type=text] {
+      border: 1px solid #ced4da;
+      background: #f8f8f8;
+      outline: 0; }
+    header .search-form .btn-search {
+      border: 1px solid #ced4da;
+      border-left: 0;
+      background: #f8f8f8; }
+  header .wrap-icon-cat {
+    display: inline-block; }
+    header .wrap-icon-cat .noti-list {
+      font-size: 1.6em;
+      color: #1d3b48; }
+      header .wrap-icon-cat .noti-list .list-inline-item {
+        margin-right: 1em; }
+  header .promotion-wrapper {
+    background: #fdcf3f; }
+    header .promotion-wrapper .promo-text {
+      color: #fff;
+      font-weight: 500;
+      font-size: 13px;
+      text-align: center;
+      padding: 0.8em 0;
+      margin: 0; }
 
 h1 {
-  color: red;
-}
+  color: #f04723; }
 
 /*# sourceMappingURL=style.css.map */

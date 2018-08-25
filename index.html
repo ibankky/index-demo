@@ -8,18 +8,116 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Hello, world!</title>
   </head>
   <body>
-    <header class="container-fluid fixed-top" >
-        <nav class="navbar navbar-expand-lg  navbar-light bg-light">
-            <a class="navbar-brand" href="#">
+    <header class="container-fluid padding-none" > <!-- Add class fixed-top to fix header -->
+      <div class="promotion-wrapper">
+          <div class="container">
+              <p class="promo-text">It’s Pouring Deals! Use code <b> RAIN </b> to get up to 50% off. Offer ends on 23rd July, 23:59 pm</p>
+          </div>
+      </div>
+      <div class="container wrapper-header">
+        <div class="row">
+          <div class="col-md-12 header-toplink">
+            <ul class="list-inline float-right txt-grey">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <span class="txt-darkblue">Store location | </span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" >
+                    <span class="txt-darkblue">Store location | </span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">
+                      <span class="txt-darkblue">Store location | </span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">
+                      <span class="txt-darkblue">Store location </span>
+                    </a>
+                </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2 col-md-2">
+              <a href="#" class="nav-logo"></a>
+            </div>
+            <div class="col-sm-10 col-md-10 text-right">
+              <div class="wrap-main-cat margin-top">
+                  <ul class="list-inline   txt-grey ">
+                      <li class="list-inline-item">
+                          <a href="#" class="main-cat txt-darkblue active">
+                            <span class="">All Product </span>
+                            <span class="icon-menu">
+                                <svg viewBox="0 0 13 8" height="8" width="13" xmlns="http://www.w3.org/2000/svg" class=""> 
+                                  <path fill-rule="nonzero" d="M1.078 2.488L6.72 7.82a.627.627 0 0 0 .917-.05L12.68 1.87A.711.711 0 
+                                  0 0 12.629.9a.632.632 0 0 0-.47-.176.632.632 0 0 0-.449.224L7.1 6.344 1.945 1.471a.627.627 0 0 
+                                  0-.919.05.711.711 0 0 0 .053.967z"></path> </svg>
+                            </span>
+                            
+                          </a>
+                      </li>
+                      <li class="list-inline-item">
+                          <a href="#" class="main-cat txt-darkblue">
+                            <span class=" font-weight-light">Room Idea</span>
+                          </a>
+                      </li>
+                      <li class="list-inline-item">
+                          <a href="#" class="main-cat txt-darkblue">
+                            <span class=" font-weight-light">Promotion</span>
+                          </a>
+                      </li>
+                  </ul> 
+              </div>
+              <div class="search-form">
+                  <div class="input-group mb-3">
+                      <input type="text" class="form-control form-input" placeholder="Search">
+                      <div class="input-group-append">
+                        <button class="btn  btn-search" type="button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                      </div>
+                    </div>
+              </div>
+              <div class="wrap-icon-cat ">
+                  <ul class="list-inline noti-list">
+                    <li class="list-inline-item">
+                      <a href="" class="txt-darkblue">
+                          <i class="far fa-bell"></i>
+                      </a>
+                      
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="" class="txt-darkblue">
+                            <i class="far fa-heart"></i>
+                        </a>
+                        
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="" class="txt-darkblue">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                      
+                    </li>
+                    <li class="list-inline-item">4</li>
+                  </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+        <!-- <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand nav-logo" href="#">
                 <img src="https://dev.indexlivingmall.com/skin/frontend/indexliving-corporate/default/images/logo-2x.png"  height="30" class="d-inline-block align-top" alt="">
               </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
@@ -29,30 +127,13 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Link</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
+                
             </div>
-          </nav>
+          </nav> -->
     </header>
     <main role="main" class="container" style="min-height: 2000px">
         <p>Class Home</p>
+        <h1>sdsdsd</h1>
     </main>
     
     <footer class="container-fluid">

@@ -1,5 +1,84 @@
 header{
-    font-size: 0.8em;
+    font-size: 14px;
     background: #fff;
-    border-bottom: solid 1px #999
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .13);
+    padding: 0;
+    .nav-logo{
+        display: inline-block;
+        width: 180px;
+        height: 40px;
+        background: url(https://dev.indexlivingmall.com/skin/frontend/indexliving-corporate/default/images/logo-2x.png) no-repeat right bottom;
+        padding-top: 2px;
+        background-size: contain
+    }
+    .header-toplink {
+        padding: 0.4em 0.2em;
+        .list-inline-item{ 
+            margin-left: 4px;
+        }
+    }
+    .wrap-main-cat {
+        display:inline-block;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+        vertical-align:bottom;
+        font-size: 15px;
+        font-weight: 700;
+        .search-form{
+            width: 250px;
+        }
+    }
+    .active {
+        color:$dark-orange !important;
+        border-bottom:solid 3px $dark-orange;
+        .icon-menu {
+            fill:$dark-orange !important;
+        }
+    }
+    .main-cat {
+        padding: 0.7em 0.8em 1em;
+        .icon-menu {
+            padding: 0 0 0 0.5em;
+        }
+       
+       
+    }
+    .search-form{
+        display:inline-block;
+        width: 250px;
+        margin: 0 3em;
+        input[type=text] {
+            border:1px solid #ced4da;
+            background: #f8f8f8;
+            outline: 0;
+        }
+        .btn-search {
+            border:1px solid #ced4da;
+            border-left: 0;
+            background: #f8f8f8;
+        }
+    }
+    .wrap-icon-cat {
+        display:inline-block;
+        .noti-list {
+            font-size: 1.6em;
+            color:$dark-blue;
+            .list-inline-item {
+                margin-right: 1em;
+            }
+        }
+    }
+    .promotion-wrapper {
+        background: $yelow;
+        .promo-text {
+            color:$white;
+            font-weight: 500;
+            font-size: 13px;
+            text-align: center;
+            padding: 0.8em 0;
+            margin: 0;
+        }
+    }
+
 }

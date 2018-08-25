@@ -13,8 +13,27 @@ header{
     }
     .header-toplink {
         padding: 0.4em 0.2em;
+        font-size: 0.9em;
+        ul{
+            margin: 0;
+            padding: 3px 0 8px 0;
+        }
         .list-inline-item{ 
-            margin-left: 4px;
+            margin: 0;
+            a {
+                img{
+                    margin-right: 5px;
+                }
+                span{
+                    border-right: 2px solid #e7ebed;
+                    margin-right: 8px;
+                    padding-right: 13px;
+                }
+                .last-item{
+                    border:none;
+                    margin: 0;
+                }
+            }
         }
     }
     .wrap-main-cat {
@@ -65,7 +84,10 @@ header{
             font-size: 1.6em;
             color:$dark-blue;
             .list-inline-item {
-                margin-right: 1em;
+                margin-right: 1.3em;
+                &:last-child {
+                    margin: 0;
+                }
             }
         }
     }

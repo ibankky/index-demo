@@ -53,6 +53,10 @@ header{
         border-bottom:solid 3px $dark-orange;
         .icon-menu {
             fill:$dark-orange !important;
+            svg{
+                transition:transform .2s, color .2s;
+                transform: rotate(-180deg);
+            }
         }
     }
     .main-cat {
@@ -60,7 +64,6 @@ header{
         .icon-menu {
             padding: 0 0 0 0.5em;
         }
-       
        
     }
     .search-form{
@@ -100,6 +103,53 @@ header{
             text-align: center;
             padding: 0.8em 0;
             margin: 0;
+        }
+    }
+    .mega-menu {
+        position: relative;
+        z-index: 505;
+        clear: both;
+        background-color: #fff;
+        display: none;
+        max-width: 1156px;
+        //display: block;
+        margin: 0 auto
+    }
+    .show {
+        display: block
+    }
+    .menu > ul > li > ul.list-promotion {
+        width: 760px;
+        padding: 1.5em 1em;
+        text-align: left;
+        .promo-list-item{
+            display: inline-block;
+            width: 200px;
+            margin: 0 15px 2.5em 15px;
+
+        }
+        .img-promo{
+            width:100%;
+            display: block;
+            margin-bottom: 1em;
+            overflow: hidden;
+        }
+        .promo-txt-wrap {
+            text-align: left;
+            font-size: 0.8em;
+           
+        }
+        .promo-title{
+            color:$dark-blue;
+            font-weight: 700;
+            letter-spacing: 0.4px;
+            margin-bottom:3px;
+            display: block;
+        }
+        .promo-subtitle{
+            color:$grey;
+            letter-spacing: 0.2px;
+            display: block;
         }
     }
 

@@ -48,7 +48,7 @@ header{
             width: 250px;
         }
     }
-    .active {
+    .active-menu {
         color:$dark-orange !important;
         border-bottom:solid 3px $dark-orange;
         .icon-menu {
@@ -118,6 +118,128 @@ header{
     .show {
         display: block
     }
+    .menu > ul > li > ul.list-megamenu{
+        position: absolute;
+        right: 0;
+        left: 0;
+        width: 910px;
+        overflow: hidden;
+        text-align: left;
+        padding: 0;
+        .tabHeader{
+            background: $grey-bg;
+            height: 300px;
+            padding: 1em 0em 1.5em 0.5em;
+            .cat-list {
+                line-height: 3;
+                font-weight: 400;
+                a{
+                    color:$grey;
+                    padding-left: 1em;
+                    transition:transform .5s, color .5s;
+                }
+                .active {
+                    background: $white;
+                    a{
+                        transition:transform .5s, color .5s;
+                        color:$dark-orange;
+                        font-weight: 700;
+                    }
+                    
+                }
+            }
+        }
+        .tabContent{
+            div.tabItem { 
+                display: none; 
+            }
+            div.tabItem.active {
+                 display: block; 
+            }
+            .tabItem{
+               background: url('https://ii1.pepperfry.com/media/wysiwyg/banners/furniture-min_hover_bg.jpg') no-repeat right bottom
+            }
+            .mega-list-wrap{
+                padding: 20px;
+                width: 620px;
+                height: 300px;
+            }
+            .list-column {
+                width: 24%;
+                display: inline-block;
+                .col-list{
+                    margin: 0;
+                    padding: 0;
+                    .col-sec-ttl{
+                        a{
+                            font-size: 0.8em;
+                            font-weight: 700;
+                            color: $dark-blue;
+                            letter-spacing:.4px;
+                            display: inline-block;
+                            border-bottom:solid 1px #e7ebed;
+                            padding: 0 0 2px;
+                            text-transform:uppercase;
+                        }
+                    }
+                    .col-sec-list{
+                        a{
+                            font-size: 0.9em;
+                            font-weight: 400;
+                            color:#6b7d85;
+                            display: inline-block;
+                            padding: 3px 0;
+                        }
+                    }
+                }
+            }
+            
+        }
+        
+    }
+    .menu > ul > li > ul.list-idea{
+        width: 700px;
+        padding: 1.5em 1em;
+        text-align: left;
+
+        .idea-text-wrap{
+            margin:  0 15px 1em;
+            h6{
+                font-weight: 700;
+            }
+            p{
+                font-size: 0.8em
+            }
+        }
+        .idea-list-item{
+            display: inline-block;
+            width: 300px;
+            margin: 0 15px 2.5em 15px; 
+            .img-promo{
+                width:100%;
+                display: block;
+                margin-bottom: 1em;
+                overflow: hidden;
+            }
+            .promo-txt-wrap {
+            text-align: left;
+            font-size: 0.8em;
+           
+        }
+        .promo-title{
+            color:$dark-blue;
+            font-weight: 700;
+            letter-spacing: 0.4px;
+            margin-bottom:3px;
+            display: block;
+        }
+        .promo-subtitle{
+            color:$grey;
+            letter-spacing: 0.2px;
+            display: block;
+        }
+        }
+    }
     .menu > ul > li > ul.list-promotion {
         width: 760px;
         padding: 1.5em 1em;
@@ -152,5 +274,6 @@ header{
             display: block;
         }
     }
+
 
 }

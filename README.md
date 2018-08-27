@@ -1,4 +1,9 @@
-Index All Page 
+## Installration
+
+    ### clone this Project
+    ### Run sass --watch assets/scss:assets/css
+
+## Index All Page 
 
     1. index
     2. store promotion list

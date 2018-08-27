@@ -1,0 +1,43 @@
+.promotion-index{
+    .sec-title{
+        text-transform: uppercase;
+        margin: 20px 0;
+        letter-spacing: 1px;
+    }
+    .promo-block {
+        margin: 0 0 0.8em 0;
+        overflow: hidden;
+    }
+    .promo-wrap {
+        margin:  0 0 20px 0;
+        .title-promo {
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 0.85em;
+            margin-bottom: 0.3em;
+        }
+        .det-promo {
+            font-size: 0.8em;
+        }
+    }
+    .promo-slider {
+        margin: 0 0 1em 0;
+        padding:0 0 3em 0;
+        border-bottom:solid 1px #e7ebed;
+    }
+    .slider-block {
+        overflow: hidden;
+        margin-bottom:0.5em; 
+    }
+    .slide-title {
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 0.85em;
+        margin-bottom: 0.3em;
+    }
+    .slide-det{
+        font-size: 0.8em;
+    }
+}

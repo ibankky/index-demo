@@ -10,8 +10,43 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/slick.css">
+    <link rel="stylesheet" href="./assets/slick-theme.css">
     <title>Online Furniture Shopping Store: Shop Online in India for Furniture, Home Decor, Furnishings, Kitchenware, Hardware Products @ Pepperfry - India's Largest Home Shopping Destination</title>
   </head>
+  <style>
+      .slider {
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+  </style>
   <body>
     <header class="container-fluid padding-none" > <!-- Add class fixed-top to fix header -->
       <div class="promotion-wrapper">
@@ -438,29 +473,31 @@
       </div>
     </header>
     <main role="main" class="container" style="min-height: 10em">
-        
-        <div class="tab tab-hover">
-            <div class="tabHeader">
-              <ul class="list-unstyled">
-                <li class="active">Tab 1</li>
-                <li>Tab 2</li>
-                <li>Tab 3</li>
-              </ul>
-            </div>
-            <div class="tabContent">
-              <div class="tabItem active">
-            Tab content 1
-          </div>
-          <div class="tabItem">
-            Tab content 2
-          </div>
-          <div class="tabItem">
-            Tab content 3
-          </div>
-            </div>
-          </div>
-        <p>Class Home</p>
-        <h1>sdsdsd</h1>
+       <div class="row">
+           <div class="col-sm-12">
+                <section class="lazy slider" data-sizes="50vw">
+                        <div>
+                          <img data-lazy="http://placehold.it/350x300?text=1-350w" data-srcset="http://placehold.it/650x300?text=1-650w 650w, http://placehold.it/960x300?text=1-960w 960w" data-sizes="100vw">
+                        </div>
+                        <div>
+                          <img data-lazy="http://placehold.it/350x300?text=2-350w" data-srcset="http://placehold.it/650x300?text=2-650w 650w, http://placehold.it/960x300?text=2-960w 960w" data-sizes="100vw">
+                        </div>
+                        <div>
+                          <img data-lazy="http://placehold.it/350x300?text=3-350w"  data-srcset="http://placehold.it/650x300?text=3-650w 650w, http://placehold.it/960x300?text=3-960w 960w" data-sizes="100vw">
+                        </div>
+                        <div>
+                          <img data-lazy="http://placehold.it/350x300?text=4-350w"  data-srcset="http://placehold.it/650x300?text=4-650w 650w, http://placehold.it/960x300?text=4-960w 960w" data-sizes="100vw">
+                        </div>
+                        <div>
+                          <img data-lazy="http://placehold.it/350x300?text=5-350w"  data-srcset="http://placehold.it/650x300?text=5-650w 650w, http://placehold.it/960x300?text=5-960w 960w" data-sizes="100vw">
+                        </div>
+                        <div>
+                          <!-- this slide should inherit the sizes attr from the parent slider -->
+                          <img data-lazy="http://placehold.it/350x300?text=6-350w"  data-srcset="http://placehold.it/650x300?text=6-650w 650w, http://placehold.it/960x300?text=6-960w 960w">
+                        </div>
+                      </section>             
+           </div>
+       </div>
     </main>
     
     <footer class="container-fluid padding-none">
@@ -637,6 +674,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="./assets/js/megamenu.js"></script>
     <script src="./assets/js/jQuery.tab.js"></script>
+    <script type="text/javascript" src="./assets/js/slick.min.js"></script>
+    <script>
+        $(function(){
+          var includes = $('[data-include]');
+          jQuery.each(includes, function(){
+            var file = 'views/' + $(this).data('include') + '.html';
+            $(this).load(file);
+          });
+        });
+      </script>
     <script>
       $(".main-cat").hover(
         function () {
@@ -655,6 +702,14 @@
 					trigger_event_type: 'mouseover' //mouseover | click 默认click
 				});
 			});
-		</script>
+        </script>
+    <script type="text/javascript">
+        $(function(){
+          $(".lazy").slick({
+            lazyLoad: 'ondemand', // ondemand progressive anticipated
+            infinite: true
+          });
+        });
+    </script>
   </body>
 </html>

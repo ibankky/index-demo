@@ -15,7 +15,7 @@
 		});
 	}
 	$.fn.tab.defaults = {
-		trigger_event_type: 'click', //mouseover | click 默认是click
+		trigger_event_type: 'click', //mouseover 
 	};
 
 })(jQuery);

@@ -1,4 +1,4 @@
-$yelow: #fdcf3f;
+$yellow: #fdc30f; 
 $white: #fff;
 $black: #000;
 $grey :#6b7d85;
@@ -16,5 +16,16 @@ $grey-bg: #efede7;
 }
 .txt-darkblue {
     color:$dark-blue
+}
+.txt-link{
+    color:$yellow;
+    text-decoration: underline;
+    margin: 1em 0;
+}
+
+
+
+.bg-grey{
+    background: #f1f1f2;
 }
 

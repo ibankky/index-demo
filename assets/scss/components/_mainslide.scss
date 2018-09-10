@@ -24,14 +24,8 @@
 .slick-next{
     z-index: 99;
     opacity: 1;
+    display: none;
 }
-
-.slick-prev:before,
-.slick-next:before {
-  color: black;
-}
-
-
 
 .slick-slide {
   transition: all ease-in-out .3s;
@@ -45,8 +39,11 @@
 .slick-current {
   opacity: 1;
 }
+.slick-arrow {
+    display: none;
+}
 
-.slick-slider{
+ .slick-slider{
     .slick-prev,.slick-next{
         opacity: 0;
         transition:transform .2s, color .2s;

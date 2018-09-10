@@ -5,34 +5,20 @@ header{
     padding: 0;
     .nav-logo{
         display: inline-block;
-        width: 180px;
-        height: 40px;
+        width: 250px;
+        height: 50px;
         background: url(https://dev.indexlivingmall.com/skin/frontend/indexliving-corporate/default/images/logo-2x.png) no-repeat right bottom;
         padding-top: 2px;
         background-size: contain
     }
     .header-toplink {
-        padding: 0.4em 0.2em;
-        font-size: 0.9em;
+        padding: 2em 0;
+        font-size: 1em;
         ul{
             margin: 0;
             padding: 3px 0 8px 0;
-        }
-        .list-inline-item{ 
-            margin: 0;
-            a {
-                img{
-                    margin-right: 5px;
-                }
-                span{
-                    border-right: 2px solid #e7ebed;
-                    margin-right: 8px;
-                    padding-right: 13px;
-                }
-                .last-item{
-                    border:none;
-                    margin: 0;
-                }
+            .list-inline-item{
+                padding: 0 1em;
             }
         }
     }
@@ -40,13 +26,11 @@ header{
         display:inline-block;
         margin: 0;
         padding: 0;
-        text-align: right;
+        text-align: left;
         vertical-align:bottom;
-        font-size: 15px;
+        font-size: 1.2em;
         font-weight: 700;
-        .search-form{
-            width: 250px;
-        }
+       
     }
     .active-menu {
         color:$dark-orange !important;
@@ -61,6 +45,7 @@ header{
     }
     .main-cat {
         padding: 0.7em 0.8em 1em;
+        font-size: 1.2em;
         .icon-menu {
             padding: 0 0 0 0.5em;
         }
@@ -68,8 +53,7 @@ header{
     }
     .search-form{
         display:inline-block;
-        width: 250px;
-        margin: 0 3em;
+        width: 50%;
         input[type=text] {
             border:1px solid #ced4da;
             background: #f8f8f8;
@@ -83,11 +67,13 @@ header{
     }
     .wrap-icon-cat {
         display:inline-block;
+        width: 48%;
+        text-align: right;
         .noti-list {
             font-size: 1.6em;
             color:$dark-blue;
             .list-inline-item {
-                margin-right: 1.3em;
+                margin-right: 2em;
                 &:last-child {
                     margin: 0;
                 }
@@ -95,7 +81,7 @@ header{
         }
     }
     .promotion-wrapper {
-        background: $yelow;
+        background: $yellow;
         .promo-text {
             color:$white;
             font-weight: 500;
@@ -122,10 +108,11 @@ header{
         position: absolute;
         right: 0;
         left: 0;
-        width: 910px;
+        width: 1200px;
         overflow: hidden;
         text-align: left;
         padding: 0;
+        top: 46px;
         .tabHeader{
             background: $grey-bg;
             height: 300px;

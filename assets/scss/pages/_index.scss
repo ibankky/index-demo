@@ -173,3 +173,135 @@
         }
     }
 }
+
+.news-product {
+    .txt-new-arrivals {
+        padding: 0.5em;
+        .price-product{
+            color:$grey;
+            font-size : 0.8em;
+        }
+    }
+    .new-arrivals {
+        background: #fff;
+        border:solid 1px #dfdfdf;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .but-item {
+        background: $yellow;
+        border: none;
+        width: 7em;
+        font-size: 0.8em;
+        color: #000;
+        padding: 0.3em 0;
+        border-radius: 30px;
+        .btn-logo {
+            padding-right: 0.7em;
+        }
+    }
+}
+
+.locate-banner{
+    .locate-img-left {
+        position: relative;
+        left:30px;
+        padding: 20px 0;
+        z-index: 99;
+    }
+    .locate-img-right {
+        position: relative;
+        right:30px;
+        padding: 20px 0;
+        z-index: 99;
+    }
+    .txt-banner {
+        padding: 2em 9em;
+    }
+    h3{
+        text-transform: uppercase;
+    }
+    .locate-btn{
+        background: $dark-orange;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 2em;
+        font-size: 1.2em;
+        width: 75%;
+        border-radius: 0;
+    }
+}
+.what-more {
+    margin-bottom: 1.5em;
+    .what-more-txt{
+       padding-top: 7em;
+    }
+}
+.what-news-txt {
+    padding: 1.5em 1.5em 0 0;
+    .txt-link {
+        font-size: 1.2em;  
+     }
+     .label{
+         color:$grey;
+     }
+     .txt-head {
+         padding: 0.5em 0;
+     }
+     .txt-detail{
+         padding-bottom: 2em;
+         font-size: 1.1em;
+     }
+}
+.idea-forhome {
+    .txt-head {
+        font-size: 3em;
+    }
+    .txt-detail{
+        font-size: 2em;
+        padding-bottom: 0.6em;
+    }
+    .txt-link {
+       font-size: 1.2em;
+        
+    }
+}
+.smart-collect {
+    .txt-link {
+        font-size: 1.2em; 
+     }
+}
+.brand-collection {
+    .brand-logo{
+        padding: 1em;
+    }
+    .branding-block {
+        padding: 1em;
+        background: #fff;
+    }
+    .brand-txt-block {
+        padding: 2em 1em;
+        h4{
+            text-transform: uppercase;
+            font-size: 1.2em;
+            padding-bottom: 0.8em;
+        }
+        p {
+            font-size: 0.8em;
+            color:#9c9c9c;
+            span{
+                color:#000;
+            }
+        }
+        .link-brand {
+            span{
+                color: $yellow;
+                font-size: 0.9em;
+                display: inline-block;
+                margin-top: 2.5em;
+            }
+            
+        }
+    }
+}

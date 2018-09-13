@@ -49,3 +49,17 @@ input[type=text]:focus {
 .font-weight-bold{
     font-weight:700 !important;
 }
+
+.block-center {
+    margin: 0 auto;
+    display: block;
+}
+
+
+@mixin vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

@@ -101,6 +101,92 @@
     left: -25px;
 }
 
+.slick-min-prev,
+.slick-min-next{}
+
+/* Arrows */
+.slick-min-prev,
+.slick-min-next
+{
+    color:#c7c5c5;
+    font-size: 1.5em;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+
+    display: block;
+
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    border: none;
+    outline: none;
+    z-index: 99;
+    background: none;
+}
+.slick-min-prev:hover,
+.slick-min-prev:focus,
+.slick-min-next:hover,
+.slick-min-next:focus
+{
+    color: #f04723;
+    outline: none;
+    background: transparent;
+}
+.slick-min-prev:hover:before,
+.slick-min-prev:focus:before,
+.slick-min-next:hover:before,
+.slick-min-next:focus:before
+{
+    opacity: 1;
+}
+.slick-min-prev.slick-disabled:before,
+.slick-min-next.slick-disabled:before
+{
+    opacity: .25;
+}
+
+.slick-min-prev:before,
+.slick-min-next:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-min-prev
+{
+    left: -0.5em;
+}
+[dir='rtl'] .slick-min-prev
+{
+    right: -25px;
+    left: auto;
+}
+
+
+
+.slick-min-next
+{
+    right: -0.5em;
+}
+[dir='rtl'] .slick-min-next
+{
+    right: auto;
+    left: -25px;
+}
 
 
 

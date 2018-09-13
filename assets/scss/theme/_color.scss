@@ -8,6 +8,8 @@ $dark-blue: #1d3b48;
 $dark-orange: #f04723;
 $grey-bg: #efede7;
 
+$link-color: #f3641d;
+
 
 
 
@@ -20,8 +22,12 @@ $grey-bg: #efede7;
 .txt-link{
     color:$yellow;
     text-decoration: underline;
-    margin: 1em 0;
+    span{
+        color:$yellow;
+        text-decoration: underline;
+    }
 }
+
 
 
 

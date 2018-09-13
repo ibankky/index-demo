@@ -51,6 +51,10 @@ input[type=text]:focus {
 .font-weight-bold {
   font-weight: 700 !important; }
 
+.block-center {
+  margin: 0 auto;
+  display: block; }
+
 .txt-grey {
   color: #6b7d85; }
 
@@ -59,8 +63,10 @@ input[type=text]:focus {
 
 .txt-link {
   color: #fdc30f;
-  text-decoration: underline;
-  margin: 1em 0; }
+  text-decoration: underline; }
+  .txt-link span {
+    color: #fdc30f;
+    text-decoration: underline; }
 
 .bg-grey {
   background: #f1f1f2; }
@@ -703,5 +709,100 @@ header {
     .sale-parnel .small-promo .promo-price {
       font-size: 1em;
       color: #ff0000; }
+
+.news-product .txt-new-arrivals {
+  padding: 0.5em; }
+  .news-product .txt-new-arrivals .price-product {
+    color: #6b7d85;
+    font-size: 0.8em; }
+.news-product .new-arrivals {
+  background: #fff;
+  border: solid 1px #dfdfdf;
+  border-radius: 5px;
+  margin-bottom: 20px; }
+.news-product .but-item {
+  background: #fdc30f;
+  border: none;
+  width: 7em;
+  font-size: 0.8em;
+  color: #000;
+  padding: 0.3em 0;
+  border-radius: 30px; }
+  .news-product .but-item .btn-logo {
+    padding-right: 0.7em; }
+
+.locate-banner .locate-img-left {
+  position: relative;
+  left: 30px;
+  padding: 20px 0;
+  z-index: 99; }
+.locate-banner .locate-img-right {
+  position: relative;
+  right: 30px;
+  padding: 20px 0;
+  z-index: 99; }
+.locate-banner .txt-banner {
+  padding: 2em 9em; }
+.locate-banner h3 {
+  text-transform: uppercase; }
+.locate-banner .locate-btn {
+  background: #f04723;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 2em;
+  font-size: 1.2em;
+  width: 75%;
+  border-radius: 0; }
+
+.what-more {
+  margin-bottom: 1.5em; }
+  .what-more .what-more-txt {
+    padding-top: 7em; }
+
+.what-news-txt {
+  padding: 1.5em 1.5em 0 0; }
+  .what-news-txt .txt-link {
+    font-size: 1.2em; }
+  .what-news-txt .label {
+    color: #6b7d85; }
+  .what-news-txt .txt-head {
+    padding: 0.5em 0; }
+  .what-news-txt .txt-detail {
+    padding-bottom: 2em;
+    font-size: 1.1em; }
+
+.idea-forhome .txt-head {
+  font-size: 3em; }
+.idea-forhome .txt-detail {
+  font-size: 2em;
+  padding-bottom: 0.6em; }
+.idea-forhome .txt-link {
+  font-size: 1.2em; }
+
+.smart-collect .txt-link {
+  font-size: 1.2em; }
+
+.brand-collection .brand-logo {
+  padding: 1em; }
+.brand-collection .branding-block {
+  padding: 1em;
+  background: #fff; }
+.brand-collection .brand-txt-block {
+  padding: 2em 1em; }
+  .brand-collection .brand-txt-block h4 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    padding-bottom: 0.8em; }
+  .brand-collection .brand-txt-block p {
+    font-size: 0.8em;
+    color: #9c9c9c; }
+    .brand-collection .brand-txt-block p span {
+      color: #000; }
+  .brand-collection .brand-txt-block .link-brand span {
+    color: #fdc30f;
+    font-size: 0.9em;
+    display: inline-block;
+    margin-top: 2.5em; }
 
 /*# sourceMappingURL=style.css.map */

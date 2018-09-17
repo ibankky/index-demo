@@ -55,6 +55,35 @@ input[type=text]:focus {
     display: block;
 }
 
+.search-form {
+    max-width: 280px;
+    input[type=text]{
+        border:none;
+        background: none;
+        border-bottom: solid 1px #000;
+        border-radius: 0;
+        background-color:transparent;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        font-size: 0.8em;
+        padding: 0;
+    }
+    .btn-search {
+        background: none;
+        outline: none!important;
+        border:none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        border-radius: 0;
+        border-bottom: solid 1px #000;
+        font-size: 1.2em;
+        padding: 0 0.5em;
+    }
+    
+}
+
 
 @mixin vertical-align {
     position: relative;

@@ -55,11 +55,39 @@ input[type=text]:focus {
   margin: 0 auto;
   display: block; }
 
+.search-form {
+  max-width: 280px; }
+  .search-form input[type=text] {
+    border: none;
+    background: none;
+    border-bottom: solid 1px #000;
+    border-radius: 0;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: 0.8em;
+    padding: 0; }
+  .search-form .btn-search {
+    background: none;
+    outline: none !important;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    border-bottom: solid 1px #000;
+    font-size: 1.2em;
+    padding: 0 0.5em; }
+
 .txt-grey {
   color: #6b7d85; }
 
 .txt-darkblue {
   color: #1d3b48; }
+
+.txt-black {
+  color: #000; }
 
 .txt-link {
   color: #fdc30f;
@@ -539,13 +567,13 @@ header {
   padding-top: 3em; }
   .footer-wrap .footer-logo {
     height: 3em;
-    position: relative;
-    margin-bottom: 0.5em; }
+    position: relative; }
     .footer-wrap .footer-logo img {
       position: absolute;
       left: 0;
       bottom: 0;
-      width: 100px; }
+      width: 170px;
+      margin-bottom: 0.5em; }
     .footer-wrap .footer-logo span {
       position: absolute;
       left: 0;
@@ -556,25 +584,43 @@ header {
   .footer-wrap .footer-link {
     color: #6b7d85;
     font-size: 0.8em; }
+  .footer-wrap .footer-icon {
+    min-width: 1.5em;
+    display: inline-block;
+    font-size: 1.2em; }
   .footer-wrap .btm-footer {
-    border-top: 1px solid rgba(53, 53, 53, 0.1); }
+    border-top: 1px solid rgba(53, 53, 53, 0.1);
+    padding: 0.5em 0 2.5em 0; }
     .footer-wrap .btm-footer .coppy-right {
       font-size: 0.8em;
-      color: #6b7d85;
+      color: #252525;
       text-transform: uppercase;
       letter-spacing: 0.5px; }
     .footer-wrap .btm-footer .btm-link {
       font-size: 0.8em;
       margin: 0; }
       .footer-wrap .btm-footer .btm-link a span {
-        border-right: 1px solid #6a6a6a;
-        margin-right: 10px;
-        padding-right: 15px; }
+        color: #252525;
+        padding-right: 0px; }
       .footer-wrap .btm-footer .btm-link a .last-item {
         border: none;
         margin: 0; }
       .footer-wrap .btm-footer .btm-link a:hover {
         color: #6b7d85; }
+  .footer-wrap .follow-list {
+    text-align: right;
+    font-size: 1.3em;
+    margin-top: 0.5em; }
+    .footer-wrap .follow-list span {
+      background: #6b7d85;
+      border-radius: 100%;
+      height: 1.6em;
+      display: block;
+      width: 1.6em;
+      text-align: center;
+      line-height: 1.6; }
+      .footer-wrap .follow-list span i {
+        color: #fff; }
 
 .promotion-index .sec-title {
   text-transform: uppercase;

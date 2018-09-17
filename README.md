@@ -41,3 +41,12 @@
     34. idea inspiration list
     35. idea inspiration detail
     36. home service
+    
+    ## Index Page Group from design 09/17/2018
+
+    1). Home
+    2). List
+    3). Login & Regis 
+    4). Shoping Cart
+    5). E-Catalog
+    6). Detail-Product

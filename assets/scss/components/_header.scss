@@ -5,8 +5,8 @@ header{
     padding: 0;
     .nav-logo{
         display: inline-block;
-        width: 250px;
-        height: 50px;
+        width: 160px;
+        height: 36px;
         background: url(https://dev.indexlivingmall.com/skin/frontend/indexliving-corporate/default/images/logo-2x.png) no-repeat right bottom;
         padding-top: 2px;
         background-size: contain
@@ -28,15 +28,15 @@ header{
         padding: 0;
         text-align: left;
         vertical-align:bottom;
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: 700;
        
     }
     .active-menu {
-        color:$dark-orange !important;
-        border-bottom:solid 3px $dark-orange;
+        color:$yellow !important;
+        border-bottom:solid 3px $yellow;
         .icon-menu {
-            fill:$dark-orange !important;
+            fill:$yellow !important;
             svg{
                 transition:transform .2s, color .2s;
                 transform: rotate(-180deg);
@@ -53,8 +53,7 @@ header{
     }
     .search-form{
         display:inline-block;
-        width: 50%;
-        input[type=text] {
+        /* input[type=text] {
             border:1px solid #ced4da;
             background: #f8f8f8;
             outline: 0;
@@ -63,15 +62,15 @@ header{
             border:1px solid #ced4da;
             border-left: 0;
             background: #f8f8f8;
-        }
+        } */
     }
     .wrap-icon-cat {
-        display:inline-block;
-        width: 48%;
         text-align: right;
+        float: right;
         .noti-list {
             font-size: 1.6em;
             color:$dark-blue;
+            padding-top: 5px;
             .list-inline-item {
                 margin-right: 2em;
                 &:last-child {
@@ -108,20 +107,20 @@ header{
         position: absolute;
         right: 0;
         left: 0;
-        width: 1200px;
+        width: 1140px;
         overflow: hidden;
         text-align: left;
         padding: 0;
-        top: 46px;
+        top:40px;
         .tabHeader{
-            background: $grey-bg;
-            height: 300px;
-            padding: 1em 0em 1.5em 0.5em;
+            background: #565658;
+            min-height: 300px;
+            padding: 1em 0em 1.5em;
             .cat-list {
                 line-height: 3;
                 font-weight: 400;
                 a{
-                    color:$grey;
+                    color:#bfbdc6;
                     padding-left: 1em;
                     transition:transform .5s, color .5s;
                 }
@@ -129,7 +128,7 @@ header{
                     background: $white;
                     a{
                         transition:transform .5s, color .5s;
-                        color:$dark-orange;
+                        color:$yellow;
                         font-weight: 700;
                     }
                     
@@ -148,11 +147,11 @@ header{
             }
             .mega-list-wrap{
                 padding: 20px;
-                width: 620px;
+                width: 870px;
                 height: 300px;
             }
             .list-column {
-                width: 24%;
+                width: 260px;
                 display: inline-block;
                 .col-list{
                     margin: 0;

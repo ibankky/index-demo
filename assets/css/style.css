@@ -56,18 +56,18 @@ input[type=text]:focus {
   display: block; }
 
 .search-form {
-  max-width: 280px; }
+  width: 100%; }
   .search-form input[type=text] {
     border: none;
     background: none;
-    border-bottom: solid 1px #000;
+    border-bottom: solid 1px #222021;
     border-radius: 0;
     background-color: transparent;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    font-size: 0.8em;
-    padding: 0; }
+    font-size: 1em;
+    padding-left: 0.5em; }
   .search-form .btn-search {
     background: none;
     outline: none !important;
@@ -76,7 +76,32 @@ input[type=text]:focus {
     -moz-box-shadow: none;
     box-shadow: none;
     border-radius: 0;
-    border-bottom: solid 1px #000;
+    border-bottom: solid 1px #222021;
+    font-size: 1.2em;
+    padding: 0 0.5em; }
+
+.mail-form {
+  max-width: 280px; }
+  .mail-form input[type=text] {
+    border: none;
+    background: none;
+    border-bottom: solid 2px #222021;
+    border-radius: 0;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: 0.8em;
+    padding: 0; }
+  .mail-form .btn-search {
+    background: none;
+    outline: none !important;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    border-bottom: solid 2px #222021;
     font-size: 1.2em;
     padding: 0 0.5em; }
 
@@ -370,8 +395,8 @@ header {
   padding: 0; }
   header .nav-logo {
     display: inline-block;
-    width: 250px;
-    height: 50px;
+    width: 160px;
+    height: 36px;
     background: url(https://dev.indexlivingmall.com/skin/frontend/indexliving-corporate/default/images/logo-2x.png) no-repeat right bottom;
     padding-top: 2px;
     background-size: contain; }
@@ -389,13 +414,13 @@ header {
     padding: 0;
     text-align: left;
     vertical-align: bottom;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 700; }
   header .active-menu {
-    color: #f04723 !important;
-    border-bottom: solid 3px #f04723; }
+    color: #fdc30f !important;
+    border-bottom: solid 3px #fdc30f; }
     header .active-menu .icon-menu {
-      fill: #f04723 !important; }
+      fill: #fdc30f !important; }
       header .active-menu .icon-menu svg {
         transition: transform .2s, color .2s;
         transform: rotate(-180deg); }
@@ -406,22 +431,23 @@ header {
       padding: 0 0 0 0.5em; }
   header .search-form {
     display: inline-block;
-    width: 50%; }
-    header .search-form input[type=text] {
-      border: 1px solid #ced4da;
-      background: #f8f8f8;
-      outline: 0; }
-    header .search-form .btn-search {
-      border: 1px solid #ced4da;
-      border-left: 0;
-      background: #f8f8f8; }
+    /* input[type=text] {
+        border:1px solid #ced4da;
+        background: #f8f8f8;
+        outline: 0;
+    }
+    .btn-search {
+        border:1px solid #ced4da;
+        border-left: 0;
+        background: #f8f8f8;
+    } */ }
   header .wrap-icon-cat {
-    display: inline-block;
-    width: 48%;
-    text-align: right; }
+    text-align: right;
+    float: right; }
     header .wrap-icon-cat .noti-list {
       font-size: 1.6em;
-      color: #1d3b48; }
+      color: #1d3b48;
+      padding-top: 5px; }
       header .wrap-icon-cat .noti-list .list-inline-item {
         margin-right: 2em; }
         header .wrap-icon-cat .noti-list .list-inline-item:last-child {
@@ -449,27 +475,27 @@ header {
     position: absolute;
     right: 0;
     left: 0;
-    width: 1200px;
+    width: 1140px;
     overflow: hidden;
     text-align: left;
     padding: 0;
-    top: 46px; }
+    top: 40px; }
     header .menu > ul > li > ul.list-megamenu .tabHeader {
-      background: #efede7;
-      height: 300px;
-      padding: 1em 0em 1.5em 0.5em; }
+      background: #565658;
+      min-height: 300px;
+      padding: 1em 0em 1.5em; }
       header .menu > ul > li > ul.list-megamenu .tabHeader .cat-list {
         line-height: 3;
         font-weight: 400; }
         header .menu > ul > li > ul.list-megamenu .tabHeader .cat-list a {
-          color: #6b7d85;
+          color: #bfbdc6;
           padding-left: 1em;
           transition: transform .5s, color .5s; }
         header .menu > ul > li > ul.list-megamenu .tabHeader .cat-list .active {
           background: #fff; }
           header .menu > ul > li > ul.list-megamenu .tabHeader .cat-list .active a {
             transition: transform .5s, color .5s;
-            color: #f04723;
+            color: #fdc30f;
             font-weight: 700; }
     header .menu > ul > li > ul.list-megamenu .tabContent div.tabItem {
       display: none; }
@@ -479,10 +505,10 @@ header {
       background: url("https://ii1.pepperfry.com/media/wysiwyg/banners/furniture-min_hover_bg.jpg") no-repeat right bottom; }
     header .menu > ul > li > ul.list-megamenu .tabContent .mega-list-wrap {
       padding: 20px;
-      width: 620px;
+      width: 870px;
       height: 300px; }
     header .menu > ul > li > ul.list-megamenu .tabContent .list-column {
-      width: 24%;
+      width: 260px;
       display: inline-block; }
       header .menu > ul > li > ul.list-megamenu .tabContent .list-column .col-list {
         margin: 0;
@@ -621,6 +647,12 @@ header {
       line-height: 1.6; }
       .footer-wrap .follow-list span i {
         color: #fff; }
+  .footer-wrap .footer-top {
+    border-bottom: solid 1px #b7b7b7;
+    padding-bottom: 1em; }
+  .footer-wrap .footer-mid {
+    padding-top: 1em;
+    padding-bottom: 1em; }
 
 .promotion-index .sec-title {
   text-transform: uppercase;

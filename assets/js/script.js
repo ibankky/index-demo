@@ -12,7 +12,6 @@
 
 $(function(){
           $(".main-slider").slick({
-            lazyLoad: 'ondemand', // ondemand progressive anticipated
             infinite: true,
             variableWidth: true,
             dots: true,

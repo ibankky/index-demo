@@ -12,14 +12,22 @@ header{
         background-size: contain
     }
     .header-toplink {
-        padding: 2em 0;
+        padding: 1em 0 0;
         font-size: 1em;
+        
         ul{
             margin: 0;
             padding: 3px 0 8px 0;
             .list-inline-item{
-                padding: 0 1em;
+                margin-right: 8px;
+                padding-right: 13px;
+                border-right: solid 1px #e7ebed;
+                &:last-child{
+                    border: none; 
+                    margin: 0;
+                }
             }
+              
         }
     }
     .wrap-main-cat {
@@ -53,6 +61,7 @@ header{
     }
     .search-form{
         display:inline-block;
+        padding: 10px;
         /* input[type=text] {
             border:1px solid #ced4da;
             background: #f8f8f8;
@@ -64,21 +73,10 @@ header{
             background: #f8f8f8;
         } */
     }
-    .wrap-icon-cat {
-        text-align: right;
-        float: right;
-        .noti-list {
-            font-size: 1.6em;
-            color:$dark-blue;
-            padding-top: 5px;
-            .list-inline-item {
-                margin-right: 2em;
-                &:last-child {
-                    margin: 0;
-                }
-            }
-        }
+    .noti-list{
+        font-size:1.5em; 
     }
+    
     .promotion-wrapper {
         background: $yellow;
         .promo-text {
@@ -260,6 +258,28 @@ header{
             display: block;
         }
     }
+    .megamenu-li {
+        position: static;
+    }
+    
+    .megamenu {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: 0;
+        padding: 15px;
+    }
+    .dropdown-toggle::after{
+        border:none!important;
+    }
 
+    .navbar-nav {
+        margin-left: auto;
+        padding-top: 0.8em;
+        a{
+            color:#000;
+            font-size: 1.2em;
+        }
+    }
 
 }

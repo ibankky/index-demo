@@ -401,13 +401,18 @@ header {
     padding-top: 2px;
     background-size: contain; }
   header .header-toplink {
-    padding: 2em 0;
+    padding: 1em 0 0;
     font-size: 1em; }
     header .header-toplink ul {
       margin: 0;
       padding: 3px 0 8px 0; }
       header .header-toplink ul .list-inline-item {
-        padding: 0 1em; }
+        margin-right: 8px;
+        padding-right: 13px;
+        border-right: solid 1px #e7ebed; }
+        header .header-toplink ul .list-inline-item:last-child {
+          border: none;
+          margin: 0; }
   header .wrap-main-cat {
     display: inline-block;
     margin: 0;
@@ -431,6 +436,7 @@ header {
       padding: 0 0 0 0.5em; }
   header .search-form {
     display: inline-block;
+    padding: 10px;
     /* input[type=text] {
         border:1px solid #ced4da;
         background: #f8f8f8;
@@ -441,17 +447,8 @@ header {
         border-left: 0;
         background: #f8f8f8;
     } */ }
-  header .wrap-icon-cat {
-    text-align: right;
-    float: right; }
-    header .wrap-icon-cat .noti-list {
-      font-size: 1.6em;
-      color: #1d3b48;
-      padding-top: 5px; }
-      header .wrap-icon-cat .noti-list .list-inline-item {
-        margin-right: 2em; }
-        header .wrap-icon-cat .noti-list .list-inline-item:last-child {
-          margin: 0; }
+  header .noti-list {
+    font-size: 1.5em; }
   header .promotion-wrapper {
     background: #fdc30f; }
     header .promotion-wrapper .promo-text {
@@ -586,6 +583,22 @@ header {
       color: #6b7d85;
       letter-spacing: 0.2px;
       display: block; }
+  header .megamenu-li {
+    position: static; }
+  header .megamenu {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 15px; }
+  header .dropdown-toggle::after {
+    border: none !important; }
+  header .navbar-nav {
+    margin-left: auto;
+    padding-top: 0.8em; }
+    header .navbar-nav a {
+      color: #000;
+      font-size: 1.2em; }
 
 .footer-wrap {
   border-top: 1px solid #e7ebed;

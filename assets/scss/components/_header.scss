@@ -289,7 +289,6 @@ header{
         border-right: solid 1px #89888d;
         outline: 0;
         padding: 0;
-        background: url('https://ii1.pepperfry.com/media/wysiwyg/banners/furniture-min_hover_bg.jpg') no-repeat right bottom;
         min-height: 540px;
         .sub-cate {
             border:0;
@@ -309,6 +308,12 @@ header{
             }
             padding-right: 1.2em;
         }
+    }
+    .room-cate{
+        background: url('https://ii1.pepperfry.com/media/wysiwyg/banners/furniture-min_hover_bg.jpg') no-repeat right bottom;
+    }
+    .fur-cate{
+        background: url('../../assets/image/sub-menu-bg.png') no-repeat right bottom;
     }
     .tabcontent {
         display: none;

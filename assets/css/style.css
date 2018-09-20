@@ -713,7 +713,6 @@ header {
     border-right: solid 1px #89888d;
     outline: 0;
     padding: 0;
-    background: url("https://ii1.pepperfry.com/media/wysiwyg/banners/furniture-min_hover_bg.jpg") no-repeat right bottom;
     min-height: 540px; }
     header .sub-menu-cat .sub-cate {
       border: 0;
@@ -728,6 +727,10 @@ header {
       padding-right: 1.2em; }
       header .sub-menu-cat li:hover {
         border-right: solid 2px #000; }
+  header .room-cate {
+    background: url("https://ii1.pepperfry.com/media/wysiwyg/banners/furniture-min_hover_bg.jpg") no-repeat right bottom; }
+  header .fur-cate {
+    background: url("../../assets/image/sub-menu-bg.png") no-repeat right bottom; }
   header .tabcontent {
     display: none; }
   header .other-room {

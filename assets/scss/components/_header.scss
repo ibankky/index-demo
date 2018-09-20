@@ -42,7 +42,6 @@ header{
     }
     .active-menu {
         color:$yellow !important;
-        border-bottom:solid 3px $yellow;
         .icon-menu {
             fill:$yellow !important;
             svg{
@@ -51,17 +50,11 @@ header{
             }
         }
     }
-    .main-cat {
-        padding: 0.7em 0.8em 1em;
-        font-size: 1.2em;
-        .icon-menu {
-            padding: 0 0 0 0.5em;
-        }
-       
-    }
     .search-form{
         display:inline-block;
         padding: 10px;
+        width: 80%;
+        margin: 0 0 0 auto;
         /* input[type=text] {
             border:1px solid #ced4da;
             background: #f8f8f8;
@@ -74,7 +67,7 @@ header{
         } */
     }
     .noti-list{
-        font-size:1.5em; 
+        font-size:1.2em; 
     }
     
     .promotion-wrapper {
@@ -268,17 +261,64 @@ header{
         left: 0;
         right: 0;
         padding: 15px;
+        padding: 1em 15px 0 15px;
+        border-radius: 0;
+        border-top:solid 1px $light-grey;
+        top:68px;
     }
     .dropdown-toggle::after{
         border:none!important;
     }
-
+    .navbar {
+        height: 5em;
+    }
     .navbar-nav {
         margin-left: auto;
         padding-top: 0.8em;
         a{
             color:#000;
             font-size: 1.2em;
+        }
+    }
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+    
+    .sub-menu-cat {
+        color:$dark-blue;
+        border-right: solid 1px #000;
+        outline: 0;
+        padding: 0;
+        background: url('https://ii1.pepperfry.com/media/wysiwyg/banners/furniture-min_hover_bg.jpg') no-repeat right bottom;
+        min-height: 440px;
+        .sub-cate {
+            border:0;
+            background: none;
+            padding: 0.5em 0;
+            color:$dark-blue;
+            outline: none;
+            cursor: pointer;
+            &:hover{
+                color: #000
+                
+            }
+        }
+        li{
+            &:hover{
+                border-right: solid 2px #000;
+            }
+            padding-right: 1.2em;
+        }
+    }
+    .tabcontent {
+        display: none;
+    }
+    .other-room {
+        font-size: 1em;
+        padding: 0.5em 0 1em 1em;
+        a{
+            font-size: 0.9em !important;
+            color:$grey;
         }
     }
 

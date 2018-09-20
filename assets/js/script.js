@@ -1,4 +1,4 @@
-
+$(function(){
     $(".main-cat").hover(
         function () {
           $(this).addClass('active-menu');
@@ -9,7 +9,7 @@
           $(this).removeClass('active-menu');
         }
         );
-
+    });
 $(function(){
           $(".main-slider").slick({
             infinite: true,

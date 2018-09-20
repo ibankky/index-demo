@@ -35,6 +35,10 @@ input[type=text]:focus {
     margin-bottom: 20px !important;
 }
 
+.margin-bottom-10{
+    margin-bottom: 10px !important;
+}
+
 .padding-verti-15{
     padding: 15px 0 ;
 }
@@ -54,7 +58,15 @@ input[type=text]:focus {
     margin: 0 auto;
     display: block;
 }
-
+.padding-middle-10{
+    padding: 0 10px;
+}
+.padding-right-10{
+    padding-right: 10px;
+}
+.padding-left-10{
+    padding-left: 10px;
+}
 .search-form {
     width: 100%;
     input[type=text]{

@@ -1359,43 +1359,7 @@
     <script src="./assets/js/jQuery.tab.js"></script>
     <script type="text/javascript" src="./assets/js/slick.min.js"></script>
     <script type="text/javascript" src="./assets/js//script.js" ></script>
-   <!--  <script type="text/javascript">
-			$(function() {
-				$('.tab-hover').tab({
-					trigger_event_type: 'mouseover' //mouseover | click 默认click
-				});
-			});
-    </script> -->
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $(".megamenu").on("click", function(e) {
-            e.stopPropagation();
-        });
-    });
-    </script>
-    <script type="text/javascript">
-    function opensubcate(evt, roomName) {
-    // Declare all variables
-    var i, tabcontent, tablinks;
 
-    // Get all elements with class="tabcontent" and hide them
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-
-    // Show the current tab, and add an "active" class to the link that opened the tab
-    document.getElementById(roomName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-    </script>
-  
     
   </body>
 </html>

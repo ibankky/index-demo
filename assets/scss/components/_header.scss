@@ -286,11 +286,11 @@ header{
     
     .sub-menu-cat {
         color:$dark-blue;
-        border-right: solid 1px #000;
+        border-right: solid 1px #89888d;
         outline: 0;
         padding: 0;
         background: url('https://ii1.pepperfry.com/media/wysiwyg/banners/furniture-min_hover_bg.jpg') no-repeat right bottom;
-        min-height: 440px;
+        min-height: 540px;
         .sub-cate {
             border:0;
             background: none;
@@ -321,5 +321,29 @@ header{
             color:$grey;
         }
     }
+    .sub-list {
+        padding: 0 2em;
+    }
+    .sub-menu-item{
+        padding: 0 2em;
+        .fur-item {
+            color: #565658;
+            text-align: center;
+            font-weight: lighter;
+            padding-top: 0.5em;
+            font-size: 1rem;
+        }
+    }
+    .interest-list {
+        padding: 0 0 2em 1em;
+        a{
+            font-size: 1rem;
+            color: #565658;
+            font-weight: lighter;
+            font-size: 0.9em;
+            line-height: 2;
+        }
+    }
+    
 
 }

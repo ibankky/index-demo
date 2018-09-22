@@ -330,13 +330,13 @@ header{
         padding: 0 2em;
     }
     .sub-menu-item{
-        padding: 0 2em;
+        padding: 0;
         .fur-item {
             color: #565658;
             text-align: center;
             font-weight: lighter;
             padding-top: 0.5em;
-            font-size: 1rem;
+            font-size: 0.9rem;
         }
     }
     .interest-list {
@@ -347,6 +347,18 @@ header{
             font-weight: lighter;
             font-size: 0.9em;
             line-height: 2;
+        }
+    }
+    .carousel-indicators {
+        margin-left: 5%;
+        justify-content: flex-start;
+        li{
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+        }
+        .active{
+            background-color:$dark-blue;
         }
     }
     

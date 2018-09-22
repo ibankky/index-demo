@@ -742,13 +742,13 @@ header {
   header .sub-list {
     padding: 0 2em; }
   header .sub-menu-item {
-    padding: 0 2em; }
+    padding: 0; }
     header .sub-menu-item .fur-item {
       color: #565658;
       text-align: center;
       font-weight: lighter;
       padding-top: 0.5em;
-      font-size: 1rem; }
+      font-size: 0.9rem; }
   header .interest-list {
     padding: 0 0 2em 1em; }
     header .interest-list a {
@@ -757,6 +757,15 @@ header {
       font-weight: lighter;
       font-size: 0.9em;
       line-height: 2; }
+  header .carousel-indicators {
+    margin-left: 5%;
+    justify-content: flex-start; }
+    header .carousel-indicators li {
+      width: 10px;
+      height: 10px;
+      border-radius: 100%; }
+    header .carousel-indicators .active {
+      background-color: #1d3b48; }
 
 .footer-wrap {
   border-top: 1px solid #e7ebed;

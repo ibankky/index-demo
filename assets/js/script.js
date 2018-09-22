@@ -78,3 +78,13 @@ $(document).ready(function() {
     });
 });
 
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 220) {
+        $('.sticky-header').addClass('fixed');
+        $('.promotion-wrapper').addClass('d-none')
+    }
+    else {
+        $('.sticky-header').removeClass('fixed');
+    }
+    });
+

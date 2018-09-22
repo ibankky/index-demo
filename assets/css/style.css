@@ -117,6 +117,13 @@ input[type=text]:focus {
     font-size: 1.2em;
     padding: 0 0.5em; }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; }
+
 .txt-grey {
   color: #6b7d85; }
 

@@ -1,3 +1,18 @@
-h1{
-    color:red
-}
+@import "theme/_fontface";
+@import "theme/_default";
+@import "theme/_color";
+@import "theme/_effect";
+
+@import "vendor/_megamenu";
+@import "vendor/_slickslider";
+
+@import "components/_mainslide";
+@import "components/_header";
+@import "components/_footer";
+@import "components/_breadcrumb";
+
+@import "pages/_index";
+@import "pages/_item-list"
+
+
+

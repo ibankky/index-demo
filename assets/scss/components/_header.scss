@@ -1,0 +1,366 @@
+header{
+    font-size: 14px;
+    background: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .13);
+    padding: 0;
+    .nav-logo{
+        display: inline-block;
+        width: 160px;
+        height: 36px;
+        background: url(https://dev.indexlivingmall.com/skin/frontend/indexliving-corporate/default/images/logo-2x.png) no-repeat right bottom;
+        padding-top: 2px;
+        background-size: contain
+    }
+    .header-toplink {
+        padding: 1em 0 0;
+        font-size: 1em;
+        
+        ul{
+            margin: 0;
+            padding: 3px 0 8px 0;
+            .list-inline-item{
+                margin-right: 8px;
+                padding-right: 13px;
+                border-right: solid 1px #e7ebed;
+                &:last-child{
+                    border: none; 
+                    margin: 0;
+                }
+            }
+              
+        }
+    }
+    .wrap-main-cat {
+        display:inline-block;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        vertical-align:bottom;
+        font-size: 1em;
+        font-weight: 700;
+       
+    }
+    .active-menu {
+        color:$yellow !important;
+        .icon-menu {
+            fill:$yellow !important;
+            svg{
+                transition:transform .2s, color .2s;
+                transform: rotate(-180deg);
+            }
+        }
+    }
+    .search-form{
+        display:inline-block;
+        padding: 10px;
+        width: 80%;
+        margin: 0 0 0 auto;
+        /* input[type=text] {
+            border:1px solid #ced4da;
+            background: #f8f8f8;
+            outline: 0;
+        }
+        .btn-search {
+            border:1px solid #ced4da;
+            border-left: 0;
+            background: #f8f8f8;
+        } */
+    }
+    .noti-list{
+        font-size:1.2em; 
+    }
+    
+    .promotion-wrapper {
+        background: $yellow;
+        .promo-text {
+            color:$white;
+            font-weight: 500;
+            font-size: 13px;
+            text-align: center;
+            padding: 0.8em 0;
+            margin: 0;
+        }
+    }
+    .mega-menu {
+        position: relative;
+        z-index: 505;
+        clear: both;
+        background-color: #fff;
+        display: none;
+        max-width: 1156px;
+        //display: block;
+        margin: 0 auto
+    }
+    .show {
+        display: block
+    }
+    .menu > ul > li > ul.list-megamenu{
+        position: absolute;
+        right: 0;
+        left: 0;
+        width: 1140px;
+        overflow: hidden;
+        text-align: left;
+        padding: 0;
+        top:40px;
+        .tabHeader{
+            background: #565658;
+            min-height: 300px;
+            padding: 1em 0em 1.5em;
+            .cat-list {
+                line-height: 3;
+                font-weight: 400;
+                a{
+                    color:#bfbdc6;
+                    padding-left: 1em;
+                    transition:transform .5s, color .5s;
+                }
+                .active {
+                    background: $white;
+                    a{
+                        transition:transform .5s, color .5s;
+                        color:$yellow;
+                        font-weight: 700;
+                    }
+                    
+                }
+            }
+        }
+        .tabContent{
+            div.tabItem { 
+                display: none; 
+            }
+            div.tabItem.active {
+                 display: block; 
+            }
+            .tabItem{
+               background: url('https://ii1.pepperfry.com/media/wysiwyg/banners/furniture-min_hover_bg.jpg') no-repeat right bottom
+            }
+            .mega-list-wrap{
+                padding: 20px;
+                width: 870px;
+                height: 300px;
+            }
+            .list-column {
+                width: 260px;
+                display: inline-block;
+                .col-list{
+                    margin: 0;
+                    padding: 0;
+                    .col-sec-ttl{
+                        a{
+                            font-size: 0.8em;
+                            font-weight: 700;
+                            color: $dark-blue;
+                            letter-spacing:.4px;
+                            display: inline-block;
+                            border-bottom:solid 1px #e7ebed;
+                            padding: 0 0 2px;
+                            text-transform:uppercase;
+                        }
+                    }
+                    .col-sec-list{
+                        a{
+                            font-size: 0.9em;
+                            font-weight: 400;
+                            color:#6b7d85;
+                            display: inline-block;
+                            padding: 3px 0;
+                        }
+                    }
+                }
+            }
+            
+        }
+        
+    }
+    .menu > ul > li > ul.list-idea{
+        width: 700px;
+        padding: 1.5em 1em;
+        text-align: left;
+
+        .idea-text-wrap{
+            margin:  0 15px 1em;
+            h6{
+                font-weight: 700;
+            }
+            p{
+                font-size: 0.8em
+            }
+        }
+        .idea-list-item{
+            display: inline-block;
+            width: 300px;
+            margin: 0 15px 2.5em 15px; 
+            .img-promo{
+                width:100%;
+                display: block;
+                margin-bottom: 1em;
+                overflow: hidden;
+            }
+            .promo-txt-wrap {
+            text-align: left;
+            font-size: 0.8em;
+           
+        }
+        .promo-title{
+            color:$dark-blue;
+            font-weight: 700;
+            letter-spacing: 0.4px;
+            margin-bottom:3px;
+            display: block;
+        }
+        .promo-subtitle{
+            color:$grey;
+            letter-spacing: 0.2px;
+            display: block;
+        }
+        }
+    }
+    .menu > ul > li > ul.list-promotion {
+        width: 760px;
+        padding: 1.5em 1em;
+        text-align: left;
+        .promo-list-item{
+            display: inline-block;
+            width: 200px;
+            margin: 0 15px 2.5em 15px;
+
+        }
+        .img-promo{
+            width:100%;
+            display: block;
+            margin-bottom: 1em;
+            overflow: hidden;
+        }
+        .promo-txt-wrap {
+            text-align: left;
+            font-size: 0.8em;
+           
+        }
+        .promo-title{
+            color:$dark-blue;
+            font-weight: 700;
+            letter-spacing: 0.4px;
+            margin-bottom:3px;
+            display: block;
+        }
+        .promo-subtitle{
+            color:$grey;
+            letter-spacing: 0.2px;
+            display: block;
+        }
+    }
+    .megamenu-li {
+        position: static;
+    }
+    
+    .megamenu {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: 0;
+        padding: 15px;
+        padding: 1em 15px 0 15px;
+        border-radius: 0;
+        border-top:solid 1px $light-grey;
+        top:68px;
+    }
+    .dropdown-toggle::after{
+        border:none!important;
+    }
+    .navbar {
+        height: 5em;
+    }
+    .navbar-nav {
+        margin-left: auto;
+        padding-top: 0.8em;
+        a{
+            color:#000;
+            font-size: 1.2em;
+        }
+    }
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+    
+    .sub-menu-cat {
+        color:$dark-blue;
+        border-right: solid 1px #89888d;
+        outline: 0;
+        padding: 0;
+        min-height: 540px;
+        .sub-cate {
+            border:0;
+            background: none;
+            padding: 0.5em 0;
+            color:$dark-blue;
+            outline: none;
+            cursor: pointer;
+            &:hover{
+                color: #000
+                
+            }
+        }
+        li{
+            &:hover{
+                border-right: solid 2px #000;
+            }
+            padding-right: 1.2em;
+        }
+    }
+    .room-cate{
+        background: url('https://ii1.pepperfry.com/media/wysiwyg/banners/furniture-min_hover_bg.jpg') no-repeat right bottom;
+    }
+    .fur-cate{
+        background: url('../../assets/image/sub-menu-bg.png') no-repeat right bottom;
+    }
+    .tabcontent {
+        display: none;
+    }
+    .other-room {
+        font-size: 1em;
+        padding: 0.5em 0 1em 1em;
+        a{
+            font-size: 0.9em !important;
+            color:$grey;
+        }
+    }
+    .sub-list {
+        padding: 0 2em;
+    }
+    .sub-menu-item{
+        padding: 0;
+        .fur-item {
+            color: #565658;
+            text-align: center;
+            font-weight: lighter;
+            padding-top: 0.5em;
+            font-size: 0.9rem;
+        }
+    }
+    .interest-list {
+        padding: 0 0 2em 1em;
+        a{
+            font-size: 1rem;
+            color: #565658;
+            font-weight: lighter;
+            font-size: 0.9em;
+            line-height: 2;
+        }
+    }
+    .carousel-indicators {
+        margin-left: 5%;
+        justify-content: flex-start;
+        li{
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+        }
+        .active{
+            background-color:$dark-blue;
+        }
+    }
+    
+
+}

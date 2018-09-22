@@ -1,0 +1,18 @@
+.breadcrumb {
+    background: none;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    padding: 2em 0;
+    .breadcrumb-item {
+        a{
+            color: #89888d;
+        }
+       
+    }
+    .breadcrumb-item.active {
+        color:#000;
+    }
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    content: ">";
+}

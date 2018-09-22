@@ -1,0 +1,307 @@
+.promotion-index{
+    .sec-title{
+        text-transform: uppercase;
+        margin: 1em 0 0.5em;
+        letter-spacing: 1px;
+        font-size: 2.5em;
+        font-weight:700;
+    }
+    .sec-title-withdesc{
+        text-transform: uppercase;
+        margin: 1em 0 0;
+        letter-spacing: 1px;
+        font-size: 2.5em;
+        font-weight:700;
+    }
+    .sec-desc{
+        font-size: 1.5em;
+        margin-bottom: 1.5em;
+
+    }
+    .promo-block {
+        margin: 0 0 0.8em 0;
+        overflow: hidden;
+    }
+    .promo-wrap {
+        margin:  0 0 20px 0;
+        .title-promo {
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 0.85em;
+            margin-bottom: 0.3em;
+        }
+        .det-promo {
+            font-size: 0.8em;
+        }
+    }
+    .promo-slider {
+        margin: 0 0 1em 0;
+        padding:0 0 3em 0;
+        border-bottom:solid 1px #e7ebed;
+    }
+    .slider-block {
+        overflow: hidden;
+        margin-bottom:0.5em; 
+    }
+    .slide-title {
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 0.85em;
+        margin-bottom: 0.3em;
+    }
+    .slide-det{
+        font-size: 0.8em;
+    }
+    
+}
+
+.collection-banner{
+    .txt-collection{
+        background: #252b34;
+        padding: 4em 0.5em 1em 2em;
+        height: 100%;
+        color: $white;
+        h2{
+            font-weight:lighter;
+            letter-spacing: -0.5px;
+        }
+        h3{
+            font-weight:lighter;
+            text-transform: uppercase;
+            font-size: 2.5em;
+        }
+        p{
+            font-weight:lighter;
+            font-size: 1.4em;
+            padding-bottom: 0.7em;
+        }
+    }
+}
+
+.giftcard-banner{
+    .txt-collection{
+        background: #97755c;
+        padding: 4em 0.5em 1em 2em;
+        height: 100%;
+        color: $white;
+        h2{
+            font-weight:lighter;
+            letter-spacing: -0.5px;
+        }
+        h3{
+            font-weight:lighter;
+            text-transform: uppercase;
+            font-size: 2.5em;
+        }
+        p{
+            font-weight:lighter;
+            font-size: 1.4em;
+            padding-bottom: 0.7em;
+        }
+    }
+}
+
+.collection-text {
+    min-height: 5em;
+    .collect-name {
+        padding: 1em 1em 0 1em;
+    }
+    .collect-des {
+        color:$grey;
+        padding: 0 1em;
+    }
+}
+
+.sale-parnel{
+    padding-bottom: 50px;
+    .sale-product{
+        background: $white;
+        .img-block {
+            margin: 3em 0;
+        }
+        .txt-block {
+            margin: 2em 0 1em;
+        }
+        .promo-price {
+            font-size: 1.2em;
+            color:#ff0000;
+        }
+        .old-price{
+            text-decoration: line-through;
+            color:$grey;
+            padding: 0 2em;
+        }
+        .product-desc {
+            color:$grey;
+            padding:1em 1em 0 0;
+            font-size: 0.9em;
+        }
+        .product-time {
+            margin-bottom: 2em;
+            .time{
+                background: $yellow;
+                width:2.5em;
+                height: 2.5em;
+                color:#000;
+                text-align: center;
+                display:inline-block;
+                margin-top: 1.5em;
+                border-radius: 5px;
+                font-size: 0.8em;
+                line-height: 2.5;
+                margin-right: 0.5em;
+            }
+            .label {
+                color:$grey;
+                font-size: 0.6em;
+                text-align: center;
+                width: 3em;
+                margin-right: 10px;
+                display:inline-block;
+            }
+        }
+    }
+    .small-promo{
+        background: #fff;
+        min-height: 5em;
+        padding: 1.5em;
+        .promo-price {
+            font-size: 1em;
+            color:#ff0000;
+        }
+    }
+}
+
+.news-product {
+    .txt-new-arrivals {
+        padding: 0.5em;
+        .price-product{
+            color:$grey;
+            font-size : 0.8em;
+        }
+    }
+    .new-arrivals {
+        background: #fff;
+        border:solid 1px #dfdfdf;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .but-item {
+        background: $yellow;
+        border: none;
+        width: 7em;
+        font-size: 0.8em;
+        color: #000;
+        padding: 0.3em 0;
+        border-radius: 30px;
+        .btn-logo {
+            padding-right: 0.7em;
+        }
+    }
+}
+
+.locate-banner{
+    .locate-img-left {
+        position: relative;
+        left:30px;
+        padding: 20px 0;
+        z-index: 99;
+    }
+    .locate-img-right {
+        position: relative;
+        right:30px;
+        padding: 20px 0;
+        z-index: 99;
+    }
+    .txt-banner {
+        padding: 2em 9em;
+    }
+    h3{
+        text-transform: uppercase;
+    }
+    .locate-btn{
+        background: $dark-orange;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 2em;
+        font-size: 1.2em;
+        width: 75%;
+        border-radius: 0;
+    }
+}
+.what-more {
+    margin-bottom: 1.5em;
+    .what-more-txt{
+       padding-top: 7em;
+    }
+}
+.what-news-txt {
+    padding: 1.5em 1.5em 0 0;
+    .txt-link {
+        font-size: 1.2em;  
+     }
+     .label{
+         color:$grey;
+     }
+     .txt-head {
+         padding: 0.5em 0;
+     }
+     .txt-detail{
+         padding-bottom: 2em;
+         font-size: 1.1em;
+     }
+}
+.idea-forhome {
+    .txt-head {
+        font-size: 3em;
+    }
+    .txt-detail{
+        font-size: 2em;
+        padding-bottom: 0.6em;
+    }
+    .txt-link {
+       font-size: 1.2em;
+        
+    }
+}
+.smart-collect {
+    .txt-link {
+        font-size: 1.2em; 
+     }
+}
+.brand-collection {
+    .brand-logo{
+        padding: 1em;
+    }
+    .branding-block {
+        padding: 1em;
+        background: #fff;
+    }
+    .brand-txt-block {
+        padding: 2em 1em;
+        h4{
+            text-transform: uppercase;
+            font-size: 1.2em;
+            padding-bottom: 0.8em;
+        }
+        p {
+            font-size: 0.8em;
+            color:#9c9c9c;
+            span{
+                color:#000;
+            }
+        }
+        .link-brand {
+            span{
+                color: $yellow;
+                font-size: 0.9em;
+                display: inline-block;
+                margin-top: 2.5em;
+            }
+            
+        }
+    }
+}

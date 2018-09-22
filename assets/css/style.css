@@ -248,6 +248,11 @@ input[type=text]:focus {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s; }
 
+@keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 .menu-container {
   width: 100%; }
 
@@ -1148,7 +1153,83 @@ header {
     max-width: 100%; }
   #products .product-item {
     background: #fff;
-    padding: 1em;
-    margin-bottom: 20px; }
+    padding: 0.5em 1em 1em 1em;
+    margin-bottom: 20px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important; }
+    #products .product-item .item-name {
+      color: #565658;
+      font-weight: lighter;
+      text-align: left;
+      padding: 0.5em 0; }
+    #products .product-item .like-item {
+      opacity: 0;
+      font-size: 1.5em;
+      position: absolute;
+      right: 1.5em;
+      color: #f3641d; }
+    #products .product-item .img-fluid {
+      margin-top: 1em; }
+    #products .product-item .form-row {
+      padding: 1em 0 0;
+      min-height: 3em; }
+      #products .product-item .form-row .btn-order {
+        margin: 0 auto;
+        font-size: 0.8em;
+        background: #fdc30f;
+        padding: 0.2rem 2rem;
+        border-radius: 3rem;
+        opacity: 0; }
+    #products .product-item .item-price {
+      color: #000;
+      font-weight: bold;
+      font-size: 1.1em; }
+    #products .product-item .promo-price {
+      color: #fe0000;
+      font-size: 1.1em;
+      font-weight: bold; }
+      #products .product-item .promo-price .old-price {
+        font-size: 0.8em;
+        text-decoration: line-through;
+        color: #828282;
+        font-weight: lighter;
+        display: block; }
+    #products .product-item:hover .like-item {
+      opacity: 1;
+      animation: fade 0.35s; }
+    #products .product-item:hover .btn-order {
+      opacity: 1;
+      animation: fade 0.35s; }
+
+.btn-next-page {
+  background: #fdc30f;
+  border-radius: 0;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0.5rem 2.5rem;
+  margin-top: 1em; }
+
+.btn-read-more {
+  background: #6b7d85;
+  border-radius: 0;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0.5rem 2.5rem;
+  margin-top: 1em;
+  position: relative;
+  top: -40px; }
+
+.dont-miss {
+  position: absolute;
+  top: 10px;
+  left: 7px;
+  width: 60px; }
+  .dont-miss .img-fluid {
+    margin: 0 !important; }
+
+.content-block {
+  padding: 2em 0;
+  color: #6b7d85; }
+  .content-block h6 {
+    color: #575958; }
 
 /*# sourceMappingURL=style.css.map */

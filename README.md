@@ -44,8 +44,8 @@
     
     ## Index Page Group from design 09/17/2018
 
-    1). Home
-    2). List
+    ~~1). Home~~
+    ~~2). List~~
     3). Login & Regis 
     4). Shoping Cart
     5). E-Catalog

@@ -841,6 +841,19 @@ header {
     padding-top: 1em;
     padding-bottom: 1em; }
 
+.breadcrumb {
+  background: none;
+  font-weight: lighter;
+  font-size: 0.9rem;
+  padding: 2em 0; }
+  .breadcrumb .breadcrumb-item a {
+    color: #89888d; }
+  .breadcrumb .breadcrumb-item.active {
+    color: #000; }
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">"; }
+
 .promotion-index .sec-title {
   text-transform: uppercase;
   margin: 1em 0 0.5em;
@@ -1069,5 +1082,73 @@ header {
     font-size: 0.9em;
     display: inline-block;
     margin-top: 2.5em; }
+
+.top-banner {
+  margin: 2em 0 0 0; }
+
+.filter-tab {
+  padding: 0.5em 0; }
+  .filter-tab .panel {
+    color: #6b7d85;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding-right: 0.5em; }
+  .filter-tab .btn {
+    border-radius: 0;
+    background: #fff;
+    outline: none;
+    box-shadow: none;
+    border: solid 1px #f4f5f7;
+    font-size: 1rem;
+    padding: .5rem .75rem; }
+  .filter-tab .dropdown-toggle::after {
+    vertical-align: 0.1em;
+    font-size: 1.1em; }
+  .filter-tab .more-filter {
+    font-size: 0.8em;
+    padding-left: 1.2em; }
+  .filter-tab .filter-right {
+    text-align: right;
+    padding-right: 0; }
+
+.icon-filter .menu-item {
+  margin: 1em 0;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  border: solid 2px #fff;
+  padding: 0 1em; }
+  .icon-filter .menu-item h6 {
+    color: #a8a2a4;
+    font-weight: lighter; }
+  .icon-filter .menu-item p {
+    color: #a8a2a4;
+    font-weight: lighter;
+    line-height: 1.8;
+    font-size: 0.95em; }
+  .icon-filter .menu-item:hover {
+    border: solid 2px #ed5406;
+    background-color: rgba(237, 84, 6, 0.05);
+    -webkit-transition: all  0.35s;
+    transition: all 0.35s; }
+    .icon-filter .menu-item:hover h6 {
+      color: #ed5406;
+      font-weight: normal; }
+    .icon-filter .menu-item:hover p {
+      color: #ed5406; }
+
+.view-btn {
+  font-size: 1.5em; }
+  .view-btn span {
+    color: #6b7d85; }
+
+#products {
+  padding: 2em 0; }
+  #products .list-group-item {
+    flex: 0 0 100%;
+    max-width: 100%; }
+  #products .product-item {
+    background: #fff;
+    padding: 1em;
+    margin-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */

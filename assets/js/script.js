@@ -106,5 +106,14 @@ $(document).ready(function() {
             $("#text").slideUp();
           }
         });
-      });    
+      });
+      
+document.getElementById("showpass").addEventListener("click", function(e){
+        var pwd = document.getElementById("InputPassword");
+        if(pwd.getAttribute("type")=="password"){
+            pwd.setAttribute("type","text");
+        } else {
+            pwd.setAttribute("type","password");
+        }
+    });      
 

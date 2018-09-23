@@ -1,5 +1,5 @@
 .log-in{
-    margin-bottom: 3em;
+    margin-bottom: 5em;
     .log-in-head{
         margin: 2em 0;
     }
@@ -18,7 +18,14 @@
     input{
         border-radius: 0;
         height: calc(2.25rem + 10px);
+        outline: 0;
+        box-shadow: none!important;
+        
     }
+    .password-input{
+        border-right: 0;
+    }
+    
     label{
         font-size: 0.9em;
     }
@@ -59,9 +66,36 @@
             padding-right: 0.5em;
         }
     }
+    .btn-regis{
+        background: none;
+        border:solid 1px $yellow;
+        color:$yellow;
+        padding: 1em 0;
+        font-size: 0.9em;
+        margin-bottom: 2em;
+
+    }
     .btn-label{
-        font-size: 0.8em;
+        font-size: 0.9em;
         padding: 0 0 2em 0;
     }
+    .btn-label-regis{
+        font-size: 0.9em;
+        padding: 0 0 0.5em 0;
+    }
+    .btn-showpass{
+        background: none;
+        border:1px solid #ced4da;
+        border-left:none;
+        outline: 0;
+        box-shadow: none;
+    }
+    .btn-sent{
+        background: $yellow;
+        color:$white;
+        outline: 0;
+        box-shadow: none;
+    }
+    
     
 }

@@ -124,6 +124,64 @@ input[type=text]:focus {
   width: 100%;
   z-index: 999; }
 
+/* The container */
+.checkbox-block {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 2em;
+  cursor: pointer;
+  font-size: 1rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* Hide the browser's default checkbox */
+.checkbox-block input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer; }
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee; }
+
+/* On mouse-over, add a grey background color */
+.checkbox-block:hover input ~ .checkmark {
+  background-color: #ccc; }
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-block input:checked ~ .checkmark {
+  background-color: #fdc30f; }
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none; }
+
+/* Show the checkmark when checked */
+.checkbox-block input:checked ~ .checkmark:after {
+  display: block; }
+
+/* Style the checkmark/indicator */
+.checkbox-block .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
 .txt-grey {
   color: #6b7d85; }
 
@@ -1233,7 +1291,7 @@ header {
     color: #575958; }
 
 .log-in {
-  margin-bottom: 3em; }
+  margin-bottom: 5em; }
   .log-in .log-in-head {
     margin: 2em 0; }
   .log-in .regis-link {
@@ -1247,7 +1305,11 @@ header {
         font-weight: normal; }
   .log-in input {
     border-radius: 0;
-    height: calc(2.25rem + 10px); }
+    height: calc(2.25rem + 10px);
+    outline: 0;
+    box-shadow: none !important; }
+  .log-in .password-input {
+    border-right: 0; }
   .log-in label {
     font-size: 0.9em; }
   .log-in .form-group {
@@ -1279,8 +1341,29 @@ header {
     .log-in .btn-facebook i {
       font-size: 1.5em;
       padding-right: 0.5em; }
+  .log-in .btn-regis {
+    background: none;
+    border: solid 1px #fdc30f;
+    color: #fdc30f;
+    padding: 1em 0;
+    font-size: 0.9em;
+    margin-bottom: 2em; }
   .log-in .btn-label {
-    font-size: 0.8em;
+    font-size: 0.9em;
     padding: 0 0 2em 0; }
+  .log-in .btn-label-regis {
+    font-size: 0.9em;
+    padding: 0 0 0.5em 0; }
+  .log-in .btn-showpass {
+    background: none;
+    border: 1px solid #ced4da;
+    border-left: none;
+    outline: 0;
+    box-shadow: none; }
+  .log-in .btn-sent {
+    background: #fdc30f;
+    color: #fff;
+    outline: 0;
+    box-shadow: none; }
 
 /*# sourceMappingURL=style.css.map */

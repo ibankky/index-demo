@@ -96,6 +96,43 @@
         outline: 0;
         box-shadow: none;
     }
+    .btn-day{
+        border-radius: 0;
+        background: none;
+        border:1px solid #ced4da;
+        font-size: 0.9em;
+        padding: 0.5em 1em;
+    }
+    .btn-month{
+        border-radius: 0;
+        background: none;
+        border:1px solid #ced4da;
+        font-size: 0.9em;
+        padding: 0.5em 3em;
+    }
+    .btn-year{
+        border-radius: 0;
+        background: none;
+        border:1px solid #ced4da;
+        font-size: 0.9em;
+        padding: 0.5em 2em;
+    }
+    .btn-gender{
+        border-radius: 0;
+        background: none;
+        border:1px solid #ced4da;
+        font-size: 0.9em;
+        padding: 0.5em 2em;
+    }
+    .day-select{
+        min-width: 4em;
+    }
+    .year-select{
+        min-width: 4em;
+    }
+    .gender-select{
+        min-width: 6em;
+    }
     
     
 }

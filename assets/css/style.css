@@ -1365,5 +1365,35 @@ header {
     color: #fff;
     outline: 0;
     box-shadow: none; }
+  .log-in .btn-day {
+    border-radius: 0;
+    background: none;
+    border: 1px solid #ced4da;
+    font-size: 0.9em;
+    padding: 0.5em 1em; }
+  .log-in .btn-month {
+    border-radius: 0;
+    background: none;
+    border: 1px solid #ced4da;
+    font-size: 0.9em;
+    padding: 0.5em 3em; }
+  .log-in .btn-year {
+    border-radius: 0;
+    background: none;
+    border: 1px solid #ced4da;
+    font-size: 0.9em;
+    padding: 0.5em 2em; }
+  .log-in .btn-gender {
+    border-radius: 0;
+    background: none;
+    border: 1px solid #ced4da;
+    font-size: 0.9em;
+    padding: 0.5em 2em; }
+  .log-in .day-select {
+    min-width: 4em; }
+  .log-in .year-select {
+    min-width: 4em; }
+  .log-in .gender-select {
+    min-width: 6em; }
 
 /*# sourceMappingURL=style.css.map */

@@ -79,7 +79,7 @@ $(document).ready(function() {
 });
 
 $(window).scroll(function(){
-    if ($(window).scrollTop() >= 220) {
+    if ($(window).scrollTop() >= 190) {
         $('.sticky-header').addClass('fixed');
         $('.promotion-wrapper').addClass('d-none')
     }

@@ -1,0 +1,49 @@
+#cart_page {
+  .bg-grey {
+    background-color: #f1f1f2;
+  }
+
+  .breadcrumb {
+    margin-top: 20px;
+    padding: 0;
+    background: none !important;
+    font-weight: 100;
+
+    a {
+      color: #89888d;
+    }
+
+    .active {
+      color: #000;
+    }
+
+    &-item+ .breadcrumb-item::before {
+      content: ">" !important;
+    }
+  }
+
+  .service {
+    img {
+      max-width: 250px;
+      height: 60px;
+    }
+  }
+
+  .summary {
+    h5 { font-size: 16px; }
+
+    font-size: 14px;
+    font-weight: 100;
+  }
+
+  .items {
+    .discount {
+      font-size: 10px;
+      text-decoration: line-through;
+    }
+
+    .code {
+      font-size: 10px;
+    }
+  }
+}

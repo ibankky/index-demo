@@ -1,0 +1,67 @@
+.log-in{
+    margin-bottom: 3em;
+    .log-in-head{
+        margin: 2em 0;
+    }
+    .regis-link {
+        line-height: 3;
+        color:#000;
+        font-weight: lighter;
+        a{
+            color:#000; 
+            span{
+                color:$yellow;
+                font-weight: normal;
+            }
+        }
+    }
+    input{
+        border-radius: 0;
+        height: calc(2.25rem + 10px);
+    }
+    label{
+        font-size: 0.9em;
+    }
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+    .forget{
+        padding: 1.5em 0 0;
+        font-size: 0.9em;
+        font-weight: lighter;
+        a{
+            color: #e60808;
+            padding-right: 0.25em;
+        }
+        .help {
+            color:$grey;
+            &::before{
+                content: "|";
+                color: $grey;
+            }
+        }
+    }
+    .btn-login{
+        background: $yellow;
+        color:$white;
+        font-size: 0.9em;
+        padding: 1em 0;
+        margin-bottom: 2em;
+    }
+    .btn-facebook{
+        background: #425f9c;
+        color:$white;
+        padding: 0.25em 0;
+        font-size: 1.2em;
+        height: 52px;
+        i{
+            font-size: 1.5em;
+            padding-right: 0.5em;
+        }
+    }
+    .btn-label{
+        font-size: 0.8em;
+        padding: 0 0 2em 0;
+    }
+    
+}

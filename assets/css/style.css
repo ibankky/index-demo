@@ -1395,5 +1395,12 @@ header {
     min-width: 4em; }
   .log-in .gender-select {
     min-width: 6em; }
+  .log-in .btn-forgot {
+    margin-top: 2em;
+    font-size: 1em;
+    background: #fdc30f;
+    color: #fff;
+    outline: 0;
+    box-shadow: none; }
 
 /*# sourceMappingURL=style.css.map */

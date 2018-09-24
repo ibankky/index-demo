@@ -46,7 +46,17 @@
 
     ~~1). Home~~
     ~~2). List~~
-    3). Login & Regis 
+    ~~3). Login & Regis ~~
     4). Shoping Cart
-    5). E-Catalog
+    ~~5). E-Catalog~~
     6). Detail-Product
+    
+    ## Index Page Group from design 09/25/2018
+    
+    7).Design & Build
+     ~~ 8).Forgot pass  ~~
+     9). Idea Inspriration
+     10). Joy Card
+     11). Store
+     12). Thank you
+     13). Payment

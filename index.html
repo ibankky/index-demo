@@ -60,7 +60,7 @@
                         
                             <a class="navbar-brand nav-logo" href="#"></a>
                             <div class="collapse navbar-collapse" id="navbar">
-                                <ul class="navbar-nav mr-auto">
+                                <ul class="navbar-nav main-menu mr-auto">
                                 <li class="nav-item dropdown megamenu-li">
                                     <a class="nav-link main-cat dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">สินค้าทั้งหมด <span class="icon-menu">
                                             <svg viewBox="0 0 13 8" height="8" width="13" xmlns="http://www.w3.org/2000/svg" class=""> 
@@ -532,8 +532,8 @@
                                     <a class="nav-link">โปรโมชั่น</a>
                                 </li>
                                 </ul>
-                                <form class="form-inline my-2">
-                                    <div class="search-form">
+                                <form class="form-inline search-item my-2">
+                                    <!-- <div class="search-form">
                                         <div class="input-group mb-3">
                                             <div class="input-group-append">
                                                 <button class="btn  btn-search" type="button">
@@ -543,8 +543,13 @@
                                             <input type="text" class="form-control form-input" placeholder="ค้นหาสินค้า">
                                                     
                                         </div>
-                                    </div>
-                                       
+                                    </div> -->
+                                    <input type="text" class="form-control" id="SearchInput" placeholder="Search">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-search" type="button">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </div>   
                                 </form>
                                 <ul class="navbar-nav noti-list mr-auto">
                                     <li class="nav-item m-2">

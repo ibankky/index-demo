@@ -66,6 +66,23 @@ header{
             background: #f8f8f8;
         } */
     }
+    .search-item{
+        input[type=text]{
+            background: #fafafa; 
+            outline: 0;
+            border:1px solid #ced4da;
+            border-radius: .25rem 0  0 .25rem;
+            border-right: 0;
+            color: #a1a1a1;
+        }
+        .btn-search {
+            border:1px solid #ced4da;
+            border-left: 0;
+            background: #fafafa;
+            border-radius: 0 .25rem .25rem 0;
+            box-shadow: none; 
+        }
+    }
     .noti-list{
         font-size:1.2em; 
     }
@@ -272,9 +289,14 @@ header{
     .navbar {
         height: 5em;
     }
+    .main-menu{
+        flex-shrink: 0;
+        width: 50%;
+    }
     .navbar-nav {
         margin-left: auto;
         padding-top: 0.8em;
+        
         a{
             color:#000;
             font-size: 1.2em;

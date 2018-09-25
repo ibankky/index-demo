@@ -32,15 +32,25 @@
     }
 }
 .icon-filter {
+    display: flex;
+    flex-wrap: wrap;
     .menu-item {
         margin: 1em 0;
         -webkit-transition: all 0.35s;
         transition: all 0.35s;
         border: solid 2px #fff;
-        padding: 0 1em;
+        padding: 0;
+        margin: 2em 0;
+        display: flex;
+        .icon-block{
+            margin: 0 auto;
+            width: 60%;
+        }
         h6{
             color: #a8a2a4;
             font-weight: lighter;
+            font-size: 0.9em;
+            max-width: 150px;
         }
         p{
             color: #a8a2a4; 
@@ -70,6 +80,26 @@
         color:$grey;
     }
     
+}
+.heading-List{
+    margin: 1em 0;
+}
+.badge-filter{
+    font-size: 0.9em;
+    margin: 1em 0;
+    .clear{
+        padding-left: 1em;
+        font-size: 0.9em;
+    }
+    .badge{
+        padding: 0.5em 1em;
+        border:solid 1px #e7e7e7;
+        background: #fff;
+        vertical-align:middle;
+        border-radius: 30px;
+        color:#969696;
+        font-weight: lighter;
+    }
 }
 #products {
     padding: 2em 0;

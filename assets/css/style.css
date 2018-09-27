@@ -1556,6 +1556,10 @@ header {
   font-size: 1.2em; }
   .location-menu a {
     color: #fff; }
+    .location-menu a:hover {
+      -webkit-transition: all 0.35s;
+      transition: all 0.35s;
+      color: #fdc30f; }
   .location-menu .list-inline {
     margin: 0; }
   .location-menu .list-inline-item {
@@ -1599,6 +1603,11 @@ header {
   padding: 0.25rem 1.5rem; }
 .location-list .map-icon {
   max-width: 45px; }
+
+.branch-location {
+  color: #6b7d85;
+  padding: 1em 0 1.5em 0;
+  font-weight: lighter; }
 
 .btn-loadmap {
   color: #fff;

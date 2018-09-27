@@ -1,4 +1,4 @@
-## Installration
+## Installation
 
     ### clone this Project
     ### Run sass --watch assets/scss:assets/css

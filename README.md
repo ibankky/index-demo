@@ -57,6 +57,6 @@
      ~~ 8).Forgot pass  ~~
      9). Idea Inspriration
      10). Joy Card
-     11). Store
-     12). Thank you
+      ~~ 11). Store   ~~
+      ~~12). Thank you  ~~
      13). Payment

@@ -12,15 +12,15 @@
     5. e-catalog ~~[Bankky]
     6. joy card
     7. store location ~~[Bankky]
-    8. joy service
+    8. joy service ~~[Nay]
     9. design & build
     10. sign up
     11. log in ~~[Bankky]
     12. forgot password ~~[Bankky]
-    13. wishlist feature products ~~[Nay]
+    13. wishlist feature products
     14. product list ~~[Bankky]
     15. product detail ~~[Nay]
-    16. my account ~~ [Nay]
+    16. my account
         - information
         - address book
         - my orders

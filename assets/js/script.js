@@ -1,4 +1,4 @@
-
+$(function(){
     $(".main-cat").hover(
         function () {
           $(this).addClass('active-menu');
@@ -9,7 +9,7 @@
           $(this).removeClass('active-menu');
         }
         );
-
+    });
 $(function(){
           $(".main-slider").slick({
             infinite: true,
@@ -51,6 +51,7 @@ $(function(){
         });
 });
 
+<<<<<<< HEAD
 // for pdp page product images slide & thumbnail
 $(function(){
   $('.slider-for').slick({
@@ -73,3 +74,71 @@ $(function(){
     focusOnSelect: true
   });
 });
+=======
+function opensubcate(evt, roomName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the link that opened the tab
+    document.getElementById(roomName).style.display = "block";
+    evt.currentTarget.className += " active";
+} 
+
+$(document).ready(function() {
+    $(".megamenu").on("click", function(e) {
+        e.stopPropagation();
+    });
+});
+
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 190) {
+        $('.sticky-header').addClass('fixed');
+        $('.promotion-wrapper').addClass('d-none')
+    }
+    else {
+        $('.sticky-header').removeClass('fixed');
+    }
+    });
+
+$(document).ready(function() {
+        $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
+        $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
+    }); 
+    
+    $(document).ready(function() {
+        $("#toggle").click(function() {
+          var elem = $("#toggle").text();
+          if (elem == "Read More") {
+            //Stuff to do when btn is in the read more state
+            $("#toggle").text("Read Less");
+            $("#text").slideDown();
+          } else {
+            //Stuff to do when btn is in the read less state
+            $("#toggle").text("Read More");
+            $("#text").slideUp();
+          }
+        });
+      });
+      
+document.getElementById("showpass").addEventListener("click", function(e){
+        var pwd = document.getElementById("InputPassword");
+        if(pwd.getAttribute("type")=="password"){
+            pwd.setAttribute("type","text");
+        } else {
+            pwd.setAttribute("type","password");
+        }
+    });      
+
+>>>>>>> dev

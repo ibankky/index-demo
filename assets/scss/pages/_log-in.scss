@@ -1,0 +1,146 @@
+.log-in{
+    margin-bottom: 5em;
+    .log-in-head{
+        margin: 2em 0;
+    }
+    .regis-link {
+        line-height: 3;
+        color:#000;
+        font-weight: lighter;
+        a{
+            color:#000; 
+            span{
+                color:$yellow;
+                font-weight: normal;
+            }
+        }
+    }
+    input{
+        border-radius: 0;
+        height: calc(2.25rem + 10px);
+        outline: 0;
+        box-shadow: none!important;
+        
+    }
+    .password-input{
+        border-right: 0;
+    }
+    
+    label{
+        font-size: 0.9em;
+    }
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+    .forget{
+        padding: 1.5em 0 0;
+        font-size: 0.9em;
+        font-weight: lighter;
+        a{
+            color: #e60808;
+            padding-right: 0.25em;
+        }
+        .help {
+            color:$grey;
+            &::before{
+                content: "|";
+                color: $grey;
+            }
+        }
+    }
+    .btn-login{
+        background: $yellow;
+        color:$white;
+        font-size: 0.9em;
+        padding: 1em 0;
+        margin-bottom: 2em;
+    }
+    .btn-facebook{
+        background: #425f9c;
+        color:$white;
+        padding: 0.25em 0;
+        font-size: 1.2em;
+        height: 52px;
+        i{
+            font-size: 1.5em;
+            padding-right: 0.5em;
+        }
+    }
+    .btn-regis{
+        background: none;
+        border:solid 1px $yellow;
+        color:$yellow;
+        padding: 1em 0;
+        font-size: 0.9em;
+        margin-bottom: 2em;
+
+    }
+    .btn-label{
+        font-size: 0.9em;
+        padding: 0 0 2em 0;
+    }
+    .btn-label-regis{
+        font-size: 0.9em;
+        padding: 0 0 0.5em 0;
+    }
+    .btn-showpass{
+        background: none;
+        border:1px solid #ced4da;
+        border-left:none;
+        outline: 0;
+        box-shadow: none;
+    }
+    .btn-sent{
+        background: $yellow;
+        color:$white;
+        outline: 0;
+        box-shadow: none;
+    }
+    .btn-day{
+        border-radius: 0;
+        background: none;
+        border:1px solid #ced4da;
+        font-size: 0.9em;
+        padding: 0.5em 1em;
+    }
+    .btn-month{
+        border-radius: 0;
+        background: none;
+        border:1px solid #ced4da;
+        font-size: 0.9em;
+        padding: 0.5em 3em;
+    }
+    .btn-year{
+        border-radius: 0;
+        background: none;
+        border:1px solid #ced4da;
+        font-size: 0.9em;
+        padding: 0.5em 2em;
+    }
+    .btn-gender{
+        border-radius: 0;
+        background: none;
+        border:1px solid #ced4da;
+        font-size: 0.9em;
+        padding: 0.5em 2em;
+    }
+    .day-select{
+        min-width: 4em;
+    }
+    .year-select{
+        min-width: 4em;
+    }
+    .gender-select{
+        min-width: 6em;
+    }
+    .btn-forgot{
+        margin-top: 2em;
+        font-size: 1em;
+        background: $yellow;
+        color:$white;
+        outline: 0;
+        box-shadow: none;
+    }
+    
+    
+}

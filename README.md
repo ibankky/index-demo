@@ -36,7 +36,7 @@
     29. csr
     30. shopping cart ~~[Nay]
     31. shopping cart empty ~~[Nay]
-    32. shipping & payment information ~~[Nay]
+    32. shipping & payment information ~~[Nay !! psd not complete]
     33. payment
     34. order complete
     35. idea inspiration list

@@ -7,7 +7,6 @@
     margin-top: 20px;
     padding: 0;
     background: none !important;
-    font-weight: 100;
 
     a {
       color: #89888d;
@@ -36,7 +35,34 @@
     font-weight: 100;
   }
 
+  .navigate {
+    font-size: 16px;
+    color: #565658;
+
+    .number {
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      vertical-align: 45px;
+      background-color: #c4c4c6;
+      color: #fff;
+    }
+
+    .active {
+      border-bottom: 3px solid #ffc107;
+      color: #000;
+
+      .number {
+        background-color: #ffc107;
+      }
+    }
+  }
+
   .items {
+    img {
+      max-height: 77px;
+      border-color: #565658 !important;
+    }
     .discount {
       font-size: 10px;
       text-decoration: line-through;
@@ -44,6 +70,10 @@
 
     .code {
       font-size: 10px;
+    }
+
+    .remove {
+      cursor: pointer;
     }
   }
 }

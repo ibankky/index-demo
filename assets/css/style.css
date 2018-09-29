@@ -924,8 +924,7 @@ header {
 #cart_page .breadcrumb {
   margin-top: 20px;
   padding: 0;
-  background: none !important;
-  font-weight: 100; }
+  background: none !important; }
   #cart_page .breadcrumb a {
     color: #89888d; }
   #cart_page .breadcrumb .active {
@@ -943,9 +942,170 @@ header {
   #cart_page .summary h5 {
     font-size: 16px; }
 
+#cart_page .navigate {
+  font-size: 16px;
+  color: #565658; }
+  #cart_page .navigate .number {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    vertical-align: 45px;
+    background-color: #c4c4c6;
+    color: #fff; }
+  #cart_page .navigate .active {
+    border-bottom: 3px solid #ffc107;
+    color: #000; }
+    #cart_page .navigate .active .number {
+      background-color: #ffc107; }
+
+#cart_page .items img {
+  max-height: 77px;
+  border-color: #565658 !important; }
+
 #cart_page .items .discount {
   font-size: 10px;
   text-decoration: line-through; }
 
 #cart_page .items .code {
   font-size: 10px; }
+
+#cart_page .items .remove {
+  cursor: pointer; }
+
+#pdp_page .breadcrumb {
+  margin-top: 20px;
+  padding: 0;
+  background: none !important; }
+  #pdp_page .breadcrumb a {
+    color: #89888d; }
+  #pdp_page .breadcrumb .active {
+    color: #000; }
+  #pdp_page .breadcrumb-item + .breadcrumb-item::before {
+    content: ">" !important; }
+
+#pdp_page .accordion {
+  min-height: 260px; }
+
+#pdp_page .text-offer {
+  color: #ff6d01; }
+
+#pdp_page .bg-offer {
+  background-color: #ff6d01; }
+
+#pdp_page .bg-grey {
+  background-color: #f1f1f2; }
+
+#pdp_page .text-big {
+  font-size: 180px; }
+
+#pdp_page .radius-20 {
+  border-radius: 20px; }
+
+#pdp_page .description-detail {
+  color: #959595; }
+  #pdp_page .description-detail strong {
+    color: #000; }
+
+#pdp_page .description-overview {
+  color: #959595;
+  font-size: 14px; }
+
+#pdp_page .border-radius-none {
+  border-radius: 0 !important;
+  text-decoration: none; }
+
+#pdp_page .right-box {
+  color: #565658;
+  font-weight: 100; }
+  #pdp_page .right-box .text-medium {
+    font-size: 20px; }
+  #pdp_page .right-box .configurables .color {
+    width: 32px;
+    display: inline-block;
+    margin-right: 5px; }
+    #pdp_page .right-box .configurables .color img {
+      max-width: 100%; }
+  #pdp_page .right-box .configurables .other {
+    width: 60px;
+    display: inline-block;
+    margin-right: 5px; }
+    #pdp_page .right-box .configurables .other img {
+      max-width: 100%; }
+
+#pdp_page .sold-out {
+  position: absolute;
+  background-color: #fff;
+  filter: alpha(opacity=60);
+  opacity: 0.85;
+  width: calc(100% - 30px);
+  height: calc(100% - 20px);
+  border-radius: 5px;
+  z-index: 999;
+  padding-top: calc(60% - 20px);
+  font-size: 22px;
+  color: #d80505;
+  box-sizing: border-box; }
+
+#pdp_page .bought-together {
+  height: 100%; }
+  #pdp_page .bought-together .banner img {
+    border-radius: 5px; }
+  #pdp_page .bought-together .price {
+    padding: 1.14rem 0;
+    font-size: 24px;
+    line-height: 18px; }
+    #pdp_page .bought-together .price small {
+      font-size: 14px; }
+    #pdp_page .bought-together .price .discount {
+      line-height: 16px; }
+  #pdp_page .bought-together button {
+    font-size: 1rem; }
+
+#pdp_page .position-negative-30 {
+  top: -30px; }
+
+#pdp_page .plp-section {
+  font-size: 12px; }
+  #pdp_page .plp-section select {
+    height: 30px;
+    line-height: 10px;
+    width: 50px; }
+
+#pdp_page .pop-message {
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 0.8rem;
+  width: auto;
+  display: inline-block; }
+  #pdp_page .pop-message:after, #pdp_page .pop-message:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-style: solid; }
+  #pdp_page .pop-message:after {
+    bottom: -1px;
+    border-color: #fff transparent transparent transparent;
+    border-width: 5px;
+    left: 46px; }
+  #pdp_page .pop-message:before {
+    bottom: -3px;
+    border-color: #dee2e6 transparent transparent transparent;
+    border-width: 6px;
+    left: 45px; }
+
+#pdp_page .border-none {
+  border: none !important; }
+
+#pdp_page .slide .img-normal {
+  max-width: 500px;
+  margin-top: 5.5%;
+  margin-left: 10%; }
+
+#pdp_page .slide .slick-current .img-thumb {
+  border: 1px solid #ccc; }
+
+#pdp_page .slide .img-thumb {
+  max-width: 180px; }

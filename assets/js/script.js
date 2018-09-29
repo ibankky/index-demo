@@ -51,7 +51,6 @@ $(function(){
         });
 });
 
-<<<<<<< HEAD
 // for pdp page product images slide & thumbnail
 $(function(){
   $('.slider-for').slick({
@@ -74,7 +73,7 @@ $(function(){
     focusOnSelect: true
   });
 });
-=======
+
 function opensubcate(evt, roomName) {
     // Declare all variables
     var i, tabcontent, tablinks;
@@ -94,7 +93,7 @@ function opensubcate(evt, roomName) {
     // Show the current tab, and add an "active" class to the link that opened the tab
     document.getElementById(roomName).style.display = "block";
     evt.currentTarget.className += " active";
-} 
+}
 
 $(document).ready(function() {
     $(".megamenu").on("click", function(e) {
@@ -115,8 +114,8 @@ $(window).scroll(function(){
 $(document).ready(function() {
         $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
         $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
-    }); 
-    
+    });
+
     $(document).ready(function() {
         $("#toggle").click(function() {
           var elem = $("#toggle").text();
@@ -131,7 +130,7 @@ $(document).ready(function() {
           }
         });
       });
-      
+
 document.getElementById("showpass").addEventListener("click", function(e){
         var pwd = document.getElementById("InputPassword");
         if(pwd.getAttribute("type")=="password"){
@@ -139,6 +138,4 @@ document.getElementById("showpass").addEventListener("click", function(e){
         } else {
             pwd.setAttribute("type","password");
         }
-    });      
-
->>>>>>> dev
+    });

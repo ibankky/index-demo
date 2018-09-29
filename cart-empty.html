@@ -15,7 +15,7 @@
     <title>Online Furniture Shopping Store: Shop Online in India for Furniture, Home Decor, Furnishings, Kitchenware, Hardware Products @ Pepperfry - India's Largest Home Shopping Destination</title>
   </head>
   <body id="cart_page">
-    <header class="container-fluid padding-none" > <!-- Add class fixed-top to fix header -->
+        <header class="container-fluid padding-none sticky-header" > <!-- Add class fixed-top to fix header -->
             <div class="promotion-wrapper">
                 <div class="container">
                     <p class="promo-text">It’s Pouring Deals! Use code <b> RAIN </b> to get up to 50% off. Offer ends on 23rd July, 23:59 pm</p>
@@ -53,15 +53,16 @@
                   </ul>
                 </div>
               </div>
+
             </div>
               <div class="navbar navbar-expand-sm  rounded">
                     <div class="container">
 
                             <a class="navbar-brand nav-logo" href="#"></a>
                             <div class="collapse navbar-collapse" id="navbar">
-                                <ul class="navbar-nav mr-auto">
+                                <ul class="navbar-nav main-menu mr-auto">
                                 <li class="nav-item dropdown megamenu-li">
-                                    <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">สินค้าทั้งหมด <span class="icon-menu">
+                                    <a class="nav-link main-cat dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">สินค้าทั้งหมด <span class="icon-menu">
                                             <svg viewBox="0 0 13 8" height="8" width="13" xmlns="http://www.w3.org/2000/svg" class="">
                                               <path fill-rule="nonzero" d="M1.078 2.488L6.72 7.82a.627.627 0 0 0 .917-.05L12.68 1.87A.711.711 0
                                               0 0 12.629.9a.632.632 0 0 0-.47-.176.632.632 0 0 0-.449.224L7.1 6.344 1.945 1.471a.627.627 0 0
@@ -69,104 +70,470 @@
                                         </span></a>
                                     <div class="dropdown-menu megamenu" aria-labelledby="dropdown01">
                                        <div class="row">
-                                        <div class="col-sm-6 col-lg-3">
-                                         <h5>Links</h5>
-                                         <a class="dropdown-item" href="#">Another action</a>
-                                         <a class="dropdown-item" href="#">Something else here</a>
-                                         <a class="dropdown-item" href="#">Another action</a>
-                                         <a class="dropdown-item" href="#">Something else here</a>
+                                        <div class="col-sm-3 sub-menu-cat fur-cate">
+                                            <div class="tab">
+                                                <ul class="list-unstyled text-right">
+
+                                                    <li>
+                                                        <button class="tablinks sub-cate active" onmouseover="opensubcate(event, 'furniture01')">เฟอร์นิเจอร์สำหรับเด็ก</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="tablinks sub-cate" onmouseover="opensubcate(event, 'furniture02')">ตู้เก็บของและชั้นวาง</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="tablinks sub-cate" onmouseover="opensubcate(event, 'furniture03')">โต๊ะและเก้าอี้</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="tablinks sub-cate" onmouseover="opensubcate(event, 'furniture01')">โซฟาและอาร์มแชร์</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="tablinks sub-cate" onmouseover="opensubcate(event, 'furniture01')">ของตกแต่งบ้าน</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="tablinks sub-cate" onmouseover="opensubcate(event, 'furniture01')">เฟอร์นิเจอร์ครัว</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="tablinks sub-cate" onmouseover="opensubcate(event, 'furniture01')">เฟอร์นิเจอร์ซักอบรีด</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="tablinks sub-cate" onmouseover="opensubcate(event, 'furniture01')">เฟอร์นิเจอร์ห้องน้ำ</button>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
                                         </div>
-                                        <div class="col-sm-6 col-lg-3">
-                                         <h5>More Links</h5>
-                                         <a class="dropdown-item" href="#">Another action</a>
-                                         <a class="dropdown-item" href="#">Something else here</a>
-                                         <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="col-sm-9">
+
+                                                <div id="furniture01" class="tabcontent">
+                                                    <div class="row">
+                                                        <div class="col-sm-8">
+                                                                <div class="row margin-bottom-10 sub-list">
+                                                                        <div class="col-sm-3 sub-menu-item">
+                                                                            <a href="#">
+                                                                                <img class="img-fluid" src="./assets/image/submenu-furniture-1.png" alt="">
+                                                                                <p class="fur-item">เก้าอี้ทานอาหารหุ้มเบาะ</p>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="col-sm-3 sub-menu-item">
+                                                                            <a href="#">
+                                                                                <img class="img-fluid" src="./assets/image/submenu-furniture-1.png" alt="">
+                                                                                <p class="fur-item">เก้าอี้ทำงานแบบพับขา</p>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="col-sm-3 sub-menu-item">
+                                                                            <a href="#">
+                                                                                <img class="img-fluid" src="./assets/image/submenu-furniture-1.png" alt="">
+                                                                                <p class="fur-item">เก้าอี้ เฟรมอลู</p>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="col-sm-3 sub-menu-item">
+                                                                            <a href="#">
+                                                                                <img class="img-fluid" src="./assets/image/submenu-furniture-1.png" alt="">
+                                                                                <p class="fur-item">เก้าอี้นั่งเล่น</p>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row margin-bottom-10 sub-list">
+                                                                            <div class="col-sm-3 sub-menu-item">
+                                                                                <a href="#">
+                                                                                    <img class="img-fluid" src="./assets/image/submenu-furniture-1.png" alt="">
+                                                                                    <p class="fur-item">เก้าอี้ทานอาหารหุ้มเบาะ</p>
+                                                                                </a>
+                                                                            </div>
+                                                                            <div class="col-sm-3 sub-menu-item">
+                                                                                <a href="#">
+                                                                                    <img class="img-fluid" src="./assets/image/submenu-furniture-1.png" alt="">
+                                                                                    <p class="fur-item">เก้าอี้ทานอาหารหุ้มเบาะ</p>
+                                                                                </a>
+                                                                            </div>
+                                                                            <div class="col-sm-3 sub-menu-item">
+                                                                                <a href="#">
+                                                                                    <img class="img-fluid" src="./assets/image/submenu-furniture-1.png" alt="">
+                                                                                    <p class="fur-item">เก้าอี้ทานอาหารหุ้มเบาะ</p>
+                                                                                </a>
+                                                                            </div>
+                                                                            <div class="col-sm-3 sub-menu-item">
+                                                                                <a href="#">
+                                                                                    <img class="img-fluid" src="./assets/image/submenu-furniture-1.png" alt="">
+                                                                                    <p class="fur-item">เก้าอี้ทานอาหารหุ้มเบาะ</p>
+                                                                                </a>
+                                                                            </div>
+                                                                    </div>
+                                                                    <div class="row sub-list">
+                                                                            <div class="col-sm-12 margin-top-20">
+                                                                                <h6>สินค้าอื่นที่คุณอาจสนใจ</h6>
+                                                                            </div>
+                                                                            <div class="col-sm-3">
+                                                                                <ul class="list-unstyled interest-list">
+                                                                                    <li>
+                                                                                            <a href="#">
+                                                                                                <span>เก้าอี้บาร์</span>
+                                                                                            </a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                            <a href="#">
+                                                                                                <span>เก้าอี้เด็กทารก</span>
+                                                                                            </a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                            <a href="#">
+                                                                                                <span>เก้าอี้เด็ก</span>
+                                                                                            </a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                            <a href="#">
+                                                                                                <span>เฟอร์นิเจอร์เด็ก</span>
+                                                                                            </a>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <div class="col-sm-3">
+                                                                                    <ul class="list-unstyled interest-list">
+                                                                                        <li>
+                                                                                                <a href="#">
+                                                                                                    <span>เก้าอี้บาร์</span>
+                                                                                                </a>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                                <a href="#">
+                                                                                                    <span>เก้าอี้เด็กทารก</span>
+                                                                                                </a>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                                <a href="#">
+                                                                                                    <span>เก้าอี้เด็ก</span>
+                                                                                                </a>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                                <a href="#">
+                                                                                                    <span>เฟอร์นิเจอร์เด็ก</span>
+                                                                                                </a>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                                <div class="col-sm-3">
+                                                                                        <ul class="list-unstyled interest-list">
+                                                                                            <li>
+                                                                                                    <a href="#">
+                                                                                                        <span>เก้าอี้บาร์</span>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                    <a href="#">
+                                                                                                        <span>เก้าอี้เด็กทารก</span>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                    <a href="#">
+                                                                                                        <span>เก้าอี้เด็ก</span>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                    <a href="#">
+                                                                                                        <span>เฟอร์นิเจอร์เด็ก</span>
+                                                                                                    </a>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                    <div class="col-sm-3">
+                                                                                            <ul class="list-unstyled interest-list">
+                                                                                                <li>
+                                                                                                        <a href="#">
+                                                                                                            <span>เก้าอี้บาร์</span>
+                                                                                                        </a>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                        <a href="#">
+                                                                                                            <span>เก้าอี้เด็กทารก</span>
+                                                                                                        </a>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                        <a href="#">
+                                                                                                            <span>เก้าอี้เด็ก</span>
+                                                                                                        </a>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                        <a href="#">
+                                                                                                            <span>เฟอร์นิเจอร์เด็ก</span>
+                                                                                                        </a>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                        </div>
+                                                                    </div>
+                                                        </div>
+                                                        <div class="col-sm-4">
+                                                            <div class="row margin-bottom-20">
+                                                                <div class="col-sm-6">
+                                                                        <div id="carouselsubmenu1" class="carousel slide" data-ride="carousel">
+                                                                                <ol class="carousel-indicators">
+                                                                                  <li data-target="#carouselsubmenu1" data-slide-to="0" class="active"></li>
+                                                                                  <li data-target="#carouselsubmenu1" data-slide-to="1"></li>
+                                                                                  <li data-target="#carouselsubmenu1" data-slide-to="2"></li>
+                                                                                </ol>
+                                                                                <div class="carousel-inner">
+                                                                                  <div class="carousel-item active">
+                                                                                    <img class="d-block w-100" src="https://dummyimage.com/100X150/999/fff" alt="First slide">
+                                                                                  </div>
+                                                                                  <div class="carousel-item">
+                                                                                    <img class="d-block w-100" src="https://dummyimage.com/100X150/999/fff" alt="Second slide">
+                                                                                  </div>
+                                                                                  <div class="carousel-item">
+                                                                                    <img class="d-block w-100" src="https://dummyimage.com/100X150/999/fff" alt="Third slide">
+                                                                                  </div>
+                                                                                </div>
+
+                                                                            </div>
+                                                                </div>
+                                                                <div class="col-sm-6">
+                                                                        <div id="carouselsubmenu2" class="carousel slide" data-ride="carousel">
+                                                                                <ol class="carousel-indicators">
+                                                                                  <li data-target="#carouselsubmenu2" data-slide-to="0" class="active"></li>
+                                                                                  <li data-target="#carouselsubmenu2" data-slide-to="1"></li>
+                                                                                  <li data-target="#carouselsubmenu2" data-slide-to="2"></li>
+                                                                                </ol>
+                                                                                <div class="carousel-inner">
+                                                                                  <div class="carousel-item active">
+                                                                                    <img class="d-block w-100" src="https://dummyimage.com/100X150/999/fff" alt="First slide">
+                                                                                  </div>
+                                                                                  <div class="carousel-item">
+                                                                                    <img class="d-block w-100" src="https://dummyimage.com/100X150/999/fff" alt="Second slide">
+                                                                                  </div>
+                                                                                  <div class="carousel-item">
+                                                                                    <img class="d-block w-100" src="https://dummyimage.com/100X150/999/fff" alt="Third slide">
+                                                                                  </div>
+                                                                                </div>
+
+                                                                            </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row margin-bottom-20">
+                                                                    <div class="col-sm-6">
+                                                                            <div id="carouselsubmenu3" class="carousel slide" data-ride="carousel">
+                                                                                    <ol class="carousel-indicators">
+                                                                                      <li data-target="#carouselsubmenu3" data-slide-to="0" class="active"></li>
+                                                                                      <li data-target="#carouselsubmenu3" data-slide-to="1"></li>
+                                                                                      <li data-target="#carouselsubmenu3" data-slide-to="2"></li>
+                                                                                    </ol>
+                                                                                    <div class="carousel-inner">
+                                                                                      <div class="carousel-item active">
+                                                                                        <img class="d-block w-100" src="https://dummyimage.com/100X150/999/fff" alt="First slide">
+                                                                                      </div>
+                                                                                      <div class="carousel-item">
+                                                                                        <img class="d-block w-100" src="https://dummyimage.com/100X150/999/fff" alt="Second slide">
+                                                                                      </div>
+                                                                                      <div class="carousel-item">
+                                                                                        <img class="d-block w-100" src="https://dummyimage.com/100X150/999/fff" alt="Third slide">
+                                                                                      </div>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                            <div id="carouselsubmenu4" class="carousel slide" data-ride="carousel">
+                                                                                    <ol class="carousel-indicators">
+                                                                                      <li data-target="#carouselsubmenu4" data-slide-to="0" class="active"></li>
+                                                                                      <li data-target="#carouselsubmenu4" data-slide-to="1"></li>
+                                                                                      <li data-target="#carouselsubmenu4" data-slide-to="2"></li>
+                                                                                    </ol>
+                                                                                    <div class="carousel-inner">
+                                                                                      <div class="carousel-item active">
+                                                                                        <img class="d-block w-100" src="https://dummyimage.com/100X150/999/fff" alt="First slide">
+                                                                                      </div>
+                                                                                      <div class="carousel-item">
+                                                                                        <img class="d-block w-100" src="https://dummyimage.com/100X150/999/fff" alt="Second slide">
+                                                                                      </div>
+                                                                                      <div class="carousel-item">
+                                                                                        <img class="d-block w-100" src="https://dummyimage.com/100X150/999/fff" alt="Third slide">
+                                                                                      </div>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                    </div>
+                                                                </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                                <div id="furniture02" class="tabcontent">
+                                                        <h3>ตู้เก็บของ</h3>
+                                                </div>
+                                                <div id="furniture03" class="tabcontent">
+                                                    <h3>โต๊ะและเก้าอี้</h3>
+                                                </div>
                                         </div>
-                                        <div class="col-sm-6 col-lg-3">
-                                         <h5>Paragraph</h5>
-                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus in veritatis, facilis eligendi sunt, culpa autem harum porro earum.</p>
-                                        </div>
-                                        <div class="col-sm-6 col-lg-3">
-                                         <h5>Image</h5>
-                                         <img src="https://source.unsplash.com/250x150/?sig=4" alt="..." style="width: 100%;">
-                                        </div>
+
                                        </div>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown megamenu-li">
-                                        <a class="nav-link dropdown-toggle" href="" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ห้องต่างๆ</a>
+                                        <a class="nav-link main-cat dropdown-toggle" href="" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ห้องต่างๆ</a>
                                         <div class="dropdown-menu megamenu" aria-labelledby="dropdown02">
-                                           <div class="row">
-                                            <div class="col-sm-6 col-lg-4">
-                                             <h5>Image Slider</h5>
-                                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                                              <div class="carousel-inner">
-                                               <div class="carousel-item active">
-                                                <img class="d-block w-100" src="https://source.unsplash.com/250x150/?sig=1" alt="...">
-                                               </div>
-                                               <div class="carousel-item">
-                                                <img class="d-block w-100" src="https://source.unsplash.com/250x150/?sig=2" alt="...">
-                                               </div>
-                                               <div class="carousel-item">
-                                                <img class="d-block w-100" src="https://source.unsplash.com/250x150/?sig=3" alt="...">
-                                               </div>
-                                              </div>
+                                                <div class="row">
+                                                 <div class="col-sm-3 sub-menu-cat room-cate">
+                                                     <div class="tab">
+                                                         <ul class="list-unstyled text-right">
+                                                             <li>
+                                                                 <button class="tablinks sub-cate active" onmouseover="opensubcate(event, 'bedroom')">ห้องนอน</button>
+                                                             </li>
+                                                             <li>
+                                                                 <button class="tablinks sub-cate" onmouseover="opensubcate(event, 'kitchen')">ห้องครัว</button>
+                                                             </li>
+                                                             <li>
+                                                                 <button class="tablinks sub-cate" onmouseover="opensubcate(event, 'living-room')">ห้องนั้งเล่น</button>
+                                                             </li>
+                                                             <li>
+                                                                 <button class="tablinks sub-cate" onmouseover="opensubcate(event, 'bedroom')">ห้องอาหาร</button>
+                                                             </li>
+                                                             <li>
+                                                                 <button class="tablinks sub-cate" onmouseover="opensubcate(event, 'bedroom')">ห้องทำงาน</button>
+                                                             </li>
+                                                             <li>
+                                                                 <button class="tablinks sub-cate" onmouseover="opensubcate(event, 'bedroom')">ห้องน้ำ</button>
+                                                             </li>
+                                                             <li>
+                                                                 <button class="tablinks sub-cate" onmouseover="opensubcate(event, 'bedroom')">ห้องซักอบรีด</button>
+                                                             </li>
+                                                             <li>
+                                                                 <button class="tablinks sub-cate" onmouseover="opensubcate(event, 'bedroom')">ของใช้ในบ้าน</button>
+                                                             </li>
+                                                         </ul>
+
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-sm-8">
+                                                         <div id="bedroom" class="tabcontent">
+                                                             <div class="row margin-bottom-10">
+                                                                 <div class="col-sm-6 padding-right-10">
+                                                                             <div class="hovereffect">
+                                                                                  <img class="img-fluid" src="./assets/image/submenu-bedroom.png" alt="">
+                                                                                     <div class="overlay">
+                                                                                         <a href="#">
+                                                                                             <h2>ห้องนอนขนาดใหญ่</h2>
+                                                                                         </a>
+                                                                                     </div>
+                                                                             </div>
+                                                                 </div>
+                                                                 <div class="col-sm-6 padding-left-10">
+                                                                     <div class="hovereffect">
+                                                                          <img class="img-fluid" src="./assets/image/submenu-bedroom.png" alt="">
+                                                                             <div class="overlay">
+                                                                                 <a href="#">
+                                                                                     <h2>ห้องนอนขนาดใหญ่</h2>
+                                                                                 </a>
+                                                                             </div>
+                                                                     </div>
+                                                                 </div>
+                                                             </div>
+                                                             <div class="row margin-bottom-10">
+                                                                     <div class="col-sm-4">
+                                                                             <div class="hovereffect padding-left-10">
+                                                                                     <img class="img-fluid" src="./assets/image/submenu-bedroom-2.png" alt="">
+                                                                                        <div class="overlay">
+                                                                                            <a href="#">
+                                                                                                <h2>ชั้นวางของ</h2>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                </div>
+                                                                     </div>
+                                                                     <div class="col-sm-4 padding-middle-10">
+                                                                             <div class="hovereffect">
+                                                                                     <img class="img-fluid" src="./assets/image/submenu-bedroom-2.png" alt="">
+                                                                                        <div class="overlay">
+                                                                                            <a href="#">
+                                                                                                <h2>ตู้และโต๊ะทำงาน</h2>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                </div>
+                                                                     </div>
+                                                                     <div class="col-sm-4 padding-right-10">
+                                                                             <div class="hovereffect">
+                                                                                     <img class="img-fluid" src="./assets/image/submenu-bedroom-2.png" alt="">
+                                                                                        <div class="overlay">
+                                                                                            <a href="#">
+                                                                                                <h2>ตู้เสื้อผ้า</h2>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                </div>
+                                                                     </div>
+                                                             </div>
+                                                             <div class="row margin-bottom-10">
+                                                                     <div class="col-sm-6 padding-right-10">
+                                                                                 <div class="hovereffect">
+                                                                                      <img class="img-fluid" src="./assets/image/submenu-bedroom.png" alt="">
+                                                                                         <div class="overlay">
+                                                                                             <a href="#">
+                                                                                                 <h2>ห้องนอนขนาดใหญ่</h2>
+                                                                                             </a>
+                                                                                         </div>
+                                                                                 </div>
+                                                                     </div>
+                                                                     <div class="col-sm-6 padding-left-10">
+                                                                         <div class="hovereffect">
+                                                                              <img class="img-fluid" src="./assets/image/submenu-bedroom.png" alt="">
+                                                                                 <div class="overlay">
+                                                                                     <a href="#">
+                                                                                         <h2>ห้องนอนขนาดใหญ่</h2>
+                                                                                     </a>
+                                                                                 </div>
+                                                                         </div>
+                                                                     </div>
+                                                             </div>
+                                                             <div class="row">
+                                                                 <ul class="list-inline other-room">
+                                                                         <li class="list-inline-item">
+                                                                             <span>ห้องอื่นๆ</span>
+                                                                         </li>
+                                                                         <li class="list-inline-item">
+                                                                             <a href=#>
+                                                                                 <span>ห้องนอนเด็ก</span>
+                                                                             </a>
+                                                                         </li>
+                                                                         <li class="list-inline-item">
+                                                                             <a href=#>
+                                                                                 <span>ห้องน้ำ</span>
+                                                                             </a>
+                                                                         </li>
+                                                                         <li class="list-inline-item">
+                                                                             <a href=#>
+                                                                                 <span>ห้องซักรีด</span>
+                                                                             </a>
+                                                                         </li>
+                                                                         <li class="list-inline-item">
+                                                                             <a href=#>
+                                                                                 <span>ห้องทำงาน</span>
+                                                                             </a>
+                                                                         </li>
+                                                                         <li class="list-inline-item">
+                                                                             <a href=#>
+                                                                                 <span>ห้องนอนสำหรับพื้นที่น้อย</span>
+                                                                             </a>
+                                                                         </li>
+
+                                                                 </ul>
+                                                             </div>
+                                                         </div>
+
+                                                         <div id="kitchen" class="tabcontent">
+                                                                 <h3>ห้องครัว</h3>
+                                                         </div>
+                                                         <div id="living-room" class="tabcontent">
+                                                             <h3>living room</h3>
+                                                         </div>
+                                                 </div>
+                                                </div>
                                              </div>
-                                            </div>
-                                            <div class="col-sm-6 col-lg-3">
-                                             <h5>Links</h5>
-                                             <a class="dropdown-item" href="#">Another action</a>
-                                             <a class="dropdown-item" href="#">Something else here</a>
-                                             <a class="dropdown-item" href="#">Another action</a>
-                                             <a class="dropdown-item" href="#">Something else here</a>
-                                            </div>
-                                            <div class="col-sm-6 col-lg-5">
-                                             <h5>Paragraph</h5>
-                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam impedit itaque minus distinctio possimus reiciendis et repellat. Voluptate, temporibus veniam et praesentium alias, maxime repudiandae aliquid, natus omnis animi iste!</p>
-                                            </div>
-                                           </div>
-                                        </div>
                                 </li>
-                                <li class="nav-item dropdown megamenu-li">
-                                    <a class="nav-link dropdown-toggle" href="" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ไอเดียแต่งบ้าน</a>
-                                    <div class="dropdown-menu megamenu" aria-labelledby="dropdown02">
-                                       <div class="row">
-                                        <div class="col-sm-6 col-lg-4">
-                                         <h5>Image Slider</h5>
-                                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                                          <div class="carousel-inner">
-                                           <div class="carousel-item active">
-                                            <img class="d-block w-100" src="https://source.unsplash.com/250x150/?sig=1" alt="...">
-                                           </div>
-                                           <div class="carousel-item">
-                                            <img class="d-block w-100" src="https://source.unsplash.com/250x150/?sig=2" alt="...">
-                                           </div>
-                                           <div class="carousel-item">
-                                            <img class="d-block w-100" src="https://source.unsplash.com/250x150/?sig=3" alt="...">
-                                           </div>
-                                          </div>
-                                         </div>
-                                        </div>
-                                        <div class="col-sm-6 col-lg-3">
-                                         <h5>Links</h5>
-                                         <a class="dropdown-item" href="#">Another action</a>
-                                         <a class="dropdown-item" href="#">Something else here</a>
-                                         <a class="dropdown-item" href="#">Another action</a>
-                                         <a class="dropdown-item" href="#">Something else here</a>
-                                        </div>
-                                        <div class="col-sm-6 col-lg-5">
-                                         <h5>Paragraph</h5>
-                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam impedit itaque minus distinctio possimus reiciendis et repellat. Voluptate, temporibus veniam et praesentium alias, maxime repudiandae aliquid, natus omnis animi iste!</p>
-                                        </div>
-                                       </div>
-                                    </div>
-                                </li>
-                                <li class="nav-item">
+                                <li class="nav-item main-cat">
+                                        <a class="nav-link">ไอเดียแต่งบ้าน</a>
+                                    </li>
+                                <li class="nav-item main-cat">
                                     <a class="nav-link">โปรโมชั่น</a>
                                 </li>
                                 </ul>
-                                <form class="form-inline my-2">
-                                    <div class="search-form">
+                                <form class="form-inline search-item my-2">
+                                    <!-- <div class="search-form">
                                         <div class="input-group mb-3">
                                             <div class="input-group-append">
                                                 <button class="btn  btn-search" type="button">
@@ -176,8 +543,13 @@
                                             <input type="text" class="form-control form-input" placeholder="ค้นหาสินค้า">
 
                                         </div>
+                                    </div> -->
+                                    <input type="text" class="form-control" id="SearchInput" placeholder="Search">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-search" type="button">
+                                            <i class="fas fa-search"></i>
+                                        </button>
                                     </div>
-
                                 </form>
                                 <ul class="navbar-nav noti-list mr-auto">
                                     <li class="nav-item m-2">
@@ -581,13 +953,9 @@
     <script src="./assets/js/jQuery.tab.js"></script>
     <script type="text/javascript" src="./assets/js/slick.min.js"></script>
     <script type="text/javascript" src="./assets/js/script.js" ></script>
-    <script type="text/javascript">
-			$(function() {
-				$('.tab-hover').tab({
-					trigger_event_type: 'mouseover' //mouseover | click 默认click
-				});
-			});
-        </script>
-    <script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
+    <script>
+
+    </script>
+
   </body>
 </html>

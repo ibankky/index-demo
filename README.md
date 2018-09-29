@@ -5,21 +5,21 @@
 
 ## Index All Page 
 
-    1. index
+    1. index [header, footer] ~~[Bankky]
     2. store promotion list
     3. store promotion detail
     4. online promotion
-    5. e-catalog
+    5. e-catalog ~~[Bankky]
     6. joy card
-    7. store location
+    7. store location ~~[Bankky]
     8. joy service
     9. design & build
     10. sign up
-    11. log in
-    12. forgot password
+    11. log in ~~[Bankky]
+    12. forgot password ~~[Bankky]
     13. wish list
-    14. product list
-    15. product detail
+    14. product list ~~[Bankky]
+    15. product detail ~~[Nay]
     16. my account
     17. how to buy
     18. how to payment
@@ -34,13 +34,16 @@
     27. career
     28. news & event
     29. csr
-    30. shopping cart
-    31. shipping & payment information
-    32. payment
-    33. order complete
-    34. idea inspiration list
-    35. idea inspiration detail
-    36. home service
+    30. shopping cart ~~[Nay]
+    31. shopping cart empty ~~[Nay]
+    32. shipping & payment information ~~[Nay]
+    33. payment
+    34. order complete
+    35. idea inspiration list
+    36. idea inspiration detail
+    37. home service
+    38. register ~~[Bankky]
+    39. register 2 ~~[Bankky]
     
     ## Index Page Group from design 09/17/2018
 

@@ -10,7 +10,7 @@
     }
 
     .active {
-      color: #000;
+      color: $black;
     }
 
     &-item+ .breadcrumb-item::before {
@@ -30,10 +30,6 @@
     background-color: #ff6d01;
   }
 
-  .bg-grey {
-    background-color: #f1f1f2;
-  }
-
   .text-big {
     font-size: 180px;
   }
@@ -45,7 +41,7 @@
   .description {
     &-detail {
       color: #959595;
-      strong { color: #000; }
+      strong { color: $black; }
     }
 
     &-overview {
@@ -89,7 +85,7 @@
 
   .sold-out {
     position: absolute;
-    background-color: #fff;
+    background-color: $white;
     filter: alpha(opacity=60);
     opacity: 0.85;
     width: calc(100% - 30px);
@@ -161,7 +157,7 @@
 
     &:after {
         bottom: -1px;
-        border-color: #fff transparent transparent transparent;
+        border-color: $white transparent transparent transparent;
         border-width: 5px;
         left: 46px;
     }

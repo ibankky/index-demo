@@ -1,0 +1,65 @@
+#account {
+  ul.menu {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    background-color: $white;
+    font-size: 18px;
+
+    li {
+      list-style: none;
+      padding: 12px 40px;
+      border-color: $grey-fade;
+      height: 52px;
+      cursor: pointer;
+
+      &:first-child {
+        padding: 13px 15px;
+        i {
+          margin-top: -1px
+        }
+      }
+
+      &.active, &:hover {
+        background: $yellow;
+
+        a {
+          color: $white;
+        }
+      }
+
+      a {
+        color: $black;
+      }
+
+      i {
+        font-size: 29px;
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .description {
+    min-height: 360px;
+
+    p {
+      margin-bottom: 10px;
+    }
+    .upper {
+      text-transform: uppercase;
+      color: $grey;
+    }
+
+    .change-password {
+      margin-left: 66px;
+      font-size: 14px;
+    }
+
+    .address-book {
+      small {
+        color: #89888d;
+      }
+    }
+  }
+}

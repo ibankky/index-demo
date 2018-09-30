@@ -20,7 +20,7 @@
     13. wishlist feature products
     14. product list ~~[Bankky]
     15. product detail ~~[Nay]
-    16. my account
+    16. my account ~~[Nay Working]
         - information
         - address book
         - my orders

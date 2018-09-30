@@ -1872,3 +1872,28 @@ header {
   .thank-you-block .btn-tnk {
     background: #fdc30f;
     color: #000; }
+
+#joy-service .bg-grey {
+  background-color: #f4f4f4; }
+  #joy-service .bg-grey-dark {
+    background-color: #89888d; }
+
+#joy-service .indent {
+  margin-left: 50px; }
+
+#joy-service .bg-orange {
+  background-color: #ea503d; }
+
+#joy-service .position-dimension {
+  top: -7rem;
+  left: -8rem;
+  width: 120%; }
+
+#joy-service h3 {
+  font-weight: 400; }
+  #joy-service h3 strong {
+    font-weight: 600; }
+
+#joy-service .description {
+  font-size: 20px;
+  letter-spacing: 1.3; }

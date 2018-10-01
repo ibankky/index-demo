@@ -209,6 +209,9 @@ input[type=text]:focus {
     color: #fdc30f;
     text-decoration: underline; }
 
+.bg-grey-white {
+  background: #f8f8f8; }
+
 .bg-grey {
   background: #f1f1f2; }
 

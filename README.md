@@ -17,15 +17,15 @@
     10. sign up ~~[Bankky]
     11. log in ~~[Bankky]
     12. forgot password ~~[Bankky]
-    13. wishlist feature products
+    13. wishlist feature products ~~[Nay working]
     14. product list ~~[Bankky]
     15. product detail ~~[Nay]
-    16. my account ~~[Nay Working]
-        - information
-        - address book
-        - my orders
-        - wishlist
-        - reward points
+    16. my account ~~[Nay]
+        - information ~~[Nay]
+        - address book ~~[Nay]
+        - my orders ~~[Nay]
+        - wishlist ~~[Nay]
+        - reward points ~~[Nay]
     17. how to buy
     18. how to payment
     19. shipping & delivery

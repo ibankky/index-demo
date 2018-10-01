@@ -14,7 +14,7 @@
     7. store location ~~[Bankky]
     8. joy service ~~[Nay]
     9. design & build
-    10. sign up
+    10. sign up ~~[Bankky]
     11. log in ~~[Bankky]
     12. forgot password ~~[Bankky]
     13. wishlist feature products

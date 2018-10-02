@@ -37,8 +37,8 @@
     25. application form (franchise)
     26. project sales
     27. career
-    28. news & event
-    29. csr ~~[Nay Working]
+    28. news & event ~~[Nay Working]
+    29. csr ~~[Nay]
     30. shopping cart ~~[Nay]
     31. shopping cart empty ~~[Nay]
     32. payment

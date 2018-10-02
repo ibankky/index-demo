@@ -38,16 +38,17 @@
     26. project sales
     27. career
     28. news & event
-    29. csr
+    29. csr ~~[Nay Working]
     30. shopping cart ~~[Nay]
     31. shopping cart empty ~~[Nay]
     32. payment
     33. order complete
-    34. idea inspiration list
-    35. idea inspiration detail
-    36. home service
-    37. register ~~[Bankky]
-    38. register 2 ~~[Bankky]
+    34. idea inspiration 
+    35. idea inspiration list
+    36. idea inspiration detail
+    37. home service
+    38. register ~~[Bankky]
+    39. register 2 ~~[Bankky]
     
     ## Index Page Group from design 09/17/2018
 

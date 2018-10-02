@@ -1,0 +1,94 @@
+#wishlist_feature {
+  h1 { font-size: 50px; }
+
+  .width-55 { width: 54.9%; margin: 0; padding: 0; box-sizing: border-box; }
+  .width-45 { width: 45%; margin: 0; padding: 0; box-sizing: border-box; }
+
+  .bg-grey-dark {
+    background-color: #56555A;
+  }
+
+  .badge-popup {
+    z-index: 99;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+
+    .badge {
+      &:first-child {
+        margin-left: 0;
+        margin-top: 2px;
+      }
+
+      &-orange {
+        background: #ea503d;
+        color: $white;
+      }
+
+      &-danger {
+        background: #b32017;
+        font-size: 7px !important;
+        padding: 4px;
+        position: relative;
+        top: 2px;
+      }
+
+      padding: 6px;
+      border-radius: 0;
+    }
+  }
+
+  .cover-img {
+    img { max-width: 100%; }
+  }
+
+  .thumbnail {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .btn-show {
+    padding: 15px 50px;
+    background: $black;
+    font-size: 24px;
+    border-radius: 0;
+  }
+
+  .topic {
+    height: 83px;
+    font-size: 22px;
+    color: #737373;
+    line-height: 24px;
+  }
+
+  .description {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    background: $white;
+    height: 80px;
+
+    p {
+      &:last-child {
+        color: #5d5d5d;
+        margin-top: 18px;
+      }
+
+      &.discount {
+        &:last-child {
+          margin-top: 6px;
+          font-size: 11px;
+
+          strong {
+            color: #f00;
+          }
+        }
+      }
+    }
+
+    strong {
+      font-size: 13px;
+      font-weight: 600;
+    }
+  }
+}

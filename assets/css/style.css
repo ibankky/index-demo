@@ -2020,3 +2020,14 @@ header {
   #wishlist_feature .description strong {
     font-size: 13px;
     font-weight: 600; }
+
+#csr img {
+  border: 0; }
+
+#csr .topic {
+  margin-top: 20px;
+  font-weight: bold; }
+
+#csr .description {
+  font-weight: 100;
+  font-size: 14px; }

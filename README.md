@@ -41,14 +41,13 @@
     29. csr
     30. shopping cart ~~[Nay]
     31. shopping cart empty ~~[Nay]
-    32. shipping & payment information ~~[Nay ### psd not complete]
-    33. payment
-    34. order complete
-    35. idea inspiration list
-    36. idea inspiration detail
-    37. home service
-    38. register ~~[Bankky]
-    39. register 2 ~~[Bankky]
+    32. payment
+    33. order complete
+    34. idea inspiration list
+    35. idea inspiration detail
+    36. home service
+    37. register ~~[Bankky]
+    38. register 2 ~~[Bankky]
     
     ## Index Page Group from design 09/17/2018
 

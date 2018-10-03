@@ -41,7 +41,7 @@
     29. csr ~~[Nay]
     30. shopping cart ~~[Nay]
     31. shopping cart empty ~~[Nay]
-    32. payment
+    32. payment ~~[Bankky]
     33. order complete
     34. idea inspiration 
     35. idea inspiration list
@@ -55,16 +55,16 @@
     ~~1). Home~~
     ~~2). List~~
     ~~3). Login & Regis ~~
-    4). Shoping Cart
+    ~~ 4). Shoping Cart~~ 
     ~~5). E-Catalog~~
-    6). Detail-Product
+    ~~ 6). Detail-Product ~~
     
     ## Index Page Group from design 09/25/2018
     
-    7).Design & Build
+    ~~ 7).Design & Build ~~
      ~~ 8).Forgot pass  ~~
-     9). Idea Inspriration
-     10). Joy Card
+     ~~9). Idea Inspriration
+     ~~10). Joy Card ~~
       ~~ 11). Store   ~~
       ~~12). Thank you  ~~
-     13). Payment
+    ~~  13). Payment ~~

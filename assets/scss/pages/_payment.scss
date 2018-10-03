@@ -32,6 +32,17 @@
         font-size: 0.9em;
         border-radius: 0.8em;
         display: block;
+        input[type=text]{
+            border: solid 1px #d7d7d7;
+            font-size: 0.9em;
+            font-weight: lighter;
+            letter-spacing: 1px;
+        }
+        .select-card{
+            font-size: 0.9em;
+            border: solid 1px #d7d7d7;
+            font-weight: lighter;
+        }
     }
     .select-address{
         .custom-radio{
@@ -102,6 +113,11 @@
         font-size: 1.2em;
         text-transform: uppercase;
         font-weight: bold;
+    }
+    .qt-input{
+        color: #000;
+        text-align: center;
+        border:none;
     }
    
 }

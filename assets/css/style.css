@@ -1985,6 +1985,15 @@ header {
     font-size: 0.9em;
     border-radius: 0.8em;
     display: block; }
+    .payment-step .payment-block input[type=text] {
+      border: solid 1px #d7d7d7;
+      font-size: 0.9em;
+      font-weight: lighter;
+      letter-spacing: 1px; }
+    .payment-step .payment-block .select-card {
+      font-size: 0.9em;
+      border: solid 1px #d7d7d7;
+      font-weight: lighter; }
   .payment-step .select-address .custom-radio {
     font-size: 1rem;
     font-weight: lighter;
@@ -2034,6 +2043,10 @@ header {
     font-size: 1.2em;
     text-transform: uppercase;
     font-weight: bold; }
+  .payment-step .qt-input {
+    color: #000;
+    text-align: center;
+    border: none; }
 
 #wishlist_feature h1 {
   font-size: 50px; }

@@ -29,6 +29,22 @@
     .filter-right {
         text-align: right;
         padding-right: 0;
+        .dropdown-menu.show{
+            top: 50px!important;
+            width: 200px;
+            position: absolute;
+            left: -40px;
+        }
+        .dropdown-menu:before {
+           
+            left: auto;
+            right: 89px;
+          }
+          
+          .dropdown-menu:after {
+            left: auto;
+            right: 90px;
+          }
     }
     .dropdown-menu.show{
         top: 50px!important;

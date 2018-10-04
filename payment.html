@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./assets/slick-theme.css">
     <title>Online Furniture Shopping Store: Shop Online in India for Furniture, Home Decor, Furnishings, Kitchenware, Hardware Products @ Pepperfry - India's Largest Home Shopping Destination</title>
   </head>
-  <body>
+  <body id="cart_page">
         <header class="container-fluid padding-none sticky-header" > <!-- Add class fixed-top to fix header -->
             <div class="promotion-wrapper">
                 <div class="container">
@@ -577,484 +577,241 @@
                 <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                           <li class="breadcrumb-item"><a href="#">หน้าแรก</a></li>
-                          <li class="breadcrumb-item"><a href="#">ห้องนอน</a></li>
-                          <li class="breadcrumb-item active" aria-current="page">เตียงนอน</li>
+                          <li class="breadcrumb-item active" aria-current="page">Payment</li>
                         </ol>
-                </nav> 
-                <h2 class="text-center">
-                    เตียงนอน
-                </h2> 
-                <div class="top-banner">
-                        <img class="img-fluid" src="./assets/image/item-list-page/top-banner.png" alt="">
-                </div>         
+                </nav>      
            </div>
        </div>
-    </div>
-    
-    <div class="container">
-        <div class="row icon-filter">
-            <div class="col-sm-12">
-                <div class="d-flex flex-row justify-content-center">
-                        <div class="menu-item">
-                            <a href="#">
-                                <div class="icon-block">
-                                    <img class="img-fluid" src="./assets/image/item-list-page/icon/icon-1.png">
-                                </div>
-                                <h6  class="text-center">
-                                    All bed Sheets
-                                    <p>854 Options</p>
-                                 </h6>  
-                            </a>
-                        </div>
-                        <div class="menu-item">
-                                <a href="#">
-                                    <div class="icon-block">
-                                        <img class="img-fluid" src="./assets/image/item-list-page/icon/icon-2.png">
-                                    </div>
-                                    <h6  class="text-center">
-                                        All bed Sheets
-                                        <p>854 Options</p>
-                                     </h6>  
-                                </a>
-                        </div>
-                        <div class="menu-item">
-                                <a href="#">
-                                    <div class="icon-block">
-                                        <img class="img-fluid" src="./assets/image/item-list-page/icon/icon-3.png">
-                                    </div>
-                                    <h6  class="text-center">
-                                        Queen size Bed Sheets
-                                        <p>854 Options</p>
-                                     </h6>  
-                                </a>
-                        </div>
-                        <div class="menu-item">
-                                <a href="#">
-                                    <div class="icon-block">
-                                        <img class="img-fluid" src="./assets/image/item-list-page/icon/icon-2.png">
-                                    </div>
-                                    <h6  class="text-center">
-                                        King size Bed
-                                        <p>854 Options</p>
-                                     </h6>  
-                                </a>
-                        </div>
-                        <div class="menu-item">
-                                <a href="#">
-                                    <div class="icon-block">
-                                        <img class="img-fluid" src="./assets/image/item-list-page/icon/icon-2.png">
-                                    </div>
-                                    <h6  class="text-center">
-                                        Fitted bed sheets
-                                        <p>854 Options</p>
-                                     </h6>  
-                                </a>
-                        </div> 
-                </div>
-                <!-- <ul class="list-inline text-center">
-                    <li class="list-inline-item menu-item">
-                        <a href="#">
-                            <img class="img-fluid" src="./assets/image/item-list-page/icon/icon-1.png">
-                            <h6  class="text-center">
-                                All bed Sheets
-                                <p>854 Options</p>
-                            </h6>
-                            
-                        </a>
-                    </li>
-                   
-                    <li class="list-inline-item menu-item">
-                            <a href="#">
-                                <img class="img-fluid" src="./assets/image/item-list-page/icon/icon-2.png">
-                                <h6  class="text-center">
-                                        Single Bed Sheets
-                                        <p>120 Options</p>
-                                </h6>
-                                
-                            </a>
-                    </li>
-                    <li class="list-inline-item menu-item">
-                            <a href="#">
-                                <img class="img-fluid" src="./assets/image/item-list-page/icon/icon-3.png">
-                                <h6  class="text-center">
-                                        Queen Size Bed Sheets
-                                        <p>444 Options</p>
-                                </h6>
-                                
-                            </a>
-                    </li>
-                    <li class="list-inline-item menu-item">
-                            <a href="#">
-                                <img class="img-fluid" src="./assets/image/item-list-page/icon/icon-3.png">
-                                <h6  class="text-center">
-                                        All bed Sheets
-                                        <p>854 Options</p>
-                                </h6>
-                                
-                            </a>
-                    </li>
-                    <li class="list-inline-item menu-item">
-                            <a href="#">
-                                <img class="img-fluid" src="./assets/image/item-list-page/icon/icon-2.png">
-                                <h6  class="text-center">
-                                        All bed Sheets
-                                        <p>854 Options</p>
-                                </h6>
-                                
-                            </a>
-                    </li>
-
-                </ul> -->
-            </div>
+       <div class="row pt-5 mt-4 navigate text-center">
+        <div class="col-sm-4">
+          <div class="col-sm-12 d-flex justify-content-center">
+            <div class="number rounded-circle">1</div>
+          </div>
+          <p class="col-sm-12 py-4">Shopping Cart</p>
         </div>
+        <div class="col-sm-4 active">
+          <div class="col-sm-12 d-flex justify-content-center">
+            <div class="number rounded-circle">2</div>
+          </div>
+          <p class="col-sm-12 py-4">Shipping & payment information</p>
+        </div>
+        <div class="col-sm-4">
+          <div class="col-sm-12 d-flex justify-content-center">
+            <div class="number rounded-circle">3</div>
+          </div>
+          <p class="col-sm-12 py-4">Order Complete</p>
+        </div>
+      </div>
+     
     </div>
-    <div class="container-fluid bg-grey">
+    <div class="container-fluid payment-tab">
         <div class="container">
-            <div class="row filter-tab">
-                <div class="col-sm-9">
-                    <span class="panel">Filter By :</span>
-                    <div class="btn-group">
-                            <div class="btn-group">
-                                    <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" data-display="static">
-                                       Brand
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <div class="form-group input-group p-3">
-                                            <input type="text" class="form-control filter-search" id="searhInput" placeholder="Search Brand">
-                                            <div class="input-group-append">
-                                                    <button class="btn btn-clear" type="button">
-                                                        <i class="fas fa-times"></i>
-                                                    </button>
+            <div class="row head-page padding-none">
+                <h3>PAYMENT</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 payment-step ">
+                    <span class="step">1</span>
+                    <span class="head-step">shiping Address</span>
+                    <div class="row bg-grey payment-block mb-5">
+                        <p>Select a shipping address from your address book or
+                        enter a new address.</p>
+                    <div class="input-group my-2">
+                        <select class="custom-select border" id="inputGroupSelect01">
+                        <option selected>Address Adress ห้วยขวาง กรุงเทพ 10900</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        </select>
+                    </div>
+                    <div class="select-address">
+                            <div class="custom-control custom-radio m-1">
+                                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadio1">Billing to this address</label>
+                            </div>
+                            <div class="custom-control custom-radio m-1">
+                                    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadio2">Billing to different address</label>
+                            </div>
+                    </div>
+                        
+                    </div>
+                    <span class="head-step">comment</span>
+                        <div class="row bg-grey payment-block">
+                            <div class="col-sm">
+                                <p class="my-2">Service Suggestions</p>
+                                <div class="form-group">
+                                        <textarea class="form-control" id="FormControlTextarea1" rows="2"></textarea>
+                                </div>
+                            </div>
+                            
+                        </div>    
+                </div>
+                <div class="col-sm-4 payment-step">
+                    <span class="step">2</span>
+                    <span class="head-step">Review</span>
+                    <div class="row bg-grey payment-block">
+                            <div class="row list-pd">
+                                    <div class="col-sm-4 padding-none">
+                                            <img src="./assets/image/products/product-1.png" width="110" class="img-fluid" alt="Responsive image">
+                                        </div>
+                                        <div class="col-sm-8 product-det">
+                                            <p class="product-name">VIDORA Fabric L-SHAPE Sofa/Right-Grey</p>
+                                            <div class="row price">
+                                                <div class="col-sm-6">
+                                                    <span>19,900.00</span>
                                                 </div>
-                                        </div>
-                                        <div class="dropdown-divider"></div>
-                                        <div class="dropdown-item-wrap">
-                                            <a class="dropdown-item" href="#">Tablet</a>
-                                            <a class="dropdown-item" href="#">Smartphone</a>
-                                            <a class="dropdown-item" href="#">Tablet</a>
-                                            <a class="dropdown-item" href="#">Smartphone</a>
-                                            <a class="dropdown-item" href="#">Tablet</a>
-                                            <a class="dropdown-item" href="#">Smartphone</a>
-                                            <a class="dropdown-item" href="#">Tablet</a>
-                                            <a class="dropdown-item" href="#">Smartphone</a>
-                                            <a class="dropdown-item" href="#">Tablet</a>
-                                            <a class="dropdown-item" href="#">Smartphone</a>
-                                        </div>
-                                        <div class="dropdown-divider"></div>
-                                        <div class="px-3 dropdown-btn">
-                                            <button type="button" class="btn btn-search">Apply</button>
-                                            <button type="button" class="btn btn-cancel">Cancel</button>
-                                        </div>
-                                        
-                                    </div>
-                            </div>
-                            <div class="btn-group">
-                                    <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" data-display="static">
-                                       Price
-                                    </button>
-                                    <div class="dropdown-menu">
-                                            <div class="form-group input-group p-3">
-                                                <input type="text" class="form-control filter-search" id="searhInput" placeholder="Search Brand">
-                                                <div class="input-group-append">
-                                                        <button class="btn btn-clear" type="button">
-                                                            <i class="fas fa-times"></i>
-                                                        </button>
+                                                <div class="col-sm-6 text-right padding-none">
+                                                    <div class="row mr-3">
+                                                        <div class="col-sm-7"><span>Qty :</span></div>
+                                                        <input type="text" class="form-control col-sm-4 qt-input" value="1">
                                                     </div>
+                                                </div>
                                             </div>
-                                            <div class="dropdown-divider"></div>
-                                            <div class="dropdown-item-wrap">
-                                                <a class="dropdown-item" href="#">Tablet</a>
-                                                <a class="dropdown-item" href="#">Smartphone</a>
-                                                <a class="dropdown-item" href="#">Tablet</a>
-                                                <a class="dropdown-item" href="#">Smartphone</a>
-                                                <a class="dropdown-item" href="#">Tablet</a>
-                                                <a class="dropdown-item" href="#">Smartphone</a>
-                                                <a class="dropdown-item" href="#">Tablet</a>
-                                                <a class="dropdown-item" href="#">Smartphone</a>
-                                                <a class="dropdown-item" href="#">Tablet</a>
-                                                <a class="dropdown-item" href="#">Smartphone</a>
-                                            </div>
-                                            <div class="dropdown-divider"></div>
-                                            <div class="px-3 dropdown-btn">
-                                                <button type="button" class="btn btn-search">Apply</button>
-                                                <button type="button" class="btn btn-cancel">Cancel</button>
-                                            </div>
-                                            
                                         </div>
                             </div>
-                            <div class="btn-group">
-                              <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" data-display="static">
-                                 Set size
-                              </button>
-                              <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Tablet2</a>
-                                <a class="dropdown-item" href="#">Smartphone2</a>
-                              </div>
+                            <div class="row list-pd">
+                                    <div class="col-sm-4 padding-none">
+                                            <img src="./assets/image/products/product-1.png" width="110" class="img-fluid" alt="Responsive image">
+                                        </div>
+                                        <div class="col-sm-8 product-det">
+                                            <p class="product-name">VIDORA Fabric L-SHAPE Sofa/Right-Grey</p>
+                                            <div class="row price">
+                                                <div class="col-sm-6">
+                                                    <span>19,900.00</span>
+                                                </div>
+                                                <div class="col-sm-6 text-right padding-none">
+                                                    <div class="row mr-3">
+                                                        <div class="col-sm-7"><span>Qty :</span></div>
+                                                        <input type="text" class="form-control col-sm-4 qt-input" value="2">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                             </div>
-                            <div class="btn-group">
-                                    <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" data-display="static">
-                                        Materical
-                                    </button>
-                                    <div class="dropdown-menu">
-                                      <a class="dropdown-item" href="#">Tablet2</a>
-                                      <a class="dropdown-item" href="#">Smartphone2</a>
-                                    </div>
+                            <div class="clearfix"></div>
+                            <div class="payment-price">
+                                    <p class="my-3 subtotal">Subtotal<span class="text-right float-right">48,150.00.-</span></p>
+                                    <p class="subtotal dis">Discount  <span class="text-right float-right">-2,590.-</span></p>
+                                    <hr class="my-2">
+                                    <p class="dis my-3">ซื้อโซฟา VIDOEA แกมโต๊ะกลาง Mezzo   <span class="text-right float-right">-2,590.-</span></p>
+                                    <div class="clearfix"></div>
+                                    <p class="mt-2">Sihpping & Handlinggs</p>
+                                    <p class="mb-3">- ค่าบริการจัดส่งและติดตั้ง :  <span class="text-right float-right">0.00.-</span> </p>
+                                    <p class="subtotal my-3 total">Total (VAT incl.)<span class="text-right float-right"> 45,560.00.-</span></p>
+                                    <p class="mb-3 remark">The staff will call for the delivery date and installagain.</p>
+                                    <form>
+                                            <div class="form-row">
+                                              <div class="col-sm-10">
+                                                <label for="inputCode">Enter your coupoon code.</label>
+                                                <input type="text" class="form-control" placeholder="Enter your coupoon code.">
+                                              </div>
+                                              <div class="col-sm-2">
+                                                    <button type="button" class="btn btn-code">OK</button>
+                                              </div>
+                                            </div>
+                                          </form>
                             </div>
-                            <div class="btn-group">
-                                    <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" data-display="static">
-                                     Color
-                                    </button>
-                                    <div class="dropdown-menu">
-                                      <a class="dropdown-item" href="#">Tablet2</a>
-                                      <a class="dropdown-item" href="#">Smartphone2</a>
-                                    </div>
-                            </div>
-                          </div>
-                          <span class="more-filter">
-                              <a href="">
-                                  More Filter
-                              </a>
-                          </span>
+                            
+                    </div>
                 </div>
-                <div class="col-sm-3 filter-right">
-                    <span class="panel">sort by :</span>
-                    <div class="btn-group">
-                            <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" data-display="static">
-                                Relevance
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="#">Tablet2</a>
-                              <a class="dropdown-item" href="#">Smartphone2</a>
+                <div class="col-sm-4 payment-step">
+                    <span class="step">3</span>
+                    <span class="head-step">Payment</span>
+                    <div class="row bg-grey payment-block">
+
+                        <div class="col-sm-12 payment-select">
+                                <div class="custom-control custom-radio my-3 form-check-inline">
+                                        <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio3">Credit / Debit card</label>
+                                </div>
+                                <div class="custom-control custom-radio my-3 form-check-inline">
+                                        <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio4">Internet Banking</label>
+                                </div>
+                                <div class="custom-control custom-radio my-3 form-check-inline">
+                                        <input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio5">installment by credit card</label>
+                                </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <img src="./assets/image/icon/master-icon.png">
+                            <img src="./assets/image/icon/visa-icon.png">
+                            <img src="./assets/image/icon/jcb-icon.png">
+                        </div>
+                        <div class="col-sm padding-none mt-3">
+                            <div class="form-group">
+                                <label for="CardInput">Card Number</label>
+                                <input type="text" class="form-control" id="CardInput" placeholder="Card">
                             </div>
+                        </div> 
+                        <div class="col-sm padding-none mt-2">
+                                <div class="form-group">
+                                    <label for="CardInput">Name of card</label>
+                                    <input type="text" class="form-control" id="CardInput" placeholder="Full name">
+                                </div>
+                        </div>
+                        <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label><span class="hidden-xs">Expiration</span> </label>
+                                        <div class="form-inline">
+                                            <select class="form-control select-card" style="width:45%">
+                                              <option>MM</option>
+                                              <option>01 - Janiary</option>
+                                              <option>02 - February</option>
+                                              <option>03 - February</option>
+                                            </select>
+                                            <span style="width:10%; text-align: center"> </span>
+                                            <select class="form-control select-card" style="width:45%">
+                                              <option>YY</option>
+                                              <option>2018</option>
+                                              <option>2019</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label><span class="hidden-xs">Security code</span> </label>
+                                        <input class="form-control" required="" type="text">
+                                    </div> <!-- form-group.// -->
+                                </div>
+                            </div> 
+                        
+                        <div class="d-flex justify-content-center">
+                                <img src="./assets/image/icon/secured-icon.png">
+                        </div>
+                        <div class="col-sm my-3">
+                            <button type="button" class="btn btn-payment btn-block">Place Order</button>
+                        </div> 
+                            
                     </div>
                 </div>
             </div>
+                  
         </div>
     </div>
-    <div class="container">
-        <div class="row badge-filter">
-            <div class="col-sm-12">
-                    <a href="#" class="badge badge-light">เตียงนอน <i class="fas fa-times"></i></a>
-                    <a href="#" class="badge badge-light">beds <i class="fas fa-times"></i></a>
-                    <a href="#"><span class="clear">Clear all filters</span></a>
-            </div>
-        </div>     
-        <div class="row heading-List">
-            <div class="col-sm-11">
-                <h3>เตียงนอน 156 ผลิตภัณฑ์</h3>
-            </div>
-            <div class="col-sm-1 view-btn">
-                <a href="#"  id="list">
-                    <span><i class="fas fa-bars"></i></span>
-                </a>
-                <a href="#" id="grid">
-                    <span><i class="fas fa-th-large"></i></span>
-                </a>
-                
-            </div>
+    <div class="clearfix"></div>
+    <div class="container service padding-none">
+    <div class="dropdown-divider"></div>   
+      <div class="row my-5">
+        <div class="col-sm-3">
+            <img class="img-fluid" src="./assets/image/cart/service-1.jpg">
         </div>
-    </div>
-    <div class="container-fluid bg-grey">
-        <div class="container" id="products">
-            <div class="row">
-                <div class="col-sm-3 item">
-                    <div class="product-item">
-                        <div class="dont-miss">
-                            <img class="img-fluid" src="./assets/image/item-list-page/icon/dont-miss-icon.png">
-                        </div>
-                        <a href="#" class="like-item">
-                                <i class="far fa-heart"></i>
-                        </a>
-                        <img class="img-fluid" src="./assets/image/item-list-page/product-item1.png" alt="" />
-                        <div class="form-row">
-                            <button type="button" class="btn btn-order shadow-sm"><i class="fas fa-shopping-cart"></i> สั่งซื้อ</button>
-                        </div>
-                        <div class="product-det">
-                            <p class="item-name">เตียงนอน รุ่นเลคซิส ขนาด 5 ฟุต</p>
-                            <p class="promo-price">17,400.-
-                                <span class="old-price">20,990</span>
-                            </p>
-                        </div>
-                       
-                    </div>
-                </div>
-                <div class="col-sm-3 item">
-                        <div class="product-item">
-                                <a href="#" class="like-item">
-                                        <i class="far fa-heart"></i>
-                                </a>
-                                <img class="img-fluid" src="./assets/image/item-list-page/product-item2.png" alt="" />
-                                <div class="form-row">
-                                    <button type="button" class="btn btn-order shadow-sm"><i class="fas fa-shopping-cart"></i> สั่งซื้อ</button>
-                                </div>
-                                <div class="product-det">
-                                    <p class="item-name">เตียงนอน รุ่นมิสซูรี่ ขนาด 6 ฟุต - สีครีม</p>
-                                    <p class="item-price">12,590.-</p>
-                                </div>
-                               
-                            </div>
-                </div>
-                <div class="col-sm-3 item">
-                        <div class="product-item">
-                                <a href="#" class="like-item">
-                                        <i class="far fa-heart"></i>
-                                </a>
-                                <img class="img-fluid" src="./assets/image/item-list-page/product-item3.png" alt="" />
-                                <div class="form-row">
-                                    <button type="button" class="btn btn-order shadow-sm"><i class="fas fa-shopping-cart"></i> สั่งซื้อ</button>
-                                </div>
-                                <div class="product-det">
-                                    <p class="item-name">เตียงนอน รุ่นเลคซิส ขนาด 5 ฟุต</p>
-                                    <p class="promo-price">17,400.-
-                                        <span class="old-price">20,990</span>
-                                    </p>
-                                </div>
-                               
-                            </div>
-                </div>
-                <div class="col-sm-3 item">
-                        <div class="product-item">
-                                <a href="#" class="like-item">
-                                        <i class="far fa-heart"></i>
-                                </a>
-                                <img class="img-fluid" src="./assets/image/item-list-page/product-item4.png" alt="" />
-                                <div class="form-row">
-                                    <button type="button" class="btn btn-order shadow-sm"><i class="fas fa-shopping-cart"></i> สั่งซื้อ</button>
-                                </div>
-                                <div class="product-det">
-                                    <p class="item-name">เตียงนอน รุ่นเลคซิส ขนาด 5 ฟุต</p>
-                                    <p class="promo-price">17,400.-
-                                        <span class="old-price">20,990</span>
-                                    </p>
-                                </div>
-                               
-                            </div>
-                </div>
-                <div class="col-sm-3 item">
-                        <div class="product-item">
-                                <a href="#" class="like-item">
-                                        <i class="far fa-heart"></i>
-                                </a>
-                                <img class="img-fluid" src="./assets/image/item-list-page/product-item4.png" alt="" />
-                                <div class="form-row">
-                                    <button type="button" class="btn btn-order shadow-sm"><i class="fas fa-shopping-cart"></i> สั่งซื้อ</button>
-                                </div>
-                                <div class="product-det">
-                                    <p class="item-name">เตียงนอน รุ่นมิสซูรี่ ขนาด 6 ฟุต - สีครีม</p>
-                                    <p class="item-price">12,590.-</p>
-                                </div>
-                               
-                            </div>
-                    </div>
-                    <div class="col-sm-3 item">
-                            <div class="product-item">
-                                    <a href="#" class="like-item">
-                                            <i class="far fa-heart"></i>
-                                    </a>
-                                    <img class="img-fluid" src="./assets/image/item-list-page/product-item3.png" alt="" />
-                                    <div class="form-row">
-                                        <button type="button" class="btn btn-order shadow-sm"><i class="fas fa-shopping-cart"></i> สั่งซื้อ</button>
-                                    </div>
-                                    <div class="product-det">
-                                        <p class="item-name">เตียงนอน รุ่นมิสซูรี่ ขนาด 6 ฟุต - สีครีม</p>
-                                        <p class="item-price">12,590.-</p>
-                                    </div>
-                                   
-                                </div>
-                    </div>
-                    <div class="col-sm-3 item">
-                            <div class="product-item">
-                                    <a href="#" class="like-item">
-                                            <i class="far fa-heart"></i>
-                                    </a>
-                                    <img class="img-fluid" src="./assets/image/item-list-page/product-item2.png" alt="" />
-                                    <div class="form-row">
-                                        <button type="button" class="btn btn-order shadow-sm"><i class="fas fa-shopping-cart"></i> สั่งซื้อ</button>
-                                    </div>
-                                    <div class="product-det">
-                                        <p class="item-name">เตียงนอน รุ่นมิสซูรี่ ขนาด 6 ฟุต - สีครีม</p>
-                                        <p class="item-price">12,590.-</p>
-                                    </div>
-                                   
-                                </div>
-                    </div>
-                    <div class="col-sm-3 item">
-                            <div class="product-item">
-                                    <a href="#" class="like-item">
-                                            <i class="far fa-heart"></i>
-                                    </a>
-                                    <img class="img-fluid" src="./assets/image/item-list-page/product-item1.png" alt="" />
-                                    <div class="form-row">
-                                        <button type="button" class="btn btn-order shadow-sm"><i class="fas fa-shopping-cart"></i> สั่งซื้อ</button>
-                                    </div>
-                                    <div class="product-det">
-                                        <p class="item-name">เตียงนอน รุ่นเลคซิส ขนาด 5 ฟุต</p>
-                                        <p class="promo-price">17,400.-
-                                            <span class="old-price">20,990</span>
-                                        </p>
-                                    </div>
-                                   
-                                </div>
-                    </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                        <button type="button" class="btn btn-next-page block-center">Load Next Page </button>
-                </div>
-            </div>
-        </div>        
-    </div>
-    <div class="container">
-            <div class="row content-block">
-                <div class="col-sm-12">
-                    <h6>Revamp your bedroom with premium bed sheets</h6>
-                    <p id="text">Since bedrooms are usually least visited by guests, most people tend not to bother about their bedsheets. However, it is also true that there is nothing better than being tucked in bed with a comfortable bed sheet. Bed linen is the easiest way to give your room an instant seasonal makeover. The right bed sheets should be comfy, soft, and warm. In addition to the functional aspect, matching your bed sheet design to your bedroom dcor is also a great idea; it adds fun and detail to your room setup. From crisp whites to tangy colours, at Pepperfry, we have all that you need and more. A bed sheet elevates the look of the room in one too many ways. If you have walls that have pastel colours and you want to add some element of fun to the room, splash some colour on the bed sheets and make the room look beautiful. If you have funky colours on your walls then you should opt for more pastel colours. The good news is that Pepperfry has all the bedsheets that you can imagine. Whether in </p>
-                </div>       
-            </div>
-    </div>
-    <div class="container-fluid bg-grey">
-        <div class="row">
-                <div class="col-sm-12">
-                        <button type="button" id="toggle" class="btn btn-read-more block-center">Read less </button>
-                </div>
+        <div class="col-sm-3 text-center">
+            <img class="img-fluid" src="./assets/image/cart/service-2.jpg">
         </div>
+        <div class="col-sm-3 text-center">
+            <img class="img-fluid" src="./assets/image/cart/service-3.jpg">
+        </div>
+        <div class="col-sm-3 text-right">
+            <img class="img-fluid" src="./assets/image/cart/service-4.jpg">
+        </div>
+      </div>
     </div>
-        
-    <div class="container">
-            <div class="row">
-                    <div class="col-sm-12">
-                            <section class="logo-slider">
-                                    <div>
-                                        <img class="img-fluid" src="./assets/image/slide-logo-1.png">
-                                    </div>
-                                    <div>
-                                        <img class="img-fluid" src="./assets/image/slide-logo-2.png">
-                                    </div>
-                                    <div>
-                                        <img class="img-fluid" src="./assets/image/slide-logo-3.png">
-                                    </div>
-                                    <div>
-                                        <img class="img-fluid" src="./assets/image/slide-logo-1.png">
-                                    </div>
-                                    <div>
-                                        <img class="img-fluid" src="./assets/image/slide-logo-2.png">
-                                    </div>
-                                    <div>
-                                        <img class="img-fluid" src="./assets/image/slide-logo-3.png">
-                                    </div>
-                                    <div>
-                                        <img class="img-fluid" src="./assets/image/slide-logo-1.png">
-                                    </div>
-                                    <div>
-                                        <img class="img-fluid" src="./assets/image/slide-logo-2.png">
-                                    </div>
-                                    <div>
-                                        <img class="img-fluid" src="./assets/image/slide-logo-3.png">
-                                    </div>
-                            </section>
-                    </div>
-            </div>
-    </div>
+   
+
     
     <footer class="container-fluid padding-none">
       <div class="footer-wrap">

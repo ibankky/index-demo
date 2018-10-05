@@ -12,12 +12,12 @@
     5. e-catalog ~~[Bankky]
     6. joy card
     7. store location ~~[Bankky]
-    8. joy service ~~[Nay]
+    8. joy service & detail cms page ~~[Nay]
     9. design & build
     10. sign up ~~[Bankky]
     11. log in ~~[Bankky]
     12. forgot password ~~[Bankky]
-    13. wishlist feature products ~~[Nay working]
+    13. wishlist feature products ~~[Nay]
     14. product list ~~[Bankky]
     15. product detail ~~[Nay]
     16. my account ~~[Nay]
@@ -36,8 +36,8 @@
     24. franchise
     25. application form (franchise)
     26. project sales
-    27. career
-    28. news & event ~~[Nay Working]
+    27. career ~~[Nay Working]
+    28. news & event ~~[Nay]
     29. csr ~~[Nay]
     30. shopping cart ~~[Nay]
     31. shopping cart empty ~~[Nay]

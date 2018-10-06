@@ -2328,4 +2328,36 @@ header {
     border-radius: 0;
     background-color: #000; }
 
+#howtopayment .how-to-pay {
+  padding: 2em 0;
+  border: solid 1px #ccc; }
+  #howtopayment .how-to-pay img {
+    max-width: 90px;
+    margin-bottom: 1em; }
+#howtopayment .payment-content p {
+  color: #666666;
+  font-size: 0.8em;
+  line-height: 1.8;
+  margin: 0 0 2em 0; }
+#howtopayment .payment-content .credit-list {
+  color: #666666;
+  font-size: 0.8em; }
+  #howtopayment .payment-content .credit-list li {
+    line-height: 2; }
+  #howtopayment .payment-content .credit-list i {
+    font-size: 0.3rem;
+    padding-right: 0.5rem; }
+#howtopayment .bg-black {
+  background: #000;
+  padding: 2em 0 4em 3em;
+  color: #fff;
+  font-size: 0.8em;
+  line-height: 2; }
+  #howtopayment .bg-black .yellow {
+    color: #fdc30f; }
+    #howtopayment .bg-black .yellow a {
+      color: #cc3333; }
+  #howtopayment .bg-black .red {
+    color: #cc3333; }
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,84 @@
+#career {
+  .bg-white {
+    background-color: $white;
+  }
+
+  .bg-yellow {
+    background-color: $yellow;
+  }
+
+  .color-yellow {
+    color: $yellow;
+  }
+
+  .text-grey {
+    color: $grey-smoke;
+  }
+
+  .text-banner {
+    line-height: 20px;
+  }
+
+  .hero-banner {
+    max-height: 370px;
+    overflow: hidden;
+  }
+
+  .border-bold {
+    border-bottom: 5px solid !important;
+  }
+
+  .header {
+    &-yellow {
+      border-bottom: 5px solid $yellow;
+      color: $black;
+      font-weight: 500;
+      font-size: 18px;
+    }
+    &-grey {
+      border-bottom: 5px solid $grey-white;
+      color: $grey-smoke;
+      font-weight: 500;
+      font-size: 18px;
+    }
+    &-grey-dark {
+      border-bottom: 5px solid $grey-smoke;
+      color: $black;
+      font-weight: 500;
+      font-size: 18px;
+    }
+  }
+
+  .description {
+    text-align: center;
+    padding: 20px 0;
+    color: $grey-smoke;
+    line-height: 20px;
+
+    &:nth-child(odd) {
+      background: $grey-white;
+    }
+  }
+
+  .footer-banner {
+    height: 180px;
+    background-position: center center;
+    background-size: auto 180px;
+    background-repeat: no-repeat;
+  }
+
+  .subscribe {
+    top: calc(65% - 20px);
+
+    input {
+      border-color: $black;
+      border-radius: 0;
+    }
+
+    button {
+      border-color: $black;
+      border-radius: 0;
+      background-color: $black;
+    }
+  }
+}

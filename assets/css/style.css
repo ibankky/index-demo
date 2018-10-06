@@ -2139,12 +2139,14 @@ header {
   background-color: #fdc30f; }
 #news_events .description {
   line-height: 18px;
-  font-size: 14px; }
+  font-size: 15px;
+  font-weight: 500; }
 #news_events .readmore {
   background-color: #000;
   padding: 10px 50px;
-  font-size: 13px;
-  border-radius: 0; }
+  font-size: 14px;
+  border-radius: 0;
+  color: #fff; }
 #news_events .position-dimension {
   top: -40%;
   left: -3rem;
@@ -2158,20 +2160,21 @@ header {
   #news_events .newsList .topic {
     font-weight: bold;
     line-height: 20px;
-    font-size: 17px;
+    font-size: 16px;
     padding-bottom: 12px; }
   #news_events .newsList .description {
     font-size: 14px;
-    line-height: 22px; }
+    line-height: 22px;
+    color: #999; }
   #news_events .newsList .date {
     font-size: 12px;
-    color: #6b7d85;
+    color: #999;
     font-weight: 400; }
   #news_events .newsList .views {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 400;
-    color: #6b7d85; }
+    color: #999; }
     #news_events .newsList .views strong {
       color: #000; }
   #news_events .newsList .border-yellow {
@@ -2256,5 +2259,57 @@ header {
   z-index: 5; }
 #howtobuy .shiping-text {
   line-height: 6em; }
+
+#career .bg-white {
+  background-color: #fff; }
+#career .bg-yellow {
+  background-color: #fdc30f; }
+#career .color-yellow {
+  color: #fdc30f; }
+#career .text-grey {
+  color: #999; }
+#career .text-banner {
+  line-height: 20px; }
+#career .hero-banner {
+  max-height: 370px;
+  overflow: hidden; }
+#career .border-bold {
+  border-bottom: 5px solid !important; }
+#career .header-yellow {
+  border-bottom: 5px solid #fdc30f;
+  color: #000;
+  font-weight: 500;
+  font-size: 18px; }
+#career .header-grey {
+  border-bottom: 5px solid #f6f6f6;
+  color: #999;
+  font-weight: 500;
+  font-size: 18px; }
+#career .header-grey-dark {
+  border-bottom: 5px solid #999;
+  color: #000;
+  font-weight: 500;
+  font-size: 18px; }
+#career .description {
+  text-align: center;
+  padding: 20px 0;
+  color: #999;
+  line-height: 20px; }
+  #career .description:nth-child(odd) {
+    background: #f6f6f6; }
+#career .footer-banner {
+  height: 180px;
+  background-position: center center;
+  background-size: auto 180px;
+  background-repeat: no-repeat; }
+#career .subscribe {
+  top: calc(65% - 20px); }
+  #career .subscribe input {
+    border-color: #000;
+    border-radius: 0; }
+  #career .subscribe button {
+    border-color: #000;
+    border-radius: 0;
+    background-color: #000; }
 
 /*# sourceMappingURL=style.css.map */

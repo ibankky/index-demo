@@ -1,0 +1,61 @@
+#howtobuy{
+    .howto-block{
+        &:nth-child(2){
+            border-bottom:solid 1px #999999; 
+            border-right: solid 1px #999999;
+        }
+        &:nth-child(3){
+            border-bottom:solid 1px #999999; 
+        }
+        &:nth-child(4){
+            border-right: solid 1px #999999;
+            border-bottom:solid 1px #999999; 
+        }
+        &:nth-child(5){
+            border-bottom:solid 1px #999999; 
+        }
+        .how-to{
+            padding: 0  2em;
+            min-height: 12em;
+            
+        }
+    }
+    .how-to-navigate{
+        display: flex;
+        justify-content: center;
+        height: 180px;
+        padding: 0 3em;
+        .rounded-circle{
+            border-radius: 100%;
+            border:solid 3px $yellow;
+            width: 8em;
+            height: 8em;
+            line-height: 8em;
+            margin: 1em auto;
+            background: #fff;
+            z-index: 10;
+            img{
+                padding: 0 1.5em;
+                position: relative;
+                top: -0.5em;
+            }
+        }
+    }
+    .box {
+        width: 20%;
+        height: 50px;
+        text-align: center; 
+        color: #666666;
+        z-index: 99;
+      }
+    .hr-line{
+        border-top: solid 3px $yellow;
+        width: 85%;
+        position: relative;
+        top:-2em;
+        z-index: 5;
+    }  
+    .shiping-text{
+        line-height: 6em;
+    }
+}

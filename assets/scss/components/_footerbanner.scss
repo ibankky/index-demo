@@ -1,0 +1,21 @@
+.footer-banner {
+    height: 180px;
+    background-position: center center;
+    background-size: auto 180px;
+    background-repeat: no-repeat;
+  }
+
+  .subscribe {
+    top: calc(65% - 20px);
+
+    input {
+      border-color: $black;
+      border-radius: 0;
+    }
+
+    button {
+      border-color: $black;
+      border-radius: 0;
+      background-color: $black;
+    }
+  }

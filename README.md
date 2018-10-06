@@ -30,13 +30,13 @@
     18. how to payment
     19. shipping & delivery
     20. FAQs
-    21. who we are
+    21. who we are ~~[Nay Working]
     22. contact us
     23. 4 joy
-    24. franchise
+    24. franchise ~~[Nay Working]
     25. application form (franchise)
-    26. project sales
-    27. career ~~[Nay Working]
+    26. project sales ~~[Nay Working]
+    27. career ~~[Nay]
     28. news & event ~~[Nay]
     29. csr ~~[Nay]
     30. shopping cart ~~[Nay]

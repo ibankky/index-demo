@@ -951,6 +951,22 @@ header {
 .breadcrumb-item + .breadcrumb-item::before {
   content: ">"; }
 
+.footer-banner {
+  height: 180px;
+  background-position: center center;
+  background-size: auto 180px;
+  background-repeat: no-repeat; }
+
+.subscribe {
+  top: calc(65% - 20px); }
+  .subscribe input {
+    border-color: #000;
+    border-radius: 0; }
+  .subscribe button {
+    border-color: #000;
+    border-radius: 0;
+    background-color: #000; }
+
 .promotion-index .sec-title {
   text-transform: uppercase;
   margin: 1em 0 0.5em;

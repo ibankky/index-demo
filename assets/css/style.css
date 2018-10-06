@@ -2206,8 +2206,10 @@ header {
   font-weight: bold; }
 
 #csr .description {
-  font-weight: 100;
-  font-size: 14px; }
+  font-weight: 400;
+  font-size: 14px;
+  color: #999;
+  margin-top: 10px; }
 
 #news_events .bg-yellow {
   background-color: #fdc30f; }
@@ -2358,3 +2360,66 @@ header {
     border-color: #000;
     border-radius: 0;
     background-color: #000; }
+
+#franchise img {
+  border: 0; }
+
+#franchise .topic {
+  margin-top: 20px;
+  font-weight: bold; }
+
+#franchise .description {
+  font-weight: 400;
+  font-size: 14px;
+  color: #999; }
+
+#franchise h3 {
+  color: #fdc30f;
+  margin-top: 45px;
+  padding-top: 40px;
+  font-weight: 600;
+  font-size: 34px; }
+
+#franchise p {
+  color: #666;
+  padding: 0; }
+
+#franchise .lists {
+  font-weight: 100; }
+  #franchise .lists .topic {
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 18px; }
+  #franchise .lists .description {
+    font-size: 14px;
+    line-height: 22px;
+    color: #999; }
+  #franchise .lists .date {
+    font-size: 12px;
+    color: #999;
+    font-weight: 400; }
+  #franchise .lists .views {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    color: #999; }
+    #franchise .lists .views strong {
+      color: #000; }
+  #franchise .lists .border-yellow {
+    border-color: #fdc30f !important; }
+
+#franchise .left-menu {
+  background-color: #000;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  top: 150px;
+  left: -115px;
+  padding: 25px 80px; }
+
+#franchise .affix {
+  position: fixed;
+  top: 100px;
+  z-index: 99;
+  width: 200px; }

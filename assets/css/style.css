@@ -2359,5 +2359,47 @@ header {
       color: #cc3333; }
   #howtopayment .bg-black .red {
     color: #cc3333; }
+#howtopayment .head-desc {
+  color: #666666;
+  font-size: 0.8em; }
+
+#faq .faq-list {
+  margin-bottom: 3em;
+  padding-right: 5em; }
+  #faq .faq-list p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: #666666;
+    line-height: 1.8; }
+  #faq .faq-list hr {
+    float: left; }
+#faq .form-input {
+  background: #fafafa;
+  font-size: 0.9em;
+  color: #a1a1a1; }
+#faq .btn-search {
+  background: #fafafa;
+  border: 1px solid #ced4da;
+  border-left: none;
+  font-size: 0.9em;
+  color: #a1a1a1; }
+#faq .faq-link li {
+  padding: 1em 0;
+  border-bottom: solid 1px #ccc; }
+  #faq .faq-link li a {
+    color: #000; }
+  #faq .faq-link li img {
+    width: 40px;
+    margin-right: 1em; }
+#faq .faq-link .circle-icon {
+  float: right;
+  border: solid 1px #000;
+  border-radius: 100%;
+  width: 1.2em;
+  height: 1.2em;
+  line-height: 1.2;
+  text-align: center;
+  position: relative;
+  top: 0.7em; }
 
 /*# sourceMappingURL=style.css.map */

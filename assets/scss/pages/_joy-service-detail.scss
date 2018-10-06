@@ -1,0 +1,23 @@
+#joy-service-detail {
+  .bg-grey {
+    background-color: $black-choco;
+  }
+
+  .nav-links {
+    a {
+      border-left: 1px solid #eee;
+      color: $white;
+      font-size: 18px;
+      padding: 0 15px;
+      font-weight: 400;
+
+      &:first-child {
+        border: none;
+      }
+
+      &.active {
+        color: $yellow;
+      }
+    }
+  }
+}

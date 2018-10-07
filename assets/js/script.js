@@ -146,7 +146,7 @@ $(document).ready(function() {
         $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
     });
 
-    $(document).ready(function() {
+$(document).ready(function() {
         $("#toggle").click(function() {
           var elem = $("#toggle").text();
           if (elem == "Read More") {
@@ -160,8 +160,8 @@ $(document).ready(function() {
           }
         });
       });
-
-document.getElementById("showpass").addEventListener("click", function(e){
+$(document).ready(function() {
+        document.getElementById("showpass").addEventListener("click", function(e){
         var pwd = document.getElementById("InputPassword");
         if(pwd.getAttribute("type")=="password"){
             pwd.setAttribute("type","text");
@@ -169,3 +169,5 @@ document.getElementById("showpass").addEventListener("click", function(e){
             pwd.setAttribute("type","password");
         }
     });
+});    
+

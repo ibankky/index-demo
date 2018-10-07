@@ -2597,7 +2597,8 @@ header {
     font-weight: bold; }
   #question .answer-block p {
     font-size: 0.8em;
-    color: #666666; }
+    color: #666666;
+    line-height: 1.8; }
 
 #who-we-are .bg-grey {
   background-color: #56555A; }

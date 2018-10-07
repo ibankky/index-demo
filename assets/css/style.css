@@ -2659,3 +2659,123 @@ header {
     border: none; }
   #who-we-are .nav-links a.active {
     color: #fdc30f; }
+
+#project_sale a img {
+  border: 0; }
+
+#project_sale .text-grey {
+  color: #999; }
+
+#project_sale .text-banner {
+  line-height: 20px; }
+
+#project_sale .hero-banner {
+  height: 600px;
+  background-size: 100% auto;
+  background-repeat: no-repeat; }
+
+#project_sale .banner-text {
+  bottom: 0;
+  background-size: 100% auto;
+  background-repeat: no-repeat; }
+
+#project_sale .footer-banner {
+  height: 180px;
+  background-position: center center;
+  background-size: auto 180px;
+  background-repeat: no-repeat; }
+
+#project_sale .btn-contact {
+  padding: 13px 50px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500; }
+
+#project_sale .left-menu li {
+  list-style: none;
+  background-color: #999;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px 25px;
+  font-weight: 500;
+  width: 100%;
+  text-align: left;
+  font-size: 18px; }
+  #project_sale .left-menu li.btn {
+    border-radius: 0; }
+  #project_sale .left-menu li .arrow {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #fdc30f;
+    border-radius: 50%;
+    text-align: center;
+    color: #fdc30f;
+    line-height: 32px;
+    vertical-align: middle;
+    float: right;
+    margin-top: -3px; }
+    #project_sale .left-menu li .arrow i {
+      margin-left: 3px; }
+  #project_sale .left-menu li.active, #project_sale .left-menu li:hover {
+    background-color: #fdc30f;
+    color: #000; }
+  #project_sale .left-menu li:first-child {
+    background-color: #000;
+    color: #fdc30f; }
+
+#project_sale .sub-menu {
+  background-color: #e2e2e2; }
+  #project_sale .sub-menu li {
+    list-style: none;
+    padding: 15px 0;
+    color: #999;
+    cursor: pointer; }
+    #project_sale .sub-menu li.active {
+      color: #000;
+      font-weight: 500; }
+
+#project_sale .pagination select {
+  width: auto; }
+
+#project_sale .pagination a {
+  vertical-align: text-bottom;
+  padding: 0 7px 0 14px;
+  font-size: 14px;
+  color: #000; }
+  #project_sale .pagination a img {
+    border: 0; }
+  #project_sale .pagination a.arrow {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #fdc30f;
+    border-radius: 50%;
+    text-align: center;
+    color: #fdc30f;
+    margin-left: 10px;
+    line-height: 32px;
+    vertical-align: middle; }
+    #project_sale .pagination a.arrow.next {
+      padding-left: 10px; }
+    #project_sale .pagination a.arrow.prev {
+      padding-left: 5px; }
+    #project_sale .pagination a.arrow:hover {
+      border: 1px solid #6b7d85;
+      opacity: 0.7;
+      color: #6b7d85; }
+  #project_sale .pagination a:hover {
+    color: #6b7d85; }
+  #project_sale .pagination a:first-child {
+    margin-left: 5px; }
+  #project_sale .pagination a.active {
+    color: #fdc30f;
+    font-size: 20px; }
+
+#project_sale .subscribe {
+  top: calc(65% - 20px); }
+  #project_sale .subscribe input {
+    border-color: #000;
+    border-radius: 0; }
+  #project_sale .subscribe button {
+    border-color: #000;
+    border-radius: 0;
+    background-color: #000; }

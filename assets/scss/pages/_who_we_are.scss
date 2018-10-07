@@ -1,0 +1,102 @@
+#who-we-are {
+  .bg-grey {
+    background-color: $black-choco;
+  }
+
+  .bg-yellow-fulid {
+    background-color: $yellow;
+    height: 360px;
+    padding-top: 8%;
+  }
+
+  .border-white {
+    border-color: $white !important;
+    margin-top: -28px;
+    z-index: 1;
+  }
+
+  .border-black {
+    border-color: $black !important;
+  }
+
+  h4 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  ul.text-progress {
+    li {
+      font-weight: bold;
+      font-size: 22px;
+    }
+  }
+
+  .topic {
+    font-weight: 500;
+    color: $yellow;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 20px 0;
+  }
+
+  .timeline li {
+    width: 100%;
+  }
+
+  li {
+    .circle {
+      list-style: none;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background-color: $white;
+    }
+
+    &:first-child .circle {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background-color: $yellow;
+      border: 6px solid $white;
+    }
+  }
+
+  .page {
+    top: -90px;
+    font-size: 15px;
+  }
+
+  .img-left {
+    padding: 0 50px 60px 0 !important;
+  }
+
+  .img-center {
+    padding: 0 25px 0 !important;
+  }
+
+  .img-right {
+    padding: 0 0 0 50px !important;
+  }
+
+  .nav-links {
+    a {
+      border-left: 1px solid #eee;
+      color: $white;
+      font-size: 18px;
+      padding: 0 15px;
+      font-weight: 400;
+
+      &:first-child {
+        border: none;
+      }
+
+      &.active {
+        color: $yellow;
+      }
+    }
+  }
+}

@@ -12,6 +12,7 @@ $link-color: #f3641d;
 $grey-smoke: #999;
 $grey-ash: #666;
 $grey-white: #f6f6f6;
+$grey-snow: #e2e2e2;
 
 .txt-weight-light {
   font-weight: 100 !important;
@@ -21,6 +22,9 @@ $grey-white: #f6f6f6;
 }
 .txt-grey {
     color: $grey;
+}
+.txt-yellow {
+    color: $yellow;
 }
 .txt-darkblue {
     color: $dark-blue
@@ -47,4 +51,10 @@ $grey-white: #f6f6f6;
 }
 .bg-white {
     background: $white;
+}
+.bg-black {
+    background: $black;
+}
+.bg-yellow {
+  background-color: $yellow;
 }

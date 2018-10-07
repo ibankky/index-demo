@@ -1,0 +1,170 @@
+#project_sale {
+  a {
+    img { border: 0; }
+  }
+
+  .text-grey {
+    color: $grey-smoke;
+  }
+
+  .text-banner {
+    line-height: 20px;
+  }
+
+  .hero-banner {
+    height: 600px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+
+  .banner-text {
+    bottom: 0;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+
+  .footer-banner {
+    height: 180px;
+    background-position: center center;
+    background-size: auto 180px;
+    background-repeat: no-repeat;
+  }
+
+  .btn-contact {
+    padding: 13px 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .left-menu {
+    li {
+      list-style: none;
+      background-color: $grey-smoke;
+      color: $white;
+      cursor: pointer;
+      padding: 18px 25px;
+      font-weight: 500;
+      width: 100%;
+      text-align: left;
+      font-size: 18px;
+
+      &.btn {
+        border-radius: 0;
+      }
+
+      .arrow {
+        width: 32px;
+        height: 32px;
+        border: 1px solid $yellow;
+        border-radius: 50%;
+        text-align: center;
+        color: $yellow;
+        line-height: 32px;
+        vertical-align: middle;
+        float: right;
+        margin-top: -3px;
+
+        i {
+          margin-left: 3px;
+        }
+      }
+
+      &.active, &:hover {
+        background-color: $yellow;
+        color: $black;
+      }
+
+      &:first-child {
+        background-color: $black;
+        color: $yellow;
+      }
+    }
+  }
+
+  .sub-menu {
+    background-color: $grey-snow;
+    li {
+      list-style: none;
+      padding: 15px 0;
+      color: $grey-smoke;
+      cursor: pointer;
+
+      &.active {
+        color: $black;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .pagination {
+    select {
+      width: auto;
+    }
+
+    a {
+      vertical-align: text-bottom;
+      padding: 0 7px 0 14px;
+      font-size: 14px;
+      color: $black;
+
+      img {
+        border: 0;
+      }
+
+      &.arrow {
+        width: 32px;
+        height: 32px;
+        border: 1px solid $yellow;
+        border-radius: 50%;
+        text-align: center;
+        color: $yellow;
+        margin-left: 10px;
+        line-height: 32px;
+        vertical-align: middle;
+
+        &.next {
+          padding-left: 10px;
+        }
+
+        &.prev {
+          padding-left: 5px;
+        }
+
+        &:hover {
+          border: 1px solid $grey;
+          opacity: 0.7;
+          color: $grey;
+        }
+      }
+
+      &:hover {
+        color: $grey;
+      }
+
+      &:first-child {
+        margin-left: 5px;
+      }
+
+      &.active {
+        color: $yellow;
+        font-size: 20px;
+      }
+    }
+  }
+
+  .subscribe {
+    top: calc(65% - 20px);
+
+    input {
+      border-color: $black;
+      border-radius: 0;
+    }
+
+    button {
+      border-color: $black;
+      border-radius: 0;
+      background-color: $black;
+    }
+  }
+}

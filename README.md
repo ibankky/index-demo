@@ -26,18 +26,20 @@
         - my orders ~~[Nay]
         - wishlist ~~[Nay]
         - reward points ~~[Nay]
-    17. how to buy
-    18. how to payment
+    17. how to buy ~~[Bankky]
+    18. how to payment ~~[Bankky]
     19. shipping & delivery
-    20. FAQs
-    21. who we are ~~[Nay Working]
+    20. FAQs ~~[Bankky]
+    21. who we are ~~[Nay]
     22. contact us
     23. 4 joy
-    24. franchise ~~[Nay Working]
+    24. franchise ~~[Nay]
     25. application form (franchise)
-    26. project sales ~~[Nay Working]
+    26. project sales ~~[Nay]
+        26.1. project sales detail
     27. career ~~[Nay]
     28. news & event ~~[Nay]
+        28.1. news detail 
     29. csr ~~[Nay]
     30. shopping cart ~~[Nay]
     31. shopping cart empty ~~[Nay]

@@ -31,7 +31,7 @@
     19. shipping & delivery
     20. FAQs ~~[Bankky]
     21. who we are ~~[Nay]
-    22. contact us
+    22. contact us ~~[Bankky]
     23. 4 joy
     24. franchise ~~[Nay]
     25. application form (franchise)

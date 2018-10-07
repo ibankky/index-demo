@@ -1,0 +1,64 @@
+#contact-us{
+    .contact-content{
+        background: #f9f9f9;
+        padding: 3em 2em;
+        p{
+            color: #666;
+            font-size: 0.8em;
+            i{
+                padding-right: 0.5em;
+                font-size: 1.2em;
+            }
+            img{
+                padding-right: 1em;
+            }
+        }
+        .phone{
+            color: $yellow;
+            padding: 1em 0;
+            img {
+                padding-right: 1em;
+            }
+        }
+        
+    }
+    .list-block{
+        background: #000;
+        padding: 2em;
+        font-size: 0.8em;
+        p{
+            color: #fff;
+            line-height: 2;
+            font-weight: lighter;
+            i{
+                color: $yellow;
+                font-size: 0.5em;
+                padding-right: 1.5rem;
+            }
+        }
+        
+    }
+    .contact-form{
+        padding: 3em 0;
+        input[type=text],input[type=email]{
+            font-size: 0.9em;
+            height: calc(3.25rem + 2px);
+        }
+        textarea{
+            font-size: 0.9em;
+        }
+        .required{
+            color: #666;
+            font-size: 0.8em;
+            padding-bottom: 1em;
+        }
+        .btn-submit{
+            background: $yellow;
+            color: #000;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding: .5rem .75rem;
+        }
+    }
+}

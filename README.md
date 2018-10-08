@@ -28,7 +28,7 @@
         - reward points ~~[Nay]
     17. how to buy ~~[Bankky]
     18. how to payment ~~[Bankky]
-    19. shipping & delivery
+    19. shipping & deliver y~~[Bankky] (working)
     20. FAQs ~~[Bankky]
     21. who we are ~~[Nay]
     22. contact us ~~[Bankky]
@@ -44,7 +44,7 @@
     30. shopping cart ~~[Nay]
     31. shopping cart empty ~~[Nay]
     32. payment ~~[Bankky]
-    33. order complete
+    33. order complete ~~[Bankky] = thankyou page
     34. idea inspiration 
     35. idea inspiration list
     36. idea inspiration detail

@@ -10,10 +10,10 @@
     3. store promotion detail
     4. online promotion
     5. e-catalog ~~[Bankky]
-    6. joy card
+    6. joy card ~~[Bankky] 
     7. store location ~~[Bankky]
     8. joy service & detail cms page ~~[Nay]
-    9. design & build
+    9. design & build ~~[Nay]
     10. sign up ~~[Bankky]
     11. log in ~~[Bankky]
     12. forgot password ~~[Bankky]

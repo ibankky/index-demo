@@ -2769,4 +2769,69 @@ header {
     border-radius: 0;
     background-color: #000; }
 
+#delivery .text-banner {
+  padding: 5em 2.5em; }
+  #delivery .text-banner h4 {
+    font-size: 2rem; }
+    #delivery .text-banner h4 span {
+      display: block;
+      font-size: 3em; }
+#delivery .bg-yellow {
+  text-align: center;
+  padding: 0.5em 0;
+  color: #000;
+  font-weight: bold; }
+#delivery .delivery-row {
+  text-align: center;
+  padding: 1em 0;
+  vertical-align: middle; }
+  #delivery .delivery-row p {
+    font-size: 0.8em;
+    color: #666; }
+  #delivery .delivery-row .free {
+    background: #fdc30f;
+    display: inline-block;
+    border-radius: 100%;
+    width: 3em;
+    height: 3em;
+    line-height: 3;
+    color: #000; }
+  #delivery .delivery-row .line-height-3 {
+    line-height: 3; }
+#delivery .list-delivery {
+  font-size: 0.8em;
+  color: #666;
+  font-weight: lighter; }
+  #delivery .list-delivery li::before {
+    content: "\2022";
+    color: #fdc30f;
+    display: inline-block;
+    width: 0.8em;
+    line-height: 0.5;
+    font-size: 1.8rem;
+    position: relative;
+    top: 4px; }
+#delivery p.small-text {
+  font-size: 0.8em;
+  color: #666; }
+#delivery .delivery-form label {
+  color: #fdc30f;
+  min-height: 1.2em; }
+#delivery .delivery-form select {
+  color: #666; }
+#delivery .btn-cal {
+  background: #fdc30f;
+  color: #000;
+  text-align: center;
+  border-radius: 0; }
+#delivery .btn-cancle {
+  background: #000;
+  color: #fdc30f;
+  text-align: center;
+  border-radius: 0; }
+#delivery .deli-icon {
+  width: 150px;
+  margin: 0 auto;
+  display: block; }
+
 /*# sourceMappingURL=style.css.map */

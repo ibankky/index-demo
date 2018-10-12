@@ -62,14 +62,15 @@ $(function(){
   });
 
   $('.slider-nav').slick({
-    slidesToShow: 6,
+    slidesToShow: 4,
     slidesToScroll: 1,
     asNavFor: '.slider-for',
+    vertical: true,
     dots: false,
     arrows: true,
     centerMode: false,
-    prevArrow: "<i class=\"fas fa-chevron-left\" style=\"position: absolute; top: calc(50% - 15px); left: -15px; font-size: 35px; display: inline; color: #555;\"></i>",
-    nextArrow: "<i class=\"fas fa-chevron-right\" style=\"position: absolute; top: calc(50% - 15px); right: -15px; font-size: 35px; display: inline; color: #555;\"></i>",
+    prevArrow: "<i class=\"fas fa-chevron-left\" style=\"position: absolute; opacity: 0.8; top: -40px; left: 35px; font-size: 35px; transform: rotate(90deg); display: inline; color: #555;\"></i>",
+    nextArrow: "<i class=\"fas fa-chevron-right\" style=\"position: absolute;  opacity: 0.8; top: calc(100% - 5px); right: 38px; font-size: 35px; transform: rotate(90deg); display: inline; color: #555;\"></i>",
     focusOnSelect: true
   });
 });
@@ -169,5 +170,4 @@ $(document).ready(function() {
             pwd.setAttribute("type","password");
         }
     });
-});    
-
+});

@@ -14,6 +14,22 @@
     height: auto;
   }
 
+  .slider-nav {
+    padding-bottom: 5px;
+    
+    img {
+      border: 1px solid #ddd;
+    }
+
+    .slick-slide {
+      height: 54px;
+      margin-bottom: 5px;
+      outline: none;
+    }
+  }
+
+  .slider-nav { outline: none;}
+
   .width-100 {
     width: 100%;
   }
@@ -411,8 +427,6 @@
   .slide {
     .img-normal {
       max-width: 500px;
-      margin-top: 6%;
-      margin-left: 10%;
     }
 
     .slick-current {

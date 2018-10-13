@@ -126,6 +126,17 @@ $(document).ready(function() {
 
 });
 
+// popup looking for - pdp page
+$(document).ready(function() {
+  $(".js-looking").click(function() {
+    var checked = $(".js-looking").prop( "checked" );
+    if (checked === false)
+      $(".js-reason").slideDown();
+    else
+      $(".js-reason").slideUp();
+  });
+});
+
 $(document).ready(function() {
     $(".megamenu").on("click", function(e) {
         e.stopPropagation();

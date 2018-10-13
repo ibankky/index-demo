@@ -1287,7 +1287,7 @@ header {
   #pdp_page .bg-grey {
     background-color: #f1f1f1; }
   #pdp_page .bg-light-grey {
-    background-color: #f8f8fa; }
+    background-color: #f8f8f8; }
   #pdp_page .collapsing.width {
     -webkit-transition-property: width, visibility;
     transition-property: width, visibility;
@@ -1360,7 +1360,7 @@ header {
         margin-left: -5px;
         margin-right: 25px; }
   #pdp_page .text-offer {
-    color: #f16521; }
+    color: #f04723; }
   #pdp_page .bg-offer {
     background-color: #ff6d01; }
   #pdp_page .text-big {
@@ -1416,7 +1416,8 @@ header {
       margin-right: 5px; }
       #pdp_page .right-box .configurables .color img {
         max-width: 100%;
-        border: 1px solid; }
+        border: 1px solid;
+        cursor: pointer; }
     #pdp_page .right-box .configurables .other {
       width: 60px;
       display: inline-block;
@@ -1433,7 +1434,7 @@ header {
         text-align: center;
         height: 40px;
         padding: 0px 16px;
-        color: #969696;
+        color: #999;
         font-size: 16px; }
       #pdp_page .right-box .add-to-cart input[type="submit"] {
         background-color: #e75a16;
@@ -1444,10 +1445,77 @@ header {
   #pdp_page .tabb .btn {
     font-size: 13px !important;
     font-weight: 500; }
+  #pdp_page .modal {
+    /* Create a custom radio button */
+    /* On mouse-over, add a grey background color */
+    /* When the radio button is checked, add a blue background */
+    /* Create the indicator (the dot/circle - hidden when not checked) */
+    /* Show the indicator (dot/circle) when checked */
+    /* Style the indicator (dot/circle) */ }
+    #pdp_page .modal button[type="submit"] {
+      margin: 20px 0;
+      font-weight: 400;
+      border-radius: 0;
+      background-color: #f04723;
+      color: #fff;
+      font-size: 14px;
+      padding: 10px 15px; }
+    #pdp_page .modal .title {
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 10px; }
+    #pdp_page .modal img {
+      margin-right: 10px; }
+    #pdp_page .modal .modal-header {
+      border: none;
+      padding: 0; }
+      #pdp_page .modal .modal-header button {
+        margin-right: 0px;
+        outline: none; }
+    #pdp_page .modal .modal-content {
+      border-radius: 0;
+      border: none; }
+    #pdp_page .modal .modal-body input[type="radio"] {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+      cursor: pointer; }
+    #pdp_page .modal .reason-form {
+      display: none; }
+      #pdp_page .modal .reason-form select, #pdp_page .modal .reason-form textarea {
+        color: #999; }
+    #pdp_page .modal .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      background-color: #fff;
+      border-radius: 50%;
+      border: 1px solid #999; }
+    #pdp_page .modal .modal-body:hover input ~ .checkmark {
+      background-color: #fff; }
+    #pdp_page .modal .modal-body input:checked ~ .checkmark {
+      background-color: #fff; }
+    #pdp_page .modal .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none; }
+    #pdp_page .modal .modal-body input:checked ~ .checkmark:after {
+      display: block; }
+    #pdp_page .modal .modal-body .checkmark:after {
+      top: 5px;
+      left: 4.5px;
+      width: 13.5px;
+      height: 14px;
+      border-radius: 50%;
+      background: #f04723; }
   #pdp_page .wishlist {
     font-weight: 300; }
     #pdp_page .wishlist i.active {
-      color: #e75a16; }
+      color: #f04723; }
   #pdp_page .sold-out {
     position: absolute;
     background-color: #fff;
@@ -1458,7 +1526,7 @@ header {
     z-index: 9;
     padding-top: calc(60% - 20px);
     font-size: 18px;
-    color: #fe0000;
+    color: #f04723;
     box-sizing: border-box; }
   #pdp_page .guru {
     color: #1d3b48; }
@@ -1518,8 +1586,8 @@ header {
       height: 24px;
       line-height: 10px;
       width: 60px;
-      background-color: #F8F8F8;
-      border: 1px solid #e7ebed; }
+      background-color: #f8f8f8;
+      border: 1px solid #efede7; }
   #pdp_page .postcode {
     color: #1d3b48;
     line-height: 18px; }
@@ -1567,7 +1635,8 @@ header {
     color: #1d3b48;
     font-size: 14px;
     font-weight: 300;
-    line-height: 18px; }
+    line-height: 18px;
+    cursor: pointer; }
   #pdp_page .slide .img-normal {
     max-width: 500px; }
   #pdp_page .slide .slick-current .img-thumb {
@@ -1603,7 +1672,7 @@ header {
     border-radius: 0;
     border-color: #f1f1f1; }
     #pdp_page .news-product .new-arrivals.active {
-      border-color: #c4c4c4; }
+      border-color: #ddd; }
     #pdp_page .news-product .new-arrivals img {
       max-width: 50%;
       border: none; }
@@ -1631,7 +1700,7 @@ header {
         margin-left: 10px;
         color: #6b7d85; }
     #pdp_page .news-product .new-arrivals .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
-      background-color: #F06521; }
+      background-color: #f04723; }
     #pdp_page .news-product .new-arrivals .custom-control-label::before {
       width: 1.2rem;
       height: 1.2rem; }

@@ -29,6 +29,8 @@ $(function(){
         });
 
 });
+
+
 $(function(){
     $('.bestseller-slider').slick({
         infinite: false,
@@ -40,6 +42,19 @@ $(function(){
         });
 
 });
+
+$(function(){
+    $('.Store-slide').slick({
+        infinite: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: true,
+        prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fas fa-chevron-left'></i></button>",
+        nextArrow:"<button type='button' class='slick-next pull-right'><i class='fas fa-chevron-right'></i></button>"
+        });
+
+});
+
 $(function(){
     $('.logo-slider').slick({
         infinite: false,

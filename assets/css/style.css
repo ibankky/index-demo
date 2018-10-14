@@ -231,6 +231,18 @@ input[type=text]:focus {
 .bg-yellow {
   background-color: #fdc30f; }
 
+.bg-blue {
+  background: #77a2d5; }
+
+.bg-green {
+  background: #66c1b5; }
+
+.bg-red {
+  background: #ea503d; }
+
+.bg-organge {
+  background: #ffd474; }
+
 .img-effect {
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -3242,5 +3254,9 @@ header {
 
 .main-detail {
   border: solid 1px #d1d1d1; }
+
+.joy-block {
+  color: #fff;
+  font-size: 1.5em; }
 
 /*# sourceMappingURL=style.css.map */

@@ -34,7 +34,7 @@
     22. contact us ~~[Bankky]
     23. 4 joy [Bankky]
     24. franchise ~~[Nay]
-    25. application form (franchise)
+    25. application form (franchise) ~~[Bankky]
     26. project sales ~~[Nay]
         26.1. project sales detail
     27. career ~~[Nay]

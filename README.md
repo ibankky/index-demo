@@ -6,8 +6,8 @@
 ## Index All Page 
 
     1. index [header, footer] ~~[Bankky]
-    2. store promotion list
-    3. store promotion detail
+    2. store promotion list [Bankky]
+    3. store promotion detail [Bankky]
     4. online promotion
     5. e-catalog ~~[Bankky]
     6. joy card ~~[Bankky] 
@@ -28,11 +28,11 @@
         - reward points ~~[Nay]
     17. how to buy ~~[Bankky]
     18. how to payment ~~[Bankky]
-    19. shipping & deliver y~~[Bankky] (working)
+    19. shipping & deliver [Bankky]
     20. FAQs ~~[Bankky]
     21. who we are ~~[Nay]
     22. contact us ~~[Bankky]
-    23. 4 joy
+    23. 4 joy [Bankky]
     24. franchise ~~[Nay]
     25. application form (franchise)
     26. project sales ~~[Nay]

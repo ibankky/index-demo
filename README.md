@@ -8,7 +8,7 @@
     1. index [header, footer] ~~[Bankky]
     2. store promotion list [Bankky]
     3. store promotion detail [Bankky]
-    4. online promotion
+    4. online promotion ~~[Nay]
     5. e-catalog ~~[Bankky]
     6. joy card ~~[Bankky] 
     7. store location ~~[Bankky]
@@ -19,7 +19,7 @@
     12. forgot password ~~[Bankky]
     13. wishlist feature products ~~[Nay]
     14. product list ~~[Bankky]
-    15. product detail ~~[Nay] (working renew design)
+    15. product detail ~~[Nay]
     16. my account ~~[Nay]
         - information ~~[Nay]
         - address book ~~[Nay]
@@ -48,7 +48,7 @@
     34. idea inspiration 
     35. idea inspiration list
     36. idea inspiration detail
-    37. home service
+    37. home service ~~[Nay]
     38. register ~~[Bankky]
     39. register 2 ~~[Bankky]
     

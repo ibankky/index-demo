@@ -43,7 +43,7 @@ iframe {
 }
 
 .txt-white {
-    color: #fff;
+    color: $white;
 }
 .txt-link {
     color: $yellow;
@@ -71,15 +71,15 @@ iframe {
 .bg-yellow {
   background-color: $yellow;
 }
-.bg-blue{
+.bg-blue {
     background: #77a2d5;
 }
-.bg-green{
+.bg-green {
     background:#66c1b5
 }
-.bg-red{
+.bg-red {
     background: #ea503d;
 }
-.bg-organge{
+.bg-organge {
     background :#ffd474
 }

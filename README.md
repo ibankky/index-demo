@@ -45,9 +45,9 @@
     31. shopping cart empty ~~[Nay]
     32. payment ~~[Bankky]
     33. order complete ~~[Bankky] = thankyou page
-    34. idea inspiration 
-    35. idea inspiration list
-    36. idea inspiration detail
+    34. idea inspiration detail ~~[Bankky]
+    35. idea inspiration list ~~[Nay]
+    36. idea inspiration detail 2 ~~[Nay]
     37. home service ~~[Nay]
     38. register ~~[Bankky]
     39. register 2 ~~[Bankky]

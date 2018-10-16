@@ -3584,3 +3584,112 @@ header {
     color: #fdc30f;
     font-size: 3rem;
     font-weight: 500; }
+
+#inspiration-list .bg-grey {
+  background-color: #f4f4f4; }
+  #inspiration-list .bg-grey-dark {
+    background-color: #89888d; }
+
+#inspiration-list .text-banner {
+  padding: 80px 140px;
+  background-color: #000;
+  opacity: 0.7;
+  color: #fff;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  top: calc(50% - 120px);
+  width: 50%;
+  left: 25%; }
+
+#inspiration-list .thumb-ideas {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  box-sizing: border-box;
+  box-shadow: 0 0 5px #ddd; }
+  #inspiration-list .thumb-ideas .list {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-left: 1px solid #eee;
+    box-sizing: border-box; }
+    #inspiration-list .thumb-ideas .list .title {
+      font-size: 0.78rem;
+      margin-top: 10px;
+      line-height: 16px; }
+
+#inspiration-list .sub-banner {
+  color: #fff; }
+  #inspiration-list .sub-banner h2 {
+    padding-bottom: 15px;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    text-align: center; }
+  #inspiration-list .sub-banner .text {
+    text-align: center;
+    font-size: 1.7rem; }
+
+#inspiration-list .idea-lists .calendar {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 5px 0;
+  border: 1px solid #eee;
+  max-width: 75%;
+  font-weight: 500;
+  line-height: 2rem; }
+  #inspiration-list .idea-lists .calendar span {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #6b7d85; }
+
+#inspiration-list .idea-lists .view {
+  font-size: 1.1rem;
+  color: #6b7d85;
+  margin-top: -5px; }
+
+#inspiration-list .idea-lists .topic {
+  font-size: 1.3rem;
+  line-height: 1.45rem;
+  padding-bottom: 5px;
+  font-weight: 500; }
+
+#inspiration-list .idea-lists .desc {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  padding-bottom: 5px; }
+
+#inspiration-list .idea-lists .read-more a {
+  font-size: 1.1rem;
+  color: #6b7d85; }
+
+#inspiration-list .idea-lists .btn {
+  border-radius: 0;
+  font-size: 1.2rem; }
+
+#inspiration-list .garden-lists {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 15px; }
+  #inspiration-list .garden-lists .list {
+    box-shadow: 0 0 5px #ddd;
+    background-color: #fff;
+    display: grid; }
+    #inspiration-list .garden-lists .list .title {
+      order: 1;
+      display: grid;
+      align-content: center;
+      font-weight: 400;
+      font-size: 1rem;
+      min-height: 80px;
+      padding: 10px;
+      box-sizing: border-box; }
+    #inspiration-list .garden-lists .list .img {
+      order: 2; }
+    #inspiration-list .garden-lists .list:nth-child(odd) .title {
+      order: 2 !important; }
+    #inspiration-list .garden-lists .list:nth-child(odd) .img {
+      order: 1 !important; }

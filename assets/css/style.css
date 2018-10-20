@@ -3416,9 +3416,6 @@ header {
     font-size: 3rem;
     font-weight: 500; }
 
-<<<<<<< HEAD
-/*# sourceMappingURL=style.css.map */
-=======
 #inspiration-list .bg-grey {
   background-color: #f4f4f4; }
   #inspiration-list .bg-grey-dark {
@@ -3527,4 +3524,3 @@ header {
       order: 2 !important; }
     #inspiration-list .garden-lists .list:nth-child(odd) .img {
       order: 1 !important; }
->>>>>>> 30388cf33a20293418563af251d99da20f6934d1

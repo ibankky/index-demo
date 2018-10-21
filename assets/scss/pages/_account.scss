@@ -1,41 +1,46 @@
 #account {
-  ul.menu {
-    padding: 0;
-    margin: 0;
-    text-transform: uppercase;
-    background-color: $white;
-    font-size: 18px;
 
-    li {
-      list-style: none;
-      padding: 12px 40px;
-      border-color: $grey-fade;
-      height: 52px;
-      cursor: pointer;
+  .wrapper-menu {
+    padding-right: 1.3vw !important;
 
-      &:first-child {
-        padding: 13px 15px;
-        i {
-          margin-top: -1px
+    ul.menu {
+      padding: 0;
+      margin: 0;
+      text-transform: uppercase;
+      background-color: $white;
+      font-size: 1.4vw;
+
+      li {
+        list-style: none;
+        padding: 12px 0 12px 50px;
+        border-color: $grey-fade !important;
+        // height: 52px;
+        cursor: pointer;
+
+        &:first-child {
+          padding: 13px 15px;
+          i {
+            margin-top: -1px
+          }
         }
-      }
 
-      &.active, &:hover {
-        background: $yellow;
+        &.active, &:hover {
+          background: $yellow;
+
+          a {
+            color: $white;
+          }
+        }
 
         a {
-          color: $white;
+          color: $black;
         }
-      }
 
-      a {
-        color: $black;
-      }
-
-      i {
-        font-size: 29px;
-        vertical-align: middle;
-        margin-right: 10px;
+        i {
+          font-size: 28px;
+          vertical-align: middle;
+          margin-right: 10px;
+        }
       }
     }
   }
@@ -48,7 +53,7 @@
     }
     .upper {
       text-transform: uppercase;
-      color: $grey;
+      color: $grey-ash;
     }
 
     .change-password {
@@ -57,8 +62,168 @@
     }
 
     .address-book {
+
       small {
-        color: #89888d;
+        color: $grey-ash;
+      }
+    }
+
+    .btn {
+      border-radius: 0;
+    }
+
+    input, select {
+      border-radius: 0;
+    }
+  }
+}
+
+@include tablet {
+  #account {
+    .wrapper-menu {
+      ul.menu {
+        li {
+          padding: 12px 0px 12px 37px;
+          font-size: 2vw;
+          font-weight: 500;
+
+          &:first-child {
+            padding: 13px 10px;
+            i {
+              margin-top: -1px
+            }
+          }
+
+          i {
+            font-size: 24px;
+            vertical-align: middle;
+            margin-right: 6px;
+          }
+        }
+      }
+    }
+
+    .description {
+      font-size: 1.8vw;
+      font-weight: 500;
+
+      p {
+        line-height: 2.2vw;
+      }
+
+      h3 {
+        font-size: 3.5vw;
+      }
+
+      h5 {
+        font-size: 2.2vw;
+        margin-bottom: 0;
+
+        .btn {
+          font-size: 1.4vw;
+          margin-top: -5px;
+        }
+      }
+
+      form {
+        .btn {
+          max-width: 100%;
+          padding-left: 5vw !important;
+          padding-right: 5vw !important;
+          font-size: 2vw;
+          font-weight: 500;
+        }
+      }
+
+      .change-password {
+        line-height: 4vw;
+        margin-left: 7.5vw;
+        font-size: 1.7vw;
+      }
+
+      label {
+        margin-bottom: 0.2rem;
+      }
+
+      input, select {
+        font-size: 1.8vw;
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+
+      .form-group {
+        padding-right: 8px;
+        margin-bottom: 10px;
+
+        &:nth-child(even) {
+          padding-left: 8px;
+          padding-right: 15px;
+        }
+
+        select {
+          padding-left: 7px;
+          padding-right: 7px;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+        }
+      }
+
+      .form-revert {
+        padding-left: 15px !important;
+        padding-right: 8px !important;
+
+        &:nth-child(odd) {
+          padding-left: 8px !important;
+          padding-right: 15px !important;
+        }
+      }
+
+      .px-default {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+    }
+
+    .address-book {
+      .address {
+        padding-right: 7px;
+        line-height: 2vw;
+        &:nth-child(even) {
+          padding-left: 7px;
+          padding-right: 15px;
+        }
+      }
+
+      h6 {
+        font-size: 1.7vw;
+      }
+
+      .bg-grey {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+
+    .tbl-container {
+      @include tbl-container;
+    }
+
+    .bg-gray-dark {
+      padding: 10px 10px 5px !important;
+      margin-top: 5px;
+      label {
+        margin-bottom: 0rem;
+      }
+    }
+
+    .custom-control {
+      min-height: 1rem;
+    }
+
+    .custom-control-label {
+      &::before {
+        top: 0;
       }
     }
   }

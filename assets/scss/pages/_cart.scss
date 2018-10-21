@@ -152,8 +152,7 @@
     }
 
     .tbl-container {
-      max-width: 90vw;
-      padding: 0;
+      @include tbl-container;
     }
   }
 }

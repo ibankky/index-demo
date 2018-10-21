@@ -6,3 +6,8 @@ $screen-max: 1024px;  /* Medium screen max / desktop */
     @content;
   }
 }
+
+@mixin tbl-container {
+  max-width: 94vw;
+  padding: 0;
+}

@@ -1351,7 +1351,7 @@ header {
   #cart_page .tbl-lists-sub {
     padding: 0; }
   #cart_page .tbl-container {
-    max-width: 90vw;
+    max-width: 94vw;
     padding: 0; } }
 
 #pdp_page {
@@ -2462,32 +2462,33 @@ header {
       font-size: 1.8vw;
       padding: 0 5px !important; } }
 
-#account ul.menu {
-  padding: 0;
-  margin: 0;
-  text-transform: uppercase;
-  background-color: #fff;
-  font-size: 18px; }
-  #account ul.menu li {
-    list-style: none;
-    padding: 12px 40px;
-    border-color: #f1f1f2;
-    height: 52px;
-    cursor: pointer; }
-    #account ul.menu li:first-child {
-      padding: 13px 15px; }
-      #account ul.menu li:first-child i {
-        margin-top: -1px; }
-    #account ul.menu li.active, #account ul.menu li:hover {
-      background: #fdc30f; }
-      #account ul.menu li.active a, #account ul.menu li:hover a {
-        color: #fff; }
-    #account ul.menu li a {
-      color: #000; }
-    #account ul.menu li i {
-      font-size: 29px;
-      vertical-align: middle;
-      margin-right: 10px; }
+#account .wrapper-menu {
+  padding-right: 1.3vw !important; }
+  #account .wrapper-menu ul.menu {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    background-color: #fff;
+    font-size: 1.4vw; }
+    #account .wrapper-menu ul.menu li {
+      list-style: none;
+      padding: 12px 0 12px 50px;
+      border-color: #f1f1f2 !important;
+      cursor: pointer; }
+      #account .wrapper-menu ul.menu li:first-child {
+        padding: 13px 15px; }
+        #account .wrapper-menu ul.menu li:first-child i {
+          margin-top: -1px; }
+      #account .wrapper-menu ul.menu li.active, #account .wrapper-menu ul.menu li:hover {
+        background: #fdc30f; }
+        #account .wrapper-menu ul.menu li.active a, #account .wrapper-menu ul.menu li:hover a {
+          color: #fff; }
+      #account .wrapper-menu ul.menu li a {
+        color: #000; }
+      #account .wrapper-menu ul.menu li i {
+        font-size: 28px;
+        vertical-align: middle;
+        margin-right: 10px; }
 
 #account .description {
   min-height: 360px; }
@@ -2495,12 +2496,103 @@ header {
     margin-bottom: 10px; }
   #account .description .upper {
     text-transform: uppercase;
-    color: #6b7d85; }
+    color: #666; }
   #account .description .change-password {
     margin-left: 66px;
     font-size: 14px; }
   #account .description .address-book small {
-    color: #89888d; }
+    color: #666; }
+  #account .description .btn {
+    border-radius: 0; }
+  #account .description input, #account .description select {
+    border-radius: 0; }
+
+@media (min-width: 640px) and (max-width: 1024px) {
+  #account .wrapper-menu ul.menu li {
+    padding: 12px 0px 12px 37px;
+    font-size: 2vw;
+    font-weight: 500; }
+    #account .wrapper-menu ul.menu li:first-child {
+      padding: 13px 10px; }
+      #account .wrapper-menu ul.menu li:first-child i {
+        margin-top: -1px; }
+    #account .wrapper-menu ul.menu li i {
+      font-size: 24px;
+      vertical-align: middle;
+      margin-right: 6px; }
+  #account .description {
+    font-size: 1.8vw;
+    font-weight: 500; }
+    #account .description p {
+      line-height: 2.2vw; }
+    #account .description h3 {
+      font-size: 3.5vw; }
+    #account .description h5 {
+      font-size: 2.2vw;
+      margin-bottom: 0; }
+      #account .description h5 .btn {
+        font-size: 1.4vw;
+        margin-top: -5px; }
+    #account .description form .btn {
+      max-width: 100%;
+      padding-left: 5vw !important;
+      padding-right: 5vw !important;
+      font-size: 2vw;
+      font-weight: 500; }
+    #account .description .change-password {
+      line-height: 4vw;
+      margin-left: 7.5vw;
+      font-size: 1.7vw; }
+    #account .description label {
+      margin-bottom: 0.2rem; }
+    #account .description input, #account .description select {
+      font-size: 1.8vw;
+      padding-top: 0px;
+      padding-bottom: 0px; }
+    #account .description .form-group {
+      padding-right: 8px;
+      margin-bottom: 10px; }
+      #account .description .form-group:nth-child(even) {
+        padding-left: 8px;
+        padding-right: 15px; }
+      #account .description .form-group select {
+        padding-left: 7px;
+        padding-right: 7px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none; }
+    #account .description .form-revert {
+      padding-left: 15px !important;
+      padding-right: 8px !important; }
+      #account .description .form-revert:nth-child(odd) {
+        padding-left: 8px !important;
+        padding-right: 15px !important; }
+    #account .description .px-default {
+      padding-left: 15px !important;
+      padding-right: 15px !important; }
+  #account .address-book .address {
+    padding-right: 7px;
+    line-height: 2vw; }
+    #account .address-book .address:nth-child(even) {
+      padding-left: 7px;
+      padding-right: 15px; }
+  #account .address-book h6 {
+    font-size: 1.7vw; }
+  #account .address-book .bg-grey {
+    padding-left: 10px;
+    padding-right: 10px; }
+  #account .tbl-container {
+    max-width: 94vw;
+    padding: 0; }
+  #account .bg-gray-dark {
+    padding: 10px 10px 5px !important;
+    margin-top: 5px; }
+    #account .bg-gray-dark label {
+      margin-bottom: 0rem; }
+  #account .custom-control {
+    min-height: 1rem; }
+  #account .custom-control-label::before {
+    top: 0; } }
 
 .payment-tab {
   border-top: solid 1px #c4c4c6;

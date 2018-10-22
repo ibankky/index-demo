@@ -5,6 +5,12 @@
 
   iframe {
     border: 0;
+    &.hero-video {
+      height: 450px;
+    }
+    &.sub-video {
+      height: 210px;
+    }
   }
 
   .description {
@@ -21,6 +27,12 @@
 
   .progress-services {
     font-size: 18px;
+
+    h1 {
+      strong {
+        color: $yellow;
+      }
+    }
 
     .process {
       top: -53px;
@@ -83,7 +95,7 @@
       margin-bottom: 10px;
 
       &:before {
-        content: "- "; 
+        content: "- ";
         margin-left: -13px;
       }
     }
@@ -98,6 +110,122 @@
       color: $yellow;
       font-size: 36px;
       font-weight: 400;
+    }
+  }
+}
+
+@include tablet {
+  #design_build {
+    .tbl-container {
+      @include tbl-container;
+    }
+
+    .our-services {
+      font-size: 2.1vw;
+      padding-top: 4vw !important;
+      padding-bottom: 4vw !important;
+
+      .description {
+        color: $white;
+        border-color: $grey-ash !important;
+      }
+
+      h3 {
+        font-size: 2.4vw;
+        margin-bottom: -15px;
+      }
+
+      .logo {
+        img {
+          width: 80%;
+          height: auto;
+        }
+      }
+
+      img {
+        width: 45%;
+        height: auto;
+      }
+    }
+
+    iframe {
+      border: 0;
+      &.hero-video {
+        height: 40vw;
+      }
+      &.sub-video {
+        height: 18.9vw;
+        width: 100%;
+        margin-left: 0.3vw;
+
+        &:nth-child(odd) {
+          margin-bottom: -16px;
+        }
+      }
+    }
+
+    .progress-services {
+      h1 { font-size: 4vw; font-weight: 500; }
+      h2 { font-size: 3vw; margin-bottom: 4vw !important; font-weight: 400; }
+      .process {
+        font-size: 1.8vw;
+        margin-bottom: -4.8vw !important;
+
+        .circle {
+          width: 70px;
+          height: 70px;
+          line-height: 50px;
+          font-size: 3.5vw;
+        }
+      }
+
+      .border-dash {
+        margin-top: 1.7rem !important;
+        margin-bottom: 1rem;
+      }
+
+      .tabb {
+        font-size: 0.8rem;
+        line-height: 3.5vw;
+      }
+    }
+
+    .payment {
+      h2 {
+        font-size: 4vw;
+        font-weight: 500;
+        margin-bottom: 4.5vw !important;
+      }
+
+      .process {
+        top: -35px;
+
+        .image {
+          margin-bottom: 40px;
+        }
+
+        .topic {
+          font-size: 2.5vw;
+        }
+
+        ul li {
+          font-size: 2vw;
+          font-weight: 500;
+        }
+
+        img {
+          width: 75%;
+        }
+      }
+    }
+
+    .contact {
+      font-size: 2.5vw;
+      line-height: 4.5vw;
+
+      strong {
+        font-size: 3vw;
+      }
     }
   }
 }

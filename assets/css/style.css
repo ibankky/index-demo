@@ -3544,6 +3544,10 @@ header {
 
 #design_build iframe {
   border: 0; }
+  #design_build iframe.hero-video {
+    height: 450px; }
+  #design_build iframe.sub-video {
+    height: 210px; }
 
 #design_build .description img {
   width: 100%;
@@ -3555,6 +3559,8 @@ header {
 
 #design_build .progress-services {
   font-size: 18px; }
+  #design_build .progress-services h1 strong {
+    color: #fdc30f; }
   #design_build .progress-services .process {
     top: -53px;
     text-align: center;
@@ -3613,6 +3619,78 @@ header {
     color: #fdc30f;
     font-size: 36px;
     font-weight: 400; }
+
+@media (min-width: 640px) and (max-width: 1024px) {
+  #design_build .tbl-container {
+    max-width: 94vw;
+    padding: 0; }
+  #design_build .our-services {
+    font-size: 2.1vw;
+    padding-top: 4vw !important;
+    padding-bottom: 4vw !important; }
+    #design_build .our-services .description {
+      color: #fff;
+      border-color: #666 !important; }
+    #design_build .our-services h3 {
+      font-size: 2.4vw;
+      margin-bottom: -15px; }
+    #design_build .our-services .logo img {
+      width: 80%;
+      height: auto; }
+    #design_build .our-services img {
+      width: 45%;
+      height: auto; }
+  #design_build iframe {
+    border: 0; }
+    #design_build iframe.hero-video {
+      height: 40vw; }
+    #design_build iframe.sub-video {
+      height: 18.9vw;
+      width: 100%;
+      margin-left: 0.3vw; }
+      #design_build iframe.sub-video:nth-child(odd) {
+        margin-bottom: -16px; }
+  #design_build .progress-services h1 {
+    font-size: 4vw;
+    font-weight: 500; }
+  #design_build .progress-services h2 {
+    font-size: 3vw;
+    margin-bottom: 4vw !important;
+    font-weight: 400; }
+  #design_build .progress-services .process {
+    font-size: 1.8vw;
+    margin-bottom: -4.8vw !important; }
+    #design_build .progress-services .process .circle {
+      width: 70px;
+      height: 70px;
+      line-height: 50px;
+      font-size: 3.5vw; }
+  #design_build .progress-services .border-dash {
+    margin-top: 1.7rem !important;
+    margin-bottom: 1rem; }
+  #design_build .progress-services .tabb {
+    font-size: 0.8rem;
+    line-height: 3.5vw; }
+  #design_build .payment h2 {
+    font-size: 4vw;
+    font-weight: 500;
+    margin-bottom: 4.5vw !important; }
+  #design_build .payment .process {
+    top: -35px; }
+    #design_build .payment .process .image {
+      margin-bottom: 40px; }
+    #design_build .payment .process .topic {
+      font-size: 2.5vw; }
+    #design_build .payment .process ul li {
+      font-size: 2vw;
+      font-weight: 500; }
+    #design_build .payment .process img {
+      width: 75%; }
+  #design_build .contact {
+    font-size: 2.5vw;
+    line-height: 4.5vw; }
+    #design_build .contact strong {
+      font-size: 3vw; } }
 
 .store-item {
   font-size: 2em; }

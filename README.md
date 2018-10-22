@@ -17,7 +17,7 @@
     10. sign up ~~[Bankky]
     11. log in ~~[Bankky]
     12. forgot password ~~[Bankky]
-    13. wishlist feature products ~~[Nay]
+    13. wishlist feature products ~~[Nay][Tablet]
     14. product list ~~[Bankky]
     15. product detail ~~[Nay]
     16. my account ~~[Nay][Tablet]

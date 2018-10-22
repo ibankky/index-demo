@@ -8,7 +8,7 @@
     1. index [header, footer] ~~[Bankky]
     2. store promotion list [Bankky]
     3. store promotion detail [Bankky]
-    4. online promotion ~~[Nay][Tablet]
+    4. online promotion ~~[Nay]
     5. e-catalog ~~[Bankky]
     6. joy card ~~[Bankky] 
     7. store location ~~[Bankky]

@@ -37,8 +37,8 @@
     25. application form (franchise) ~~[Bankky]
     26. project sales ~~[Nay][Tablet]
         26.1. project sales detail
-    27. career ~~[Nay]
-    28. news & event ~~[Nay]
+    27. career ~~[Nay][Tablet]
+    28. news & event ~~[Nay][Tablet]
         28.1. news detail 
     29. csr ~~[Nay]
     30. shopping cart ~~[Nay][Tablet]

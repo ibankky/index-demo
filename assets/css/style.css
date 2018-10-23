@@ -898,6 +898,17 @@ header {
     header .carousel-indicators .active {
       background-color: #1d3b48; }
 
+@media only screen and (max-width: 768px) {
+  .navbar {
+    font-size: 0.9em; }
+    .navbar .navbar-nav {
+      font-size: 0.8em; }
+
+  header .nav-logo {
+    width: 80px; }
+
+  header .search-form {
+    width: 120px; } }
 .footer-wrap {
   border-top: 1px solid #e7ebed;
   background: #f4f5f7;
@@ -965,6 +976,12 @@ header {
     padding-top: 1em;
     padding-bottom: 1em; }
 
+@media only screen and (max-width: 768px) {
+  .footer-wrap .btm-footer .btm-link {
+    padding: 1em 0; }
+
+  .footer-wrap .footer-top {
+    font-size: 0.9em; } }
 .breadcrumb {
   background: none;
   font-weight: lighter;
@@ -2067,6 +2084,9 @@ header {
     outline: 0;
     box-shadow: none; }
 
+@media only screen and (max-width: 768px) {
+  .log-in .log-in-head {
+    font-size: 1.6em; } }
 .main-ecatalog {
   padding: 0.5em 0; }
   .main-ecatalog .main-ecat-block {

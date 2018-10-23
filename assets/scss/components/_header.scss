@@ -386,3 +386,20 @@ header{
     
 
 }
+
+@media only screen and (max-width: 768px) {
+
+    .navbar{
+        font-size: 0.9em;
+        .navbar-nav{
+            font-size: 0.8em;
+        }
+    }
+    header .nav-logo{
+        width: 80px;
+    }
+    header .search-form{
+        width: 120px;
+    }
+    
+}

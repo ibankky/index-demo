@@ -33,9 +33,9 @@
     21. who we are ~~[Nay][Tablet]
     22. contact us ~~[Bankky]
     23. 4 joy [Bankky]
-    24. franchise ~~[Nay]
+    24. franchise ~~[Nay][Tablet]
     25. application form (franchise) ~~[Bankky]
-    26. project sales ~~[Nay]
+    26. project sales ~~[Nay][Tablet]
         26.1. project sales detail
     27. career ~~[Nay]
     28. news & event ~~[Nay]

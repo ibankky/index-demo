@@ -3283,8 +3283,15 @@ header {
   margin-top: -28px;
   z-index: 1; }
 
+#who-we-are .block {
+  padding: 45px 15px 20px; }
+
 #who-we-are .border-black {
   border-color: #000 !important; }
+
+#who-we-are h2 {
+  font-weight: bold;
+  font-size: 2.2rem; }
 
 #who-we-are h4 {
   font-size: 22px;
@@ -3297,12 +3304,16 @@ header {
   font-weight: bold;
   font-size: 22px; }
 
-#who-we-are .topic {
+#who-we-are .hero-banner .topic {
   font-weight: 500;
   color: #fdc30f;
   font-size: 18px;
   line-height: 22px;
   margin: 20px 0; }
+
+#who-we-are .hero-banner p {
+  font-size: 1rem;
+  line-height: 25px; }
 
 #who-we-are .timeline li {
   width: 100%; }
@@ -3344,6 +3355,58 @@ header {
     border: none; }
   #who-we-are .nav-links a.active {
     color: #fdc30f; }
+
+#who-we-are .brandLists {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 6vw; }
+
+@media (min-width: 640px) and (max-width: 1024px) {
+  #who-we-are .tbl-container {
+    max-width: 94vw;
+    padding: 0;
+    padding-bottom: 0 !important; }
+  #who-we-are .tbl-container-fuild {
+    max-width: 100%;
+    padding: 0; }
+  #who-we-are .hero-banner {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important; }
+    #who-we-are .hero-banner .block {
+      padding: 15px 0px; }
+      #who-we-are .hero-banner .block h2 {
+        font-size: 2.5vw;
+        font-weight: bold;
+        margin: 5px !important;
+        padding-left: 18px !important;
+        padding-right: 18px !important; }
+      #who-we-are .hero-banner .block p {
+        font-size: 2vw;
+        line-height: 2.7vw; }
+    #who-we-are .hero-banner h3 {
+      font-size: 2.3vw; }
+    #who-we-are .hero-banner .logo img {
+      width: 60%; }
+    #who-we-are .hero-banner .bg-black {
+      padding: 3.5vw 0.2vw !important; }
+      #who-we-are .hero-banner .bg-black .topic {
+        font-size: 2vw;
+        margin: 10px 0;
+        font-weight: 500;
+        line-height: 2.5vw; }
+      #who-we-are .hero-banner .bg-black p {
+        font-size: 1.9vw;
+        line-height: 2.7vw; }
+  #who-we-are .bg-yellow-fulid {
+    height: 290px; }
+  #who-we-are ul.text-progress li {
+    font-size: 2.5vw; }
+  #who-we-are .img-left {
+    padding: 0 0px 20px 0 !important; }
+  #who-we-are .position-relative h4 {
+    margin-bottom: 3vw !important; }
+  #who-we-are .brandLists {
+    grid-gap: 3.5vw; } }
 
 #project_sale a img {
   border: 0; }

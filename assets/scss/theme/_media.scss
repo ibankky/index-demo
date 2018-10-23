@@ -11,3 +11,8 @@ $screen-max: 1024px;  /* Medium screen max / desktop */
   max-width: 94vw;
   padding: 0;
 }
+
+@mixin tbl-container-fuild {
+  max-width: 100%;
+  padding: 0;
+}

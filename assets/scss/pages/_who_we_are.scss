@@ -15,8 +15,17 @@
     z-index: 1;
   }
 
+  .block {
+    padding: 45px 15px 20px;
+  }
+
   .border-black {
     border-color: $black !important;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 2.2rem;
   }
 
   h4 {
@@ -35,12 +44,19 @@
     }
   }
 
-  .topic {
-    font-weight: 500;
-    color: $yellow;
-    font-size: 18px;
-    line-height: 22px;
-    margin: 20px 0;
+  .hero-banner {
+    .topic {
+      font-weight: 500;
+      color: $yellow;
+      font-size: 18px;
+      line-height: 22px;
+      margin: 20px 0;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 25px;
+    }
   }
 
   .timeline li {
@@ -97,6 +113,95 @@
       &.active {
         color: $yellow;
       }
+    }
+  }
+
+  .brandLists {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 6vw;
+  }
+}
+
+@include tablet {
+  #who-we-are {
+    .tbl-container {
+      @include tbl-container;
+      padding-bottom: 0 !important;
+    }
+
+    .tbl-container-fuild {
+      @include tbl-container-fuild;
+    }
+
+    .hero-banner {
+      padding-bottom: 0 !important;
+      margin-bottom: 0 !important;
+
+      .block {
+        padding: 15px 0px;
+
+        h2 {
+          font-size: 2.5vw;
+          font-weight: bold;
+          margin: 5px !important;
+          padding-left: 18px !important;
+          padding-right: 18px !important;
+        }
+
+        p {
+          font-size: 2vw;
+          line-height: 2.7vw;
+        }
+      }
+
+      h3 {
+        font-size: 2.3vw;
+      }
+
+      .logo {
+        img { width: 60%; }
+      }
+
+      .bg-black {
+        padding: 3.5vw 0.2vw !important;
+
+        .topic {
+          font-size: 2vw;
+          margin: 10px 0;
+          font-weight: 500;
+          line-height: 2.5vw;
+        }
+
+        p {
+          font-size: 1.9vw;
+          line-height: 2.7vw;
+        }
+      }
+    }
+
+    .bg-yellow-fulid {
+      height: 290px;
+    }
+
+    ul.text-progress {
+      li {
+        font-size: 2.5vw;
+      }
+    }
+
+    .img-left {
+      padding: 0 0px 20px 0 !important;
+    }
+
+    .position-relative {
+      h4 {
+        margin-bottom: 3vw !important;
+      }
+    }
+
+    .brandLists {
+      grid-gap: 3.5vw;
     }
   }
 }

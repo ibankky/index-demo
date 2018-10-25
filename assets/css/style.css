@@ -914,7 +914,7 @@ header {
   background: #f4f5f7;
   padding-top: 3em; }
   .footer-wrap .footer-logo {
-    height: 3em;
+    height: 1em;
     position: relative; }
     .footer-wrap .footer-logo img {
       position: absolute;
@@ -932,6 +932,13 @@ header {
   .footer-wrap .footer-link {
     color: #6b7d85;
     font-size: 0.8em; }
+    .footer-wrap .footer-link .new {
+      display: inline-block;
+      background: #1EC417;
+      color: #fff;
+      border-radius: 1em;
+      padding: 0 5px;
+      font-size: 0.8em; }
   .footer-wrap .footer-icon {
     min-width: 1.5em;
     display: inline-block;
@@ -973,7 +980,7 @@ header {
     border-bottom: solid 1px #b7b7b7;
     padding-bottom: 1em; }
   .footer-wrap .footer-mid {
-    padding-top: 1em;
+    padding-top: 2em;
     padding-bottom: 1em; }
 
 @media only screen and (max-width: 768px) {

@@ -2073,6 +2073,9 @@ header {
   padding: .45rem 1.5rem;
   text-transform: uppercase;
   font-weight: lighter; }
+.filter-sticky .more-filter {
+  font-size: 0.8em;
+  padding-left: 1.2em; }
 
 .log-in {
   margin-bottom: 5em; }

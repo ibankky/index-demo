@@ -19,7 +19,7 @@
     12. forgot password ~~[Bankky]
     13. wishlist feature products ~~[Nay][Tablet]
     14. product list ~~[Bankky]
-    15. product detail ~~[Nay]
+    15. product detail ~~[Nay][Tablet]
     16. my account ~~[Nay][Tablet]
         - information ~~[Nay][Tablet]
         - address book ~~[Nay][Tablet]

@@ -361,6 +361,8 @@ iframe {
 
 /* Medium screen min / desktop */
 /* Medium screen max / desktop */
+/* Medium screen max / desktop */
+/* Medium screen max / desktop */
 .menu-container {
   width: 100%; }
 
@@ -1313,7 +1315,7 @@ header {
   border-radius: 3px !important;
   max-width: 100%; }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 990px) {
   #cart_page .navigate {
     margin-top: 0 !important;
     font-size: 2.1vw; }
@@ -1369,15 +1371,14 @@ header {
     width: 0%;
     height: auto; }
   #pdp_page .slider-nav {
-    padding-bottom: 5px; }
+    padding-bottom: 5px;
+    outline: none; }
     #pdp_page .slider-nav img {
       border: 1px solid #ddd; }
     #pdp_page .slider-nav .slick-slide {
-      height: 54px;
+      height: auto;
       margin-bottom: 5px;
       outline: none; }
-  #pdp_page .slider-nav {
-    outline: none; }
   #pdp_page .width-100 {
     width: 100%; }
   #pdp_page .in-panel button {
@@ -1597,7 +1598,7 @@ header {
     background-color: #fff;
     filter: alpha(opacity=60);
     opacity: 0.85;
-    width: calc(100% - 1.7vw);
+    width: calc(100% - 1rem);
     height: calc(100% - 20px);
     z-index: 9;
     padding-top: calc(60% - 20px);
@@ -1806,7 +1807,19 @@ header {
     padding-left: 10px;
     padding-right: 0; }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+@media (min-width: 991px) and (max-width: 1199px) {
+  #pdp_page .tbl-container {
+    max-width: 94vw;
+    padding: 0; }
+  #pdp_page .tbl-banner {
+    max-width: 100%;
+    padding: 0 !important; }
+  #pdp_page .accordion .panel {
+    width: 31.1vw; }
+    #pdp_page .accordion .panel .desc {
+      width: 29.1vw; } }
+
+@media (min-width: 640px) and (max-width: 990px) {
   #pdp_page .tbl-container {
     max-width: 94vw;
     padding: 0; }
@@ -1819,6 +1832,10 @@ header {
     margin-bottom: 20px;
     padding-bottom: 15px;
     border-bottom: 1px solid #ddd; }
+  #pdp_page .accordion .panel {
+    width: 47vw; }
+    #pdp_page .accordion .panel .desc {
+      width: 45vw; }
   #pdp_page .guru .animate {
     height: 20vw;
     min-height: 180px; }
@@ -2412,7 +2429,7 @@ header {
 #joy-service .btn {
   border-radius: 0; }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 990px) {
   #joy-service .tbl-container {
     max-width: 94vw;
     padding: 0; }
@@ -2475,7 +2492,7 @@ header {
   #joy-service-detail .nav-links a.active {
     color: #fdc30f; }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 990px) {
   #joy-service-detail .tbl-description {
     margin-top: 1vh;
     max-width: 98vw; }
@@ -2502,19 +2519,25 @@ header {
     font-size: 1.4vw; }
     #account .wrapper-menu ul.menu li {
       list-style: none;
-      padding: 12px 0 12px 50px;
+      padding: 0 !important;
       border-color: #f1f1f2 !important;
       cursor: pointer; }
+      #account .wrapper-menu ul.menu li a {
+        color: #000;
+        padding: 12px 0 12px 50px;
+        display: block; }
       #account .wrapper-menu ul.menu li:first-child {
         padding: 13px 15px; }
         #account .wrapper-menu ul.menu li:first-child i {
           margin-top: -1px; }
+        #account .wrapper-menu ul.menu li:first-child a {
+          color: #000;
+          padding: 12px 0 12px 15px;
+          display: block; }
       #account .wrapper-menu ul.menu li.active, #account .wrapper-menu ul.menu li:hover {
         background: #fdc30f; }
         #account .wrapper-menu ul.menu li.active a, #account .wrapper-menu ul.menu li:hover a {
           color: #fff; }
-      #account .wrapper-menu ul.menu li a {
-        color: #000; }
       #account .wrapper-menu ul.menu li i {
         font-size: 28px;
         vertical-align: middle;
@@ -2537,7 +2560,7 @@ header {
   #account .description input, #account .description select {
     border-radius: 0; }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 990px) {
   #account .wrapper-menu ul.menu li {
     padding: 12px 0px 12px 37px;
     font-size: 2vw;
@@ -2789,7 +2812,7 @@ header {
     font-size: 13px;
     font-weight: 600; }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 990px) {
   #wishlist_feature .tbl-container {
     max-width: 94vw;
     padding: 0; }
@@ -2838,7 +2861,7 @@ header {
   margin: 50px 0;
   padding-bottom: 45px; }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 990px) {
   #csr .tbl-container {
     max-width: 94vw;
     padding: 0; }
@@ -2943,7 +2966,7 @@ header {
 #news_events .pagination {
   margin: 50px 0; }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 990px) {
   #news_events .tbl-container {
     max-width: 94vw;
     padding: 0; }
@@ -3133,7 +3156,7 @@ header {
     background-color: #000;
     padding: 0 3vw; }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 990px) {
   #career .tbl-container {
     max-width: 94vw;
     padding: 0; }
@@ -3350,7 +3373,8 @@ header {
   top: 150px;
   left: -115px;
   padding: 25px 80px;
-  z-index: 99; }
+  z-index: 99;
+  opacity: 0.8; }
 
 #franchise .affix {
   position: fixed;
@@ -3358,7 +3382,7 @@ header {
   width: 200px;
   z-index: 99; }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 990px) {
   #franchise .tbl-container {
     max-width: 94vw;
     padding: 0;
@@ -3575,7 +3599,7 @@ header {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 6vw; }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 990px) {
   #who-we-are .tbl-container {
     max-width: 94vw;
     padding: 0;
@@ -3761,7 +3785,7 @@ header {
     background-color: #000;
     padding: 0 3vw; }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 990px) {
   #project_sale .tbl-container {
     max-width: 94vw;
     padding: 0;
@@ -3909,7 +3933,12 @@ header {
   height: auto !important; }
 
 #design_build .our-services {
-  font-size: 22px; }
+  font-size: 22px;
+  color: #fff; }
+  #design_build .our-services .description img {
+    width: 50px;
+    max-width: 100%;
+    height: auto !important; }
 
 #design_build .progress-services {
   font-size: 18px; }
@@ -3974,7 +4003,7 @@ header {
     font-size: 36px;
     font-weight: 400; }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 990px) {
   #design_build .tbl-container {
     max-width: 94vw;
     padding: 0; }
@@ -3983,8 +4012,9 @@ header {
     padding-top: 4vw !important;
     padding-bottom: 4vw !important; }
     #design_build .our-services .description {
-      color: #fff;
       border-color: #666 !important; }
+      #design_build .our-services .description img {
+        width: 60%; }
     #design_build .our-services h3 {
       font-size: 2.4vw;
       margin-bottom: -15px; }
@@ -4134,7 +4164,7 @@ header {
   font-size: 18px;
   font-weight: 500; }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 990px) {
   #online_promotion .tbl-container {
     max-width: 94vw;
     padding: 0; }
@@ -4267,7 +4297,7 @@ header {
     font-size: 3rem;
     font-weight: 500; }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 990px) {
   #home-services .tbl-container {
     max-width: 94vw;
     padding: 0; }
@@ -4471,7 +4501,7 @@ header {
     #inspiration-list .garden-lists .list:nth-child(odd) .img {
       order: 1 !important; }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 990px) {
   #inspiration-list .tbl-container {
     max-width: 90vw;
     padding: 0 !important; }
@@ -4556,7 +4586,7 @@ header {
   font-size: 1.4rem;
   font-style: italic; }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 990px) {
   #inspiration-detail .tbl-container {
     max-width: 94vw;
     padding: 0; }

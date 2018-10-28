@@ -1,5 +1,13 @@
 $screen-min: 640px;  /* Medium screen min / desktop */
-$screen-max: 1024px;  /* Medium screen max / desktop */
+$screen-max: 990px;  /* Medium screen max / desktop */
+$screen-width-min: 991px;  /* Medium screen max / desktop */
+$screen-width-max: 1199px;  /* Medium screen max / desktop */
+
+@mixin tablet-width {
+  @media (min-width: #{$screen-width-min}) and (max-width: #{$screen-width-max}) {
+    @content;
+  }
+}
 
 @mixin tablet {
   @media (min-width: #{$screen-min}) and (max-width: #{$screen-max}) {

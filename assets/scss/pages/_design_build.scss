@@ -23,6 +23,15 @@
 
   .our-services {
     font-size: 22px;
+    color: $white;
+
+    .description {
+      img {
+        width: 50px;
+        max-width: 100%;
+        height: auto !important;
+      }
+    }
   }
 
   .progress-services {
@@ -126,8 +135,11 @@
       padding-bottom: 4vw !important;
 
       .description {
-        color: $white;
         border-color: $grey-ash !important;
+
+        img {
+          width: 60%;
+        }
       }
 
       h3 {

@@ -15,19 +15,18 @@
 
   .slider-nav {
     padding-bottom: 5px;
+    outline: none;
 
     img {
       border: 1px solid $grey-neutral;
     }
 
     .slick-slide {
-      height: 54px;
+      height: auto;
       margin-bottom: 5px;
       outline: none;
     }
   }
-
-  .slider-nav { outline: none;}
 
   .width-100 {
     width: 100%;
@@ -356,7 +355,7 @@
     background-color: $white;
     filter: alpha(opacity=60);
     opacity: 0.85;
-    width: calc(100% - 1.7vw);
+    width: calc(100% - 1rem);
     height: calc(100% - 20px);
     z-index: 9;
     padding-top: calc(60% - 20px);
@@ -682,6 +681,29 @@
   }
 }
 
+@include tablet-width {
+  #pdp_page {
+    .tbl-container {
+      @include tbl-container;
+    }
+
+    .tbl-banner {
+      max-width: 100%;
+      padding: 0 !important;
+    }
+
+    .accordion {
+      .panel {
+        width: 31.1vw;
+
+        .desc {
+          width: 29.1vw;
+        }
+      }
+    }
+  }
+}
+
 @include tablet {
   #pdp_page {
     .tbl-container {
@@ -701,6 +723,16 @@
       margin-bottom: 20px;
       padding-bottom: 15px;
       border-bottom: 1px solid $grey-neutral;
+    }
+
+    .accordion {
+      .panel {
+        width: 47vw;
+
+        .desc {
+          width: 45vw;
+        }
+      }
     }
 
     .guru {

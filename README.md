@@ -40,7 +40,7 @@
     27. career ~~[Nay][Tablet]
     28. news & event ~~[Nay][Tablet]
         28.1. news detail 
-    29. csr ~~[Nay]
+    29. csr ~~[Nay][Tablet]
     30. shopping cart ~~[Nay][Tablet]
     31. shopping cart empty ~~[Nay][Tablet]
     32. payment ~~[Bankky]

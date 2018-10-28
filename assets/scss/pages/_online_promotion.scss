@@ -88,3 +88,52 @@
     font-weight: 500;
   }
 }
+
+@include tablet {
+  #online_promotion {
+    .tbl-container {
+      @include tbl-container;
+    }
+
+    .tbl-banner {
+      max-width: 100%;
+      padding: 0 !important;
+    }
+
+    h2 {
+      font-size: 4vw;
+    }
+
+    select {
+      &.group {
+        font-size: 2.5vw;
+        height: 60px !important;
+      }
+      &.sort {
+        font-size: 2.5vw;
+        outline: none !important;
+        height: 60px !important;
+        border: 0;
+      }
+    }
+
+    .view {
+      &:nth-child(even) {
+        margin-right: 5px !important;
+      }
+    }
+
+    .list {
+      .animate {
+        figure {
+          height: 60px;
+          font-size: 3vw;
+        }
+      }
+    }
+
+    .load {
+      font-size: 2.2vw;
+    }
+  }
+}

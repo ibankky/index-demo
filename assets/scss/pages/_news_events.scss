@@ -1,12 +1,16 @@
 #news_events {
   .bg-yellow {
     background-color: $yellow;
-  }
 
-  .description {
-    line-height: 18px;
-    font-size: 15px;
-    font-weight: 500;
+    h5 {
+      margin-bottom: 15px !important;
+    }
+
+    .description {
+      font-size: 0.8rem;
+      padding-right: 10px !important;
+      margin-top: -10px;
+    }
   }
 
   .readmore {
@@ -18,9 +22,13 @@
   }
 
   .position-dimension {
-    top: -40%;
-    left: -3rem;
-    width: 108%;
+    top: -7rem;
+    left: -8rem;
+    width: 120%;
+  }
+
+  .tbl-pl-none {
+    padding-left: 0;
   }
 
   h3 {
@@ -117,6 +125,85 @@
       &.active {
         color: $yellow;
         font-size: 20px;
+      }
+    }
+  }
+
+  .pagination {
+    margin: 50px 0;
+  }
+}
+
+@include tablet {
+  #news_events {
+    .tbl-container {
+      @include tbl-container;
+    }
+
+    .tbl-banner {
+      max-width: 100%;
+      margin-top: -40px;
+      margin-bottom: 30px;
+    }
+
+    .readmore {
+      padding: 10px 30px;
+      font-size: 1.8vw;
+      margin-bottom: 0;
+      margin-left: 15px;
+    }
+
+    .bg-yellow {
+      padding-bottom: 0 !important;
+    }
+
+    .position-dimension {
+      width: auto;
+      left: -5.5rem;
+      top: -5rem;
+    }
+
+    .newsList {
+      .topic {
+        font-size: 2vw;
+        line-height: 2.4vw;
+        padding-bottom: 10px;
+      }
+      .description {
+        font-size: 1.8vw;
+        line-height: 2.2vw;
+        padding-bottom: 15px !important;
+      }
+      .date {
+        font-size: 12px;
+        padding: 10px 10px 5px !important;
+      }
+      .views {
+        font-size: 1.8vw;
+      }
+    }
+
+    .tbl-pl-none {
+      padding-left: 0;
+    }
+
+    .tbl-pr-none {
+      padding-right: 0;
+    }
+
+    .tbl-px-none {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .pagination {
+      font-size: 80%;
+      margin: 20px 0;
+
+      a.arrow {
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
       }
     }
   }

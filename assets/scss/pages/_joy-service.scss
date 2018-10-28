@@ -40,6 +40,10 @@
 
 @include tablet {
   #joy-service {
+    .tbl-container {
+      @include tbl-container;
+    }
+
     .tbl-header {
       font-size: 3.5vw;
       margin-bottom: 60px;
@@ -48,7 +52,7 @@
 
     .tbl-banner {
       max-width: 100%;
-      margin-top: -50px;
+      margin-top: -40px;
     }
 
     .tbl-lists {

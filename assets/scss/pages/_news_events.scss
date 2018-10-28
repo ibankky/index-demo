@@ -1,13 +1,15 @@
 #news_events {
   .bg-yellow {
     background-color: $yellow;
+    margin-bottom: 20px;
+    clear: both;
 
     h5 {
       margin-bottom: 15px !important;
     }
 
     .description {
-      font-size: 0.8rem;
+      font-size: 1.1rem;
       padding-right: 10px !important;
       margin-top: -10px;
     }
@@ -23,7 +25,7 @@
 
   .position-dimension {
     top: -7rem;
-    left: -8rem;
+    left: -6rem;
     width: 120%;
   }
 
@@ -144,17 +146,24 @@
       max-width: 100%;
       margin-top: -40px;
       margin-bottom: 30px;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
     }
 
     .readmore {
       padding: 10px 30px;
       font-size: 1.8vw;
       margin-bottom: 0;
-      margin-left: 15px;
+      margin-left: -12px;
     }
 
     .bg-yellow {
       padding-bottom: 0 !important;
+
+      .description {
+        font-size: 2.2vw;
+        padding-left: 2px;
+      }
     }
 
     .position-dimension {

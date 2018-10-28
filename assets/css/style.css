@@ -1516,7 +1516,8 @@ header {
         color: #fff;
         font-weight: 500;
         border-radius: 0;
-        padding: 12px 32px; }
+        padding: 12px 15%;
+        max-width: 100%; }
   #pdp_page .tabb .btn {
     font-size: 13px !important;
     font-weight: 500; }
@@ -1596,7 +1597,7 @@ header {
     background-color: #fff;
     filter: alpha(opacity=60);
     opacity: 0.85;
-    width: calc(100% - 30px);
+    width: calc(100% - 1.7vw);
     height: calc(100% - 20px);
     z-index: 9;
     padding-top: calc(60% - 20px);
@@ -1650,7 +1651,9 @@ header {
     font-size: 1rem;
     border-radius: 0;
     padding-top: 10px;
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    max-width: 100%;
+    white-space: normal; }
   #pdp_page .position-negative-30 {
     top: -30px; }
   #pdp_page .plp-section {
@@ -1799,6 +1802,30 @@ header {
     padding: 5px 0; }
     #pdp_page .explore li a {
       color: #6b7d85; }
+  #pdp_page .add-all {
+    padding-left: 10px;
+    padding-right: 0; }
+
+@media (min-width: 640px) and (max-width: 1024px) {
+  #pdp_page .tbl-container {
+    max-width: 94vw;
+    padding: 0; }
+  #pdp_page .tbl-banner {
+    max-width: 100%;
+    padding: 0 !important; }
+  #pdp_page .right-box {
+    padding-left: 0 !important; }
+  #pdp_page .description-detail {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd; }
+  #pdp_page .guru .animate {
+    height: 20vw;
+    min-height: 180px; }
+  #pdp_page .bought-together .btn {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 2.2vw; } }
 
 .top-banner {
   margin: 2em 0 0 0; }

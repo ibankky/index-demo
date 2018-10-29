@@ -2432,6 +2432,52 @@ header {
 #joy-service .btn {
   border-radius: 0; }
 
+@media (min-width: 991px) and (max-width: 1199px) {
+  #joy-service .tbl-container {
+    max-width: 94vw;
+    padding: 0; }
+  #joy-service h2 {
+    font-size: 2.7vw; }
+  #joy-service .tbl-header {
+    font-size: 3.5vw;
+    margin-bottom: 60px;
+    max-width: 96vw; }
+  #joy-service .tbl-banner {
+    max-width: 100%;
+    margin-top: -40px; }
+  #joy-service .tbl-lists {
+    max-width: 100vw; }
+    #joy-service .tbl-lists h3 {
+      font-size: 3vw; }
+    #joy-service .tbl-lists .description {
+      font-size: 1.8vw; }
+    #joy-service .tbl-lists .btn {
+      font-size: 1.6vw;
+      font-weight: 400; }
+    #joy-service .tbl-lists .img:nth-child(odd) {
+      padding-right: 0; }
+    #joy-service .tbl-lists .img:nth-child(even) {
+      padding-left: 0; }
+  #joy-service .bg-orange {
+    padding: 10px 0 !important; }
+    #joy-service .bg-orange img {
+      max-width: 200px !important; }
+    #joy-service .bg-orange .description {
+      font-size: 1.8vw;
+      padding-right: 10px !important;
+      margin-top: -10px; }
+  #joy-service .position-dimension {
+    width: auto;
+    left: -5.5rem;
+    top: -5rem; }
+  #joy-service .tbl-pl-none {
+    padding-left: 0; }
+  #joy-service .tbl-pr-none {
+    padding-right: 0; }
+  #joy-service .tbl-px-none {
+    padding-left: 0;
+    padding-right: 0; } }
+
 @media (min-width: 640px) and (max-width: 990px) {
   #joy-service .tbl-container {
     max-width: 94vw;
@@ -2448,7 +2494,7 @@ header {
     #joy-service .tbl-lists h3 {
       font-size: 3.2vw; }
     #joy-service .tbl-lists .description {
-      font-size: 2vw; }
+      font-size: 2.1vw; }
     #joy-service .tbl-lists .btn {
       font-size: 2vw;
       font-weight: 400; }
@@ -2461,7 +2507,7 @@ header {
     #joy-service .bg-orange img {
       max-width: 160px !important; }
     #joy-service .bg-orange .description {
-      font-size: 0.8rem;
+      font-size: 2vw;
       padding-right: 10px !important;
       margin-top: -10px; }
   #joy-service .position-dimension {
@@ -2479,10 +2525,9 @@ header {
 #joy-service-detail .bg-grey {
   background-color: #56555A; }
 
-#joy-service-detail .tbl-description {
-  margin-top: 5vh; }
-  #joy-service-detail .tbl-description h2 {
-    margin-bottom: 25px; }
+#joy-service-detail h2 {
+  font-size: 3vw;
+  margin: 40px 0; }
 
 #joy-service-detail .nav-links a {
   border-left: 1px solid #eee;
@@ -2495,13 +2540,13 @@ header {
   #joy-service-detail .nav-links a.active {
     color: #fdc30f; }
 
-@media (min-width: 640px) and (max-width: 990px) {
-  #joy-service-detail .tbl-description {
-    margin-top: 1vh;
-    max-width: 98vw; }
-    #joy-service-detail .tbl-description h2 {
-      font-size: 3.5vw;
-      margin-bottom: 20px; }
+@media (min-width: 991px) and (max-width: 1199px) {
+  #joy-service-detail .tbl-container {
+    max-width: 94vw;
+    padding: 0; }
+  #joy-service-detail h2 {
+    font-size: 2.7vw;
+    margin: 20px 0 25px; }
   #joy-service-detail .tbl-header {
     max-width: 100vw;
     padding: 0; }
@@ -2510,6 +2555,23 @@ header {
       padding: 10px 0 !important; }
     #joy-service-detail .tbl-header .nav-links a {
       font-size: 1.8vw;
+      padding: 0 5px !important; } }
+
+@media (min-width: 640px) and (max-width: 990px) {
+  #joy-service-detail .tbl-container {
+    max-width: 94vw;
+    padding: 0; }
+  #joy-service-detail h2 {
+    font-size: 3.5vw;
+    margin: 20px 0 25px; }
+  #joy-service-detail .tbl-header {
+    max-width: 100vw;
+    padding: 0; }
+    #joy-service-detail .tbl-header .row {
+      margin: 0;
+      padding: 10px 0 !important; }
+    #joy-service-detail .tbl-header .nav-links a {
+      font-size: 2vw;
       padding: 0 5px !important; } }
 
 #account .wrapper-menu {
@@ -4014,6 +4076,79 @@ header {
     font-size: 36px;
     font-weight: 400; }
 
+@media (min-width: 991px) and (max-width: 1199px) {
+  #design_build .tbl-container {
+    max-width: 94vw;
+    padding: 0; }
+  #design_build .our-services {
+    font-size: 2.1vw;
+    padding-top: 4vw !important;
+    padding-bottom: 4vw !important; }
+    #design_build .our-services .description {
+      border-color: #666 !important; }
+      #design_build .our-services .description img {
+        width: 60%; }
+    #design_build .our-services h3 {
+      font-size: 2.4vw;
+      margin-bottom: -15px; }
+    #design_build .our-services .logo img {
+      width: 80%;
+      height: auto; }
+    #design_build .our-services img {
+      width: 45%;
+      height: auto; }
+  #design_build iframe {
+    border: 0; }
+    #design_build iframe.hero-video {
+      height: 40vw; }
+    #design_build iframe.sub-video {
+      height: 18.9vw;
+      width: 100%;
+      margin-left: 0.3vw; }
+      #design_build iframe.sub-video:nth-child(odd) {
+        margin-bottom: -16px; }
+  #design_build .progress-services h1 {
+    font-size: 3.5vw;
+    font-weight: 500; }
+  #design_build .progress-services h2 {
+    font-size: 2.7vw;
+    margin-bottom: 4vw !important;
+    font-weight: 400; }
+  #design_build .progress-services .process {
+    font-size: 1.8vw;
+    margin-bottom: -1.5vw !important; }
+    #design_build .progress-services .process .circle {
+      width: 70px;
+      height: 70px;
+      line-height: 50px;
+      font-size: 2.9vw; }
+  #design_build .progress-services .border-dash {
+    margin-top: 1.7rem !important;
+    margin-bottom: 1rem; }
+  #design_build .progress-services .tabb {
+    font-size: 0.9rem;
+    line-height: 2.6vw; }
+  #design_build .payment h2 {
+    font-size: 2.7vw;
+    font-weight: 500;
+    margin-bottom: 4.5vw !important; }
+  #design_build .payment .process {
+    top: -40px; }
+    #design_build .payment .process .image {
+      margin-bottom: 40px; }
+    #design_build .payment .process .topic {
+      font-size: 2.5vw; }
+    #design_build .payment .process ul li {
+      font-size: 1.8vw;
+      font-weight: 500; }
+    #design_build .payment .process img {
+      width: 73%; }
+  #design_build .contact {
+    font-size: 2.5vw;
+    line-height: 4.5vw; }
+    #design_build .contact strong {
+      font-size: 3vw; } }
+
 @media (min-width: 640px) and (max-width: 990px) {
   #design_build .tbl-container {
     max-width: 94vw;
@@ -4053,8 +4188,8 @@ header {
     margin-bottom: 4vw !important;
     font-weight: 400; }
   #design_build .progress-services .process {
-    font-size: 1.8vw;
-    margin-bottom: -4.8vw !important; }
+    font-size: 2.1vw;
+    margin-bottom: -4.5vw !important; }
     #design_build .progress-services .process .circle {
       width: 70px;
       height: 70px;
@@ -4065,13 +4200,13 @@ header {
     margin-bottom: 1rem; }
   #design_build .progress-services .tabb {
     font-size: 0.8rem;
-    line-height: 3.5vw; }
+    line-height: 3.2vw; }
   #design_build .payment h2 {
-    font-size: 4vw;
+    font-size: 3.5vw;
     font-weight: 500;
     margin-bottom: 4.5vw !important; }
   #design_build .payment .process {
-    top: -35px; }
+    top: -40px; }
     #design_build .payment .process .image {
       margin-bottom: 40px; }
     #design_build .payment .process .topic {
@@ -4175,7 +4310,7 @@ header {
   font-size: 18px;
   font-weight: 500; }
 
-@media (min-width: 640px) and (max-width: 990px) {
+@media (min-width: 991px) and (max-width: 1199px) {
   #online_promotion .tbl-container {
     max-width: 94vw;
     padding: 0; }
@@ -4183,7 +4318,7 @@ header {
     max-width: 100%;
     padding: 0 !important; }
   #online_promotion h2 {
-    font-size: 4vw; }
+    font-size: 2.7vw; }
   #online_promotion select.group {
     font-size: 2.5vw;
     height: 60px !important; }
@@ -4196,9 +4331,32 @@ header {
     margin-right: 5px !important; }
   #online_promotion .list .animate figure {
     height: 60px;
-    font-size: 3vw; }
+    font-size: 2vw; }
   #online_promotion .load {
-    font-size: 2.2vw; } }
+    font-size: 2vw; } }
+
+@media (min-width: 640px) and (max-width: 990px) {
+  #online_promotion .tbl-container {
+    max-width: 94vw;
+    padding: 0; }
+  #online_promotion .tbl-banner {
+    max-width: 100%;
+    padding: 0 !important; }
+  #online_promotion h2 {
+    font-size: 3.5vw; }
+  #online_promotion select.group {
+    font-size: 2.5vw;
+    height: 60px !important; }
+  #online_promotion select.sort {
+    font-size: 2.5vw;
+    outline: none !important;
+    height: 60px !important;
+    border: 0; }
+  #online_promotion .view:nth-child(even) {
+    margin-right: 5px !important; }
+  #online_promotion .list .animate figure {
+    height: 60px;
+    font-size: 2.5vw; } }
 
 #home-services .bg-grey {
   background-color: #f4f4f4; }
@@ -4557,7 +4715,8 @@ header {
   #inspiration-list .idea-lists .read-more a {
     font-size: 1.8vw; }
   #inspiration-list .idea-lists .btn {
-    max-width: 80%; }
+    max-width: 80%;
+    font-size: 1.9vw; }
   #inspiration-list .garden-lists .list .title {
     font-size: 2vw;
     min-height: 60px; }
@@ -4615,3 +4774,7 @@ header {
     font-size: 2.5vw; }
   #inspiration-detail .description p {
     font-size: 2.2vw; } }
+
+.service-footer img {
+  width: 90%;
+  text-align: center; }

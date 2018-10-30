@@ -3,7 +3,7 @@
     background:$light-grey;
     padding-top: 3em;
     .footer-logo {
-        height: 3em;
+        height: 1em;
         position: relative;
         
         img{
@@ -25,6 +25,14 @@
     .footer-link {
         color:$grey;
         font-size: 0.8em;
+        .new {
+            display: inline-block;
+            background: #1EC417;
+            color: #fff;
+            border-radius: 1em;
+            padding: 0 5px;
+            font-size: 0.8em;
+        }
     }
     .footer-icon { 
         min-width: 1.5em;
@@ -83,7 +91,16 @@
         padding-bottom: 1em;
     }
     .footer-mid{
-        padding-top: 1em;
+        padding-top: 2em;
         padding-bottom: 1em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-wrap .btm-footer .btm-link{
+        padding: 1em 0;
+    }
+    .footer-wrap .footer-top{
+        font-size: 0.9em;
     }
 }

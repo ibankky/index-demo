@@ -32,12 +32,18 @@
     h5 { font-size: 16px; }
 
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 400;
 
     input {
       &::placeholder {
         color: $grey-smoke;
       }
+    }
+
+    .btn {
+      padding: 8px 15px !important;
+      font-size: 1rem;
+      font-weight: 500;
     }
   }
 
@@ -46,12 +52,18 @@
     color: $grey-smoke;
 
     .number {
-      width: 45px;
-      height: 45px;
-      line-height: 45px;
-      vertical-align: 45px;
+      width: 47px;
+      height: 47px;
+      line-height: 47px;
+      vertical-align: 47px;
       background-color: $grey-dark-neutral;
       color: $white;
+      font-size: 1.2rem;
+    }
+
+    p {
+      font-size: 1rem;
+      font-weight: 500;
     }
 
     .active {
@@ -70,13 +82,13 @@
       border-color: #565658 !important;
     }
     .discount {
-      font-size: 10px;
+      font-size: 11px;
       text-decoration: line-through;
       color: $grey-smoke;
     }
     small { font-weight: 500; }
     .code {
-      font-size: 10px;
+      font-size: 11px;
       color: $grey-smoke;
     }
     .remove {
@@ -89,8 +101,48 @@
   }
 
   .btn {
-    border-radius: 3px !important;
+    border-radius: 0px !important;
     max-width: 100%;
+  }
+
+  .message {
+    font-size: 1.1rem;
+    color: $grey-smoke;
+  }
+
+  button.shopping {
+    background-color: $yellow;
+    color: $white;
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+
+  .header-list {
+    font-size: 1rem;
+    font-weight: 500;
+    color: $white;
+    background: $grey-ash;
+  }
+
+  .name {
+    line-height: 1.2rem;
+    font-size: 0.95rem;
+  }
+
+  .price {
+    font-size: 0.85rem;
+    font-weight: 500;
+
+    &.red {
+      color: $red-dark;
+    }
+  }
+
+  .custom-select {
+    width: 80%;
+    height: calc(2rem + 2px);
+    padding: .2rem 1.75rem .2rem .75rem;
   }
 }
 
@@ -115,7 +167,6 @@
       padding: 0 1rem !important;
 
       select {
-        max-width: 83%;
         height: 30px;
         padding-top: 0px;
         padding-bottom: 5px;
@@ -145,8 +196,6 @@
       }
 
       .btn {
-        padding-left: 15px !important;
-        padding-right: 15px !important;
         font-size: 0.9rem;
       }
     }
@@ -157,6 +206,10 @@
 
     .tbl-container {
       @include tbl-container;
+    }
+
+    .custom-select {
+      width: 70%;
     }
   }
 }

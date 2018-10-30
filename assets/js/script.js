@@ -25,6 +25,15 @@ $(function(){
         infinite: false,
         slidesToShow: 5,
         slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1
+                }
+              },
+        ],
         arrows: false
         });
 
@@ -60,6 +69,15 @@ $(function(){
         infinite: false,
         slidesToShow: 7,
         slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1
+                }
+              },
+        ],
         arrows: true,
         prevArrow:"<button type='button' class='slick-min-prev pull-left'><i class='fas fa-chevron-left'></i></button>",
         nextArrow:"<button type='button' class='slick-min-next pull-right'><i class='fas fa-chevron-right'></i></button>"
@@ -167,6 +185,15 @@ $(window).scroll(function(){
         $('.sticky-header').removeClass('fixed');
     }
     });
+
+$(window).scroll(function(){
+        if ($(window).scrollTop() >= 850) {
+            $('.sticky-filter').addClass('fixed');
+        }
+        else {
+            $('.sticky-filter').removeClass('fixed');
+        }
+        });
 
 $(document).ready(function() {
         $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});

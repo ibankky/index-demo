@@ -25,6 +25,12 @@
       }
     }
   }
+
+  .description {
+    img {
+      max-width: 100%;
+    }
+  }
 }
 
 @include tablet-width {

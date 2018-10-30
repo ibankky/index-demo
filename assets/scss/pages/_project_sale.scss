@@ -50,7 +50,7 @@
       font-weight: 500;
       width: 100%;
       text-align: left;
-      font-size: 18px;
+      font-size: 22px;
       text-decoration: none;
 
       &.btn {
@@ -111,13 +111,13 @@
     }
     .topic {
       color: $yellow;
-      font-size: 1.7vw;
+      font-size: 1rem;
       font-weight: 500;
       padding: 0 15px;
     }
 
     .description {
-      line-height: 2.5vw;
+      line-height: 2vw;
       font-size: 1.2vw;
       padding: 0 15px 10px;
     }
@@ -246,7 +246,6 @@
       }
 
       .description {
-        margin-top: 5px;
         line-height: 2.5vw;
         padding: 0 10px 10px;
         font-size: 0.9rem;
@@ -338,7 +337,6 @@
       }
 
       .description {
-        margin-top: 5px;
         line-height: 2.5vw;
         padding: 0 10px 10px;
         font-size: 0.8rem;

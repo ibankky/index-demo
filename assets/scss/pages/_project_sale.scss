@@ -15,6 +15,7 @@
     height: auto;
     background-size: auto 100%;
     background-repeat: no-repeat;
+    background-position: center;
   }
 
   .banner-text {
@@ -124,7 +125,7 @@
 
   .pagination {
     margin: 50px 0;
-    
+
     select {
       width: auto;
     }
@@ -198,7 +199,7 @@
   }
 }
 
-@include tablet {
+@include tablet-width {
   #project_sale {
     .tbl-container {
       @include tbl-container;
@@ -210,13 +211,13 @@
       padding-left: 0;
       li {
         padding: 10px 15px;
-        font-size: 2.3vw;
+        font-size: 1rem;
 
         .arrow {
           width: 24px;
           height: 24px;
           line-height: 24px;
-          font-size: 1.8vw;
+          font-size: 0.9rem;
           i {
             margin-top: -3px;
           }
@@ -229,7 +230,7 @@
 
       li {
         padding: 5px 10px;
-        font-size: 1.8vw;
+        font-size: 0.9rem;
         text-align: center;
       }
     }
@@ -240,7 +241,7 @@
       }
 
       .topic {
-        font-size: 2.5vw;
+        font-size: 1rem;
         padding: 0 10px;
       }
 
@@ -248,7 +249,7 @@
         margin-top: 5px;
         line-height: 2.5vw;
         padding: 0 10px 10px;
-        font-size: 2vw;
+        font-size: 0.9rem;
       }
     }
 
@@ -265,7 +266,99 @@
 
     .banner-text {
       padding: 3vw 1.5vw;
-      font-size: 2vw;
+      font-size: 0.9rem;
+
+      h3 {
+        font-size: 2.5vw;
+        padding-bottom: 0rem;
+      }
+      a.btn {
+        padding: 10px !important;
+        font-size: 90%;
+        word-wrap: normal;
+      }
+    }
+
+    .subscribe {
+      top: 2.5vw;
+
+      input {
+        padding: 0px 5px !important;
+        font-size: 80%;
+        max-width: 80%;
+      }
+    }
+  }
+}
+
+@include tablet {
+  #project_sale {
+    .tbl-container {
+      @include tbl-container;
+      padding-bottom: 0 !important;
+      width: 90vw;
+    }
+
+    ul.left-menu {
+      padding-left: 0;
+      li {
+        padding: 10px 15px;
+        font-size: 1rem;
+
+        .arrow {
+          width: 24px;
+          height: 24px;
+          line-height: 24px;
+          font-size: 0.9rem;
+          i {
+            margin-top: -3px;
+          }
+        }
+      }
+    }
+
+    ul.sub-menu {
+      min-height: 42px;
+
+      li {
+        padding: 5px 10px;
+        font-size: 0.8rem;
+        text-align: center;
+      }
+    }
+
+    .lists {
+      a img {
+        margin-bottom: 5px;
+      }
+
+      .topic {
+        font-size: 0.9rem;
+        padding: 0 10px;
+      }
+
+      .description {
+        margin-top: 5px;
+        line-height: 2.5vw;
+        padding: 0 10px 10px;
+        font-size: 0.8rem;
+      }
+    }
+
+    .pagination {
+      font-size: 80%;
+      margin: 20px 0;
+
+      a.arrow {
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+      }
+    }
+
+    .banner-text {
+      padding: 3vw 1.5vw;
+      font-size: 1.8vw;
 
       h3 {
         font-size: 2.5vw;

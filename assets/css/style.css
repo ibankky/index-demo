@@ -2818,6 +2818,12 @@ header {
   padding: 0;
   box-sizing: border-box; }
 
+#wishlist_feature .container-fuild .tbl-container {
+  max-width: 100%; }
+
+#wishlist_feature h2 {
+  font-size: 2.5vw; }
+
 #wishlist_feature .bg-grey-dark {
   background-color: #56555A;
   padding: 50px 0; }
@@ -2849,13 +2855,13 @@ header {
   max-width: 100%; }
 
 #wishlist_feature .btn-show {
-  padding: 15px 50px;
+  padding: 13px 40px;
   background: #000;
-  font-size: 24px;
+  font-size: 22px;
   border-radius: 0; }
 
 #wishlist_feature .topic {
-  font-size: 22px;
+  font-size: 21px;
   color: #737373;
   line-height: 24px; }
 
@@ -2877,6 +2883,41 @@ header {
     font-size: 13px;
     font-weight: 600; }
 
+@media (min-width: 991px) and (max-width: 1199px) {
+  #wishlist_feature .tbl-container {
+    max-width: 94vw;
+    padding: 0; }
+  #wishlist_feature .bg-grey-dark {
+    padding: 20px 0 0; }
+  #wishlist_feature h2 {
+    font-size: 2.7vw; }
+  #wishlist_feature .tbl-banner {
+    max-width: 100%;
+    padding: 0 !important; }
+  #wishlist_feature .cover-img img {
+    width: 100%; }
+  #wishlist_feature .width-sm-100 {
+    width: 99.8%; }
+  #wishlist_feature .width-55 h2 {
+    padding-left: 15px;
+    text-align: left !important; }
+  #wishlist_feature .width-55:nth-child(even) h2 {
+    text-align: right !important;
+    padding-right: 15px !important; }
+  #wishlist_feature .topic {
+    padding: 15px 0;
+    font-size: 2.8vw;
+    line-height: 3.3vw; }
+  #wishlist_feature .position-space {
+    position: inherit !important; }
+  #wishlist_feature .btn-show {
+    padding: 10px 30px;
+    font-size: 2.2vw; }
+  #wishlist_feature .order-img {
+    order: 1; }
+  #wishlist_feature .order-desc {
+    order: 2; } }
+
 @media (min-width: 640px) and (max-width: 990px) {
   #wishlist_feature .tbl-container {
     max-width: 94vw;
@@ -2884,21 +2925,24 @@ header {
   #wishlist_feature .bg-grey-dark {
     padding: 20px 0 0; }
   #wishlist_feature h2 {
-    font-size: 4vw; }
+    font-size: 3.5vw; }
   #wishlist_feature .tbl-banner {
     max-width: 100%;
     padding: 0 !important; }
+  #wishlist_feature .cover-img img {
+    width: 100%; }
   #wishlist_feature .width-sm-100 {
     width: 99.8%; }
   #wishlist_feature .width-55 h2 {
-    padding-left: 10px;
+    padding-left: 15px;
     text-align: left !important; }
   #wishlist_feature .width-55:nth-child(even) h2 {
     text-align: right !important;
-    padding-right: 10px !important; }
+    padding-right: 15px !important; }
   #wishlist_feature .topic {
     padding: 15px 0;
-    font-size: 3vw; }
+    font-size: 3vw;
+    line-height: 3.5vw; }
   #wishlist_feature .position-space {
     position: inherit !important; }
   #wishlist_feature .btn-show {
@@ -2959,7 +3003,7 @@ header {
 
 #news_events .position-dimension {
   top: -7rem;
-  left: -6rem;
+  left: -7rem;
   width: 120%; }
 
 #news_events .tbl-pl-none {
@@ -3059,12 +3103,8 @@ header {
     left: -5.5rem;
     top: -5rem; }
   #news_events .newsList .topic {
-    font-size: 2vw;
-    line-height: 2.4vw;
     padding-bottom: 10px; }
   #news_events .newsList .description {
-    font-size: 1.8vw;
-    line-height: 2.2vw;
     padding-bottom: 15px !important; }
   #news_events .newsList .date {
     font-size: 12px;
@@ -3171,9 +3211,9 @@ header {
     font-size: 2.1vw;
     font-weight: bold; }
   #career .text-banner p {
-    font-size: 1.1vw;
+    font-size: 1rem;
     margin-bottom: 20px;
-    line-height: 1.5vw; }
+    line-height: 1.5rem; }
     #career .text-banner p:last-child {
       margin-bottom: 0px; }
 
@@ -3239,9 +3279,9 @@ header {
     #career .text-banner h2 {
       font-size: 2.7vw; }
     #career .text-banner p {
-      font-size: 2vw;
+      font-size: 0.85rem;
       margin-bottom: 10px;
-      line-height: 2.4vw; }
+      line-height: 1.2rem; }
       #career .text-banner p:last-child {
         margin-bottom: 0px; }
   #career .topic, #career .description {
@@ -3399,12 +3439,15 @@ header {
   font-size: 14px;
   color: #999; }
 
+#franchise h2 {
+  font-size: 3vw; }
+
 #franchise h3 {
   color: #fdc30f;
   margin-top: 45px;
   padding-top: 40px;
   font-weight: 600;
-  font-size: 34px; }
+  font-size: 2.8vw; }
 
 #franchise p {
   color: #666;
@@ -3461,9 +3504,9 @@ header {
     padding: 0;
     padding-bottom: 0 !important;
     width: 90vw; }
-  #franchise h1 {
+  #franchise h2 {
     font-size: 3.5vw;
-    padding: 10px 0 20px !important;
+    padding: 15px 0 20px !important;
     margin-bottom: 20px !important; }
   #franchise h3 {
     font-size: 2.8vw;
@@ -3672,6 +3715,53 @@ header {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 6vw; }
 
+@media (min-width: 991px) and (max-width: 1199px) {
+  #who-we-are .tbl-container {
+    max-width: 94vw;
+    padding: 0;
+    padding-bottom: 0 !important; }
+  #who-we-are .tbl-container-fuild {
+    max-width: 100%;
+    padding: 0; }
+  #who-we-are .hero-banner {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important; }
+    #who-we-are .hero-banner .block {
+      padding: 15px 0px; }
+      #who-we-are .hero-banner .block h2 {
+        font-size: 2.8vw;
+        font-weight: bold;
+        margin: 5px !important;
+        padding-left: 18px !important;
+        padding-right: 18px !important; }
+      #who-we-are .hero-banner .block p {
+        font-size: 1.5vw;
+        line-height: 2.1vw; }
+    #who-we-are .hero-banner h3 {
+      font-size: 2.3vw; }
+    #who-we-are .hero-banner .logo img {
+      width: 60%; }
+    #who-we-are .hero-banner .bg-black {
+      padding: 3.5vw 0.2vw !important; }
+      #who-we-are .hero-banner .bg-black .topic {
+        font-size: 1.6vw;
+        margin: 10px 0;
+        font-weight: 500;
+        line-height: 2.1vw; }
+      #who-we-are .hero-banner .bg-black p {
+        font-size: 1.4vw;
+        line-height: 2.1vw; }
+  #who-we-are .bg-yellow-fulid {
+    height: 290px; }
+  #who-we-are ul.text-progress li {
+    font-size: 2.5vw; }
+  #who-we-are .img-left {
+    padding: 0 0px 20px 0 !important; }
+  #who-we-are .position-relative h4 {
+    margin-bottom: 3vw !important; }
+  #who-we-are .brandLists {
+    grid-gap: 3.5vw; } }
+
 @media (min-width: 640px) and (max-width: 990px) {
   #who-we-are .tbl-container {
     max-width: 94vw;
@@ -3686,16 +3776,16 @@ header {
     #who-we-are .hero-banner .block {
       padding: 15px 0px; }
       #who-we-are .hero-banner .block h2 {
-        font-size: 2.5vw;
+        font-size: 2.7vw;
         font-weight: bold;
         margin: 5px !important;
         padding-left: 18px !important;
         padding-right: 18px !important; }
       #who-we-are .hero-banner .block p {
         font-size: 2vw;
-        line-height: 2.7vw; }
+        line-height: 2.8vw; }
     #who-we-are .hero-banner h3 {
-      font-size: 2.3vw; }
+      font-size: 2.5vw; }
     #who-we-are .hero-banner .logo img {
       width: 60%; }
     #who-we-are .hero-banner .bg-black {
@@ -3704,10 +3794,10 @@ header {
         font-size: 2vw;
         margin: 10px 0;
         font-weight: 500;
-        line-height: 2.5vw; }
+        line-height: 2.8vw; }
       #who-we-are .hero-banner .bg-black p {
-        font-size: 1.9vw;
-        line-height: 2.7vw; }
+        font-size: 2vw;
+        line-height: 2.8vw; }
   #who-we-are .bg-yellow-fulid {
     height: 290px; }
   #who-we-are ul.text-progress li {
@@ -3731,7 +3821,8 @@ header {
 #project_sale .hero-banner {
   height: auto;
   background-size: auto 100%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center; }
 
 #project_sale .banner-text {
   padding: 4.2vw 3.5vw;
@@ -3858,6 +3949,64 @@ header {
     background-color: #000;
     padding: 0 3vw; }
 
+@media (min-width: 991px) and (max-width: 1199px) {
+  #project_sale .tbl-container {
+    max-width: 94vw;
+    padding: 0;
+    padding-bottom: 0 !important;
+    width: 90vw; }
+  #project_sale ul.left-menu {
+    padding-left: 0; }
+    #project_sale ul.left-menu li {
+      padding: 10px 15px;
+      font-size: 1rem; }
+      #project_sale ul.left-menu li .arrow {
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        font-size: 0.9rem; }
+        #project_sale ul.left-menu li .arrow i {
+          margin-top: -3px; }
+  #project_sale ul.sub-menu {
+    min-height: 42px; }
+    #project_sale ul.sub-menu li {
+      padding: 5px 10px;
+      font-size: 0.9rem;
+      text-align: center; }
+  #project_sale .lists a img {
+    margin-bottom: 5px; }
+  #project_sale .lists .topic {
+    font-size: 1rem;
+    padding: 0 10px; }
+  #project_sale .lists .description {
+    margin-top: 5px;
+    line-height: 2.5vw;
+    padding: 0 10px 10px;
+    font-size: 0.9rem; }
+  #project_sale .pagination {
+    font-size: 80%;
+    margin: 20px 0; }
+    #project_sale .pagination a.arrow {
+      width: 28px;
+      height: 28px;
+      line-height: 28px; }
+  #project_sale .banner-text {
+    padding: 3vw 1.5vw;
+    font-size: 0.9rem; }
+    #project_sale .banner-text h3 {
+      font-size: 2.5vw;
+      padding-bottom: 0rem; }
+    #project_sale .banner-text a.btn {
+      padding: 10px !important;
+      font-size: 90%;
+      word-wrap: normal; }
+  #project_sale .subscribe {
+    top: 2.5vw; }
+    #project_sale .subscribe input {
+      padding: 0px 5px !important;
+      font-size: 80%;
+      max-width: 80%; } }
+
 @media (min-width: 640px) and (max-width: 990px) {
   #project_sale .tbl-container {
     max-width: 94vw;
@@ -3868,30 +4017,30 @@ header {
     padding-left: 0; }
     #project_sale ul.left-menu li {
       padding: 10px 15px;
-      font-size: 2.3vw; }
+      font-size: 1rem; }
       #project_sale ul.left-menu li .arrow {
         width: 24px;
         height: 24px;
         line-height: 24px;
-        font-size: 1.8vw; }
+        font-size: 0.9rem; }
         #project_sale ul.left-menu li .arrow i {
           margin-top: -3px; }
   #project_sale ul.sub-menu {
     min-height: 42px; }
     #project_sale ul.sub-menu li {
       padding: 5px 10px;
-      font-size: 1.8vw;
+      font-size: 0.8rem;
       text-align: center; }
   #project_sale .lists a img {
     margin-bottom: 5px; }
   #project_sale .lists .topic {
-    font-size: 2.5vw;
+    font-size: 0.9rem;
     padding: 0 10px; }
   #project_sale .lists .description {
     margin-top: 5px;
     line-height: 2.5vw;
     padding: 0 10px 10px;
-    font-size: 2vw; }
+    font-size: 0.8rem; }
   #project_sale .pagination {
     font-size: 80%;
     margin: 20px 0; }
@@ -3901,7 +4050,7 @@ header {
       line-height: 28px; }
   #project_sale .banner-text {
     padding: 3vw 1.5vw;
-    font-size: 2vw; }
+    font-size: 1.8vw; }
     #project_sale .banner-text h3 {
       font-size: 2.5vw;
       padding-bottom: 0rem; }
@@ -4517,8 +4666,8 @@ header {
     font-size: 2.5vw;
     margin-top: 10px; }
   #home-services .reason-services .description {
-    font-size: 2.2vw;
-    line-height: 2.6vw; }
+    font-size: 1rem;
+    line-height: 1.4rem; }
   #home-services .area-services h2 {
     font-size: 4vw;
     min-height: auto; }
@@ -4672,8 +4821,8 @@ header {
 
 @media (min-width: 640px) and (max-width: 990px) {
   #inspiration-list .tbl-container {
-    max-width: 90vw;
-    padding: 0 !important; }
+    max-width: 94vw;
+    padding: 0; }
   #inspiration-list .tbl-container-fuild {
     max-width: 100%;
     padding-right: 0;
@@ -4696,29 +4845,28 @@ header {
       margin-top: 10px;
       line-height: 1.8vw; }
   #inspiration-list .idea-lists .calendar {
-    font-size: 3vw;
+    font-size: 1.5rem;
     line-height: 20px; }
     #inspiration-list .idea-lists .calendar span {
       font-size: 2vw; }
   #inspiration-list .idea-lists .view {
-    font-size: 1.9vw; }
+    font-size: 0.9rem; }
   #inspiration-list .idea-lists .topic {
-    font-size: 2.5vw;
-    line-height: 3vw;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
     max-height: 6.5vw;
     margin-bottom: 0px; }
   #inspiration-list .idea-lists .desc {
-    font-size: 2.3vw;
+    font-size: 1rem;
     line-height: 2.6vw;
     max-height: 5.2vw;
     padding-bottom: 0; }
   #inspiration-list .idea-lists .read-more a {
-    font-size: 1.8vw; }
+    font-size: 0.9rem; }
   #inspiration-list .idea-lists .btn {
-    max-width: 80%;
     font-size: 1.9vw; }
   #inspiration-list .garden-lists .list .title {
-    font-size: 2vw;
+    font-size: 0.9rem;
     min-height: 60px; }
   #inspiration-list .tbl-mb-3 {
     margin-bottom: 30px !important; }
@@ -4761,7 +4909,7 @@ header {
     max-width: 94vw;
     padding: 0; }
   #inspiration-detail h2 {
-    font-size: 4vw; }
+    font-size: 3.5vw; }
   #inspiration-detail .social {
     margin-top: 10px; }
     #inspiration-detail .social .views {

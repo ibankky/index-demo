@@ -123,6 +123,89 @@
   }
 }
 
+@include tablet-width {
+  #who-we-are {
+    .tbl-container {
+      @include tbl-container;
+      padding-bottom: 0 !important;
+    }
+
+    .tbl-container-fuild {
+      @include tbl-container-fuild;
+    }
+
+    .hero-banner {
+      padding-bottom: 0 !important;
+      margin-bottom: 0 !important;
+
+      .block {
+        padding: 15px 0px;
+
+        h2 {
+          font-size: 2.8vw;
+          font-weight: bold;
+          margin: 5px !important;
+          padding-left: 18px !important;
+          padding-right: 18px !important;
+        }
+
+        p {
+          font-size: 1.5vw;
+          line-height: 2.1vw;
+        }
+      }
+
+      h3 {
+        font-size: 2.3vw;
+      }
+
+      .logo {
+        img { width: 60%; }
+      }
+
+      .bg-black {
+        padding: 3.5vw 0.2vw !important;
+
+        .topic {
+          font-size: 1.6vw;
+          margin: 10px 0;
+          font-weight: 500;
+          line-height: 2.1vw;
+        }
+
+        p {
+          font-size: 1.4vw;
+          line-height: 2.1vw;
+        }
+      }
+    }
+
+    .bg-yellow-fulid {
+      height: 290px;
+    }
+
+    ul.text-progress {
+      li {
+        font-size: 2.5vw;
+      }
+    }
+
+    .img-left {
+      padding: 0 0px 20px 0 !important;
+    }
+
+    .position-relative {
+      h4 {
+        margin-bottom: 3vw !important;
+      }
+    }
+
+    .brandLists {
+      grid-gap: 3.5vw;
+    }
+  }
+}
+
 @include tablet {
   #who-we-are {
     .tbl-container {
@@ -142,7 +225,7 @@
         padding: 15px 0px;
 
         h2 {
-          font-size: 2.5vw;
+          font-size: 2.7vw;
           font-weight: bold;
           margin: 5px !important;
           padding-left: 18px !important;
@@ -151,12 +234,12 @@
 
         p {
           font-size: 2vw;
-          line-height: 2.7vw;
+          line-height: 2.8vw;
         }
       }
 
       h3 {
-        font-size: 2.3vw;
+        font-size: 2.5vw;
       }
 
       .logo {
@@ -170,12 +253,12 @@
           font-size: 2vw;
           margin: 10px 0;
           font-weight: 500;
-          line-height: 2.5vw;
+          line-height: 2.8vw;
         }
 
         p {
-          font-size: 1.9vw;
-          line-height: 2.7vw;
+          font-size: 2vw;
+          line-height: 2.8vw;
         }
       }
     }

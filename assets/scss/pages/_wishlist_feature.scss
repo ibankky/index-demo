@@ -4,6 +4,16 @@
   }
   .width-45 { width: 45%; margin: 0; padding: 0; box-sizing: border-box; }
 
+  .container-fuild {
+    .tbl-container {
+      max-width: 100%;
+    }
+  }
+
+  h2 {
+    font-size: 2.5vw;
+  }
+
   .bg-grey-dark {
     background-color: #56555A;
     padding: 50px 0;
@@ -49,14 +59,14 @@
   }
 
   .btn-show {
-    padding: 15px 50px;
+    padding: 13px 40px;
     background: $black;
-    font-size: 24px;
+    font-size: 22px;
     border-radius: 0;
   }
 
   .topic {
-    font-size: 22px;
+    font-size: 21px;
     color: #737373;
     line-height: 24px;
   }
@@ -93,6 +103,68 @@
   }
 }
 
+@include tablet-width {
+  #wishlist_feature {
+    .tbl-container {
+      @include tbl-container;
+    }
+
+    .bg-grey-dark {
+      padding: 20px 0 0;
+    }
+
+    h2 {
+      font-size: 2.7vw;
+    }
+
+    .tbl-banner {
+      max-width: 100%;
+      padding: 0 !important;
+    }
+
+    .cover-img {
+      img { width: 100%; }
+    }
+
+    .width-sm-100 { width: 99.8%; }
+    .width-55 {
+      h2 {
+        padding-left: 15px;
+        text-align: left !important;
+      }
+      &:nth-child(even) {
+        h2 {
+          text-align: right !important;
+          padding-right: 15px !important;
+        }
+      }
+    }
+
+    .topic {
+      padding: 15px 0;
+      font-size: 2.8vw;
+      line-height: 3.3vw;
+    }
+
+    .position-space {
+      position: inherit !important;
+    }
+
+    .btn-show {
+      padding: 10px 30px;
+      font-size: 2.2vw;
+    }
+
+    .order-img {
+      order: 1;
+    }
+
+    .order-desc {
+      order: 2;
+    }
+  }
+}
+
 @include tablet {
   #wishlist_feature {
     .tbl-container {
@@ -104,7 +176,7 @@
     }
 
     h2 {
-      font-size: 4vw;
+      font-size: 3.5vw;
     }
 
     .tbl-banner {
@@ -112,16 +184,20 @@
       padding: 0 !important;
     }
 
+    .cover-img {
+      img { width: 100%; }
+    }
+
     .width-sm-100 { width: 99.8%; }
     .width-55 {
       h2 {
-        padding-left: 10px;
+        padding-left: 15px;
         text-align: left !important;
       }
       &:nth-child(even) {
         h2 {
           text-align: right !important;
-          padding-right: 10px !important;
+          padding-right: 15px !important;
         }
       }
     }
@@ -129,6 +205,7 @@
     .topic {
       padding: 15px 0;
       font-size: 3vw;
+      line-height: 3.5vw;
     }
 
     .position-space {

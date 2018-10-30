@@ -133,8 +133,7 @@
 @include tablet {
   #inspiration-list {
     .tbl-container {
-      max-width: 90vw;
-      padding: 0 !important;
+      @include tbl-container;
     }
 
     .tbl-container-fuild {
@@ -177,21 +176,21 @@
 
     .idea-lists {
       .calendar {
-        font-size: 3vw;
+        font-size: 1.5rem;
         line-height: 20px;
         span { font-size: 2vw; }
       }
-      .view { font-size: 1.9vw; }
-      .topic { font-size: 2.5vw; line-height: 3vw; max-height: 6.5vw; margin-bottom: 0px; }
-      .desc { font-size: 2.3vw; line-height: 2.6vw; max-height: 5.2vw; padding-bottom: 0; }
-      .read-more { a { font-size: 1.8vw; } }
-      .btn { max-width: 80%; font-size: 1.9vw; }
+      .view { font-size: 0.9rem; }
+      .topic { font-size: 1.1rem; line-height: 1.5rem; max-height: 6.5vw; margin-bottom: 0px; }
+      .desc { font-size: 1rem; line-height: 2.6vw; max-height: 5.2vw; padding-bottom: 0; }
+      .read-more { a { font-size: 0.9rem; } }
+      .btn { font-size: 1.9vw; }
     }
 
     .garden-lists {
       .list {
         .title {
-          font-size: 2vw;
+          font-size: 0.9rem;
           min-height: 60px;
         }
       }

@@ -162,11 +162,11 @@
     .-name {
       font-size: 24px;
       color: $dark-blue;
-      padding: 1.2rem 0;
+      padding: 1rem 0;
     }
     .-tax {
       font-size: 16px;
-      font-weight: 400;
+      font-weight: 300;
       color: $dark-blue;
     }
     .-flag {
@@ -178,7 +178,7 @@
 
   .right-box {
     color: $grey;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 0.95rem;
     line-height: 22px;
     vertical-align: middle;
@@ -188,11 +188,12 @@
       border-bottom: 1px dashed $grey-neutral;
     }
 
-    .text-medium { font-size: 20px; }
+    .text-medium { font-size: 1.1rem; }
     select {
       padding: 0;
       height: 24px;
       text-transform: uppercase;
+      font-size: 0.9rem;
     }
     .configurables {
       .color {
@@ -218,7 +219,7 @@
       }
     }
     .add-to-cart {
-      font-size: 20px;
+      font-size: 1.2rem;
       font-weight: 500;
 
       select {
@@ -477,7 +478,7 @@
   .pop-message {
     border-radius: 0px;
     box-sizing: border-box;
-    font-size: 1.05rem;
+    font-size: 1rem;
     width: auto;
     display: inline-block;
     font-weight: 400;
@@ -485,6 +486,7 @@
 
     .bg-img {
       background: seagreen;
+      font-size: 1rem;
     }
 
     &:after,
@@ -537,7 +539,7 @@
     }
 
     .img-thumb {
-      max-width: 180px;
+      max-width: 60px;
     }
   }
 
@@ -557,12 +559,12 @@
 
     .price {
       margin-top: 10px;
-      font-size: 17px;
+      font-size: 0.95rem;
       color: $dark-blue;
       font-weight: 500;
 
       strike {
-        font-size: 15px;
+        font-size: 0.85rem;
         color: $grey;
         font-weight: 400;
         margin-right: 5px;
@@ -601,7 +603,7 @@
       }
 
       .brand, .save {
-        font-size: 13px;
+        font-size: 0.7rem;
         font-weight: 100;
 
         a {
@@ -640,8 +642,8 @@
       }
 
       .custom-control-label::after {
-        top: .30rem;
-        left: -1.4rem;
+        top: .33rem;
+        left: -1.35rem;
         background-size: 70% 70%;
       }
     }
@@ -656,6 +658,7 @@
     }
 
     .desc {
+      font-size: 0.9rem;
       padding: 30px 40px;
       background-image: url(../image/icon/vip_quot_top.svg),url(../image/icon/vip_quot_bottom.svg);
       background-repeat: no-repeat,no-repeat;
@@ -666,7 +669,7 @@
   .explore {
     li {
       list-style: none;
-      font-size: 14px;
+      font-size: 0.8rem;
       padding: 5px 0;
 
       a {

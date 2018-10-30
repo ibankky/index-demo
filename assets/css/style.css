@@ -1532,10 +1532,10 @@ header {
     #pdp_page .product .-name {
       font-size: 24px;
       color: #1d3b48;
-      padding: 1.2rem 0; }
+      padding: 1rem 0; }
     #pdp_page .product .-tax {
       font-size: 16px;
-      font-weight: 400;
+      font-weight: 300;
       color: #1d3b48; }
     #pdp_page .product .-flag {
       font-size: 14px;
@@ -1543,7 +1543,7 @@ header {
       margin-right: 10px; }
   #pdp_page .right-box {
     color: #6b7d85;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 0.95rem;
     line-height: 22px;
     vertical-align: middle; }
@@ -1551,11 +1551,12 @@ header {
       padding: 7px 0;
       border-bottom: 1px dashed #ddd; }
     #pdp_page .right-box .text-medium {
-      font-size: 20px; }
+      font-size: 1.1rem; }
     #pdp_page .right-box select {
       padding: 0;
       height: 24px;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-size: 0.9rem; }
     #pdp_page .right-box .configurables .color {
       width: 18px;
       display: inline-block;
@@ -1571,7 +1572,7 @@ header {
       #pdp_page .right-box .configurables .other img {
         max-width: 100%; }
     #pdp_page .right-box .add-to-cart {
-      font-size: 20px;
+      font-size: 1.2rem;
       font-weight: 500; }
       #pdp_page .right-box .add-to-cart select {
         border-radius: 0 !important;
@@ -1753,13 +1754,14 @@ header {
   #pdp_page .pop-message {
     border-radius: 0px;
     box-sizing: border-box;
-    font-size: 1.05rem;
+    font-size: 1rem;
     width: auto;
     display: inline-block;
     font-weight: 400;
     line-height: 18px; }
     #pdp_page .pop-message .bg-img {
-      background: seagreen; }
+      background: seagreen;
+      font-size: 1rem; }
     #pdp_page .pop-message:after, #pdp_page .pop-message:before {
       content: '';
       display: block;
@@ -1791,7 +1793,7 @@ header {
   #pdp_page .slide .slick-current .img-thumb {
     border: 1px solid #ccc; }
   #pdp_page .slide .img-thumb {
-    max-width: 180px; }
+    max-width: 60px; }
   #pdp_page .similar-product img {
     width: 70%; }
   #pdp_page .similar-product .name {
@@ -1802,11 +1804,11 @@ header {
     margin-top: 20px; }
   #pdp_page .similar-product .price {
     margin-top: 10px;
-    font-size: 17px;
+    font-size: 0.95rem;
     color: #1d3b48;
     font-weight: 500; }
     #pdp_page .similar-product .price strike {
-      font-size: 15px;
+      font-size: 0.85rem;
       color: #6b7d85;
       font-weight: 400;
       margin-right: 5px; }
@@ -1831,7 +1833,7 @@ header {
       line-height: 18px;
       font-weight: 500; }
     #pdp_page .news-product .new-arrivals .brand, #pdp_page .news-product .new-arrivals .save {
-      font-size: 13px;
+      font-size: 0.7rem;
       font-weight: 100; }
       #pdp_page .news-product .new-arrivals .brand a, #pdp_page .news-product .new-arrivals .save a {
         color: #1d3b48; }
@@ -1854,8 +1856,8 @@ header {
       width: 1.2rem;
       height: 1.2rem; }
     #pdp_page .news-product .new-arrivals .custom-control-label::after {
-      top: .30rem;
-      left: -1.4rem;
+      top: .33rem;
+      left: -1.35rem;
       background-size: 70% 70%; }
   #pdp_page .comments {
     color: #1d3b48; }
@@ -1863,13 +1865,14 @@ header {
       font-size: 22px;
       margin-top: -10px; }
     #pdp_page .comments .desc {
+      font-size: 0.9rem;
       padding: 30px 40px;
       background-image: url(../image/icon/vip_quot_top.svg), url(../image/icon/vip_quot_bottom.svg);
       background-repeat: no-repeat,no-repeat;
       background-position: 0 0,100% 100%; }
   #pdp_page .explore li {
     list-style: none;
-    font-size: 14px;
+    font-size: 0.8rem;
     padding: 5px 0; }
     #pdp_page .explore li a {
       color: #6b7d85; }

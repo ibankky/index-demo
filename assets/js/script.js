@@ -102,8 +102,8 @@ $(function(){
     dots: false,
     arrows: true,
     centerMode: false,
-    prevArrow: "<i class=\"fas fa-chevron-left\" style=\"position: absolute; opacity: 0.8; top: -40px; left: 35px; font-size: 35px; transform: rotate(90deg); display: inline; color: #555;\"></i>",
-    nextArrow: "<i class=\"fas fa-chevron-right\" style=\"position: absolute;  opacity: 0.8; top: calc(100% - 5px); right: 38px; font-size: 35px; transform: rotate(90deg); display: inline; color: #555;\"></i>",
+    prevArrow: "<i class=\"fas fa-chevron-left\" style=\"position: absolute; opacity: 0.8; top: -40px; left: 53px; font-size: 35px; transform: rotate(90deg); display: inline; color: #555;\"></i>",
+    nextArrow: "<i class=\"fas fa-chevron-right\" style=\"position: absolute;  opacity: 0.8; top: calc(100% - 5px); right: 48px; font-size: 35px; transform: rotate(90deg); display: inline; color: #555;\"></i>",
     focusOnSelect: true
   });
 });

@@ -1,0 +1,41 @@
+$screen-min: 640px;  /* Medium screen min / desktop */
+$screen-max: 990px;  /* Medium screen max / desktop */
+$screen-width-min: 991px;  /* Medium screen max / desktop */
+$screen-width-max: 1199px;  /* Medium screen max / desktop */
+
+@mixin tablet-width {
+  @media (min-width: #{$screen-width-min}) and (max-width: #{$screen-width-max}) {
+    @content;
+
+    .breadcrumb {
+      @include breadcrumb(0.85rem);
+    }
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$screen-min}) and (max-width: #{$screen-max}) {
+    @content;
+
+    .breadcrumb {
+      @include breadcrumb(0.8rem);
+    }
+  }
+}
+
+@mixin tbl-container {
+  max-width: 94vw;
+  padding: 0;
+}
+
+@mixin tbl-container-fuild {
+  max-width: 100%;
+  padding: 0;
+}
+
+@mixin breadcrumb($size) {
+  font-size: #{$size};
+  font-weight: 500;
+  margin-bottom: 0 !important;
+  padding-bottom: 15px !important;
+}

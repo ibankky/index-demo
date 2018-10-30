@@ -26,10 +26,51 @@
       max-width: 100%;
       padding: 40px 0;
     }
+
+    p {
+      font-size: 1.5vw;
+    }
   }
 
   .short-desc {
     font-size: 1.4rem;
     font-style: italic;
+  }
+}
+
+@include tablet {
+  #inspiration-detail {
+    .tbl-container {
+      @include tbl-container;
+    }
+
+    h2 {
+      font-size: 3.5vw;
+    }
+
+    .social {
+      margin-top: 10px;
+
+      .views {
+        font-size: 0.9rem;
+        margin-top: 3px;
+      }
+      .icon {
+        a {
+          font-size: 0.9rem;
+          margin-left: 15px;
+        }
+      }
+    }
+
+    .short-desc {
+      font-size: 2.5vw;
+    }
+
+    .description {
+      p {
+        font-size: 2.2vw;
+      }
+    }
   }
 }

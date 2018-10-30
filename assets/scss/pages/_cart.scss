@@ -17,10 +17,14 @@
     }
   }
 
+  .tbl-lists {
+    border-top: 0px;
+  }
+
   .service {
     img {
-      max-width: 250px;
-      height: 60px;
+      max-width: 100%;
+      max-height: 60px;
     }
   }
 
@@ -28,28 +32,46 @@
     h5 { font-size: 16px; }
 
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 400;
+
+    input {
+      &::placeholder {
+        color: $grey-smoke;
+      }
+    }
+
+    .btn {
+      padding: 8px 15px !important;
+      font-size: 1rem;
+      font-weight: 500;
+    }
   }
 
   .navigate {
     font-size: 16px;
-    color: #565658;
+    color: $grey-smoke;
 
     .number {
-      width: 45px;
-      height: 45px;
-      line-height: 45px;
-      vertical-align: 45px;
-      background-color: #c4c4c6;
+      width: 47px;
+      height: 47px;
+      line-height: 47px;
+      vertical-align: 47px;
+      background-color: $grey-dark-neutral;
       color: $white;
+      font-size: 1.2rem;
+    }
+
+    p {
+      font-size: 1rem;
+      font-weight: 500;
     }
 
     .active {
-      border-bottom: 3px solid #ffc107;
+      border-bottom: 3px solid $yellow;
       color: $black;
 
       .number {
-        background-color: #ffc107;
+        background-color: $yellow;
       }
     }
   }
@@ -60,16 +82,134 @@
       border-color: #565658 !important;
     }
     .discount {
-      font-size: 10px;
+      font-size: 11px;
       text-decoration: line-through;
+      color: $grey-smoke;
     }
-
+    small { font-weight: 500; }
     .code {
-      font-size: 10px;
+      font-size: 11px;
+      color: $grey-smoke;
     }
-
     .remove {
       cursor: pointer;
+    }
+  }
+
+  select.custom-select {
+    border-color: $black !important;
+  }
+
+  .btn {
+    border-radius: 0px !important;
+    max-width: 100%;
+  }
+
+  .message {
+    font-size: 1.1rem;
+    color: $grey-smoke;
+  }
+
+  button.shopping {
+    background-color: $yellow;
+    color: $white;
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+
+  .header-list {
+    font-size: 1rem;
+    font-weight: 500;
+    color: $white;
+    background: $grey-ash;
+  }
+
+  .name {
+    line-height: 1.2rem;
+    font-size: 0.95rem;
+  }
+
+  .price {
+    font-size: 0.85rem;
+    font-weight: 500;
+
+    &.red {
+      color: $red-dark;
+    }
+  }
+
+  .custom-select {
+    width: 80%;
+    height: calc(2rem + 2px);
+    padding: .2rem 1.75rem .2rem .75rem;
+  }
+}
+
+@include tablet {
+  #cart_page {
+    .navigate {
+      margin-top: 0 !important;
+      font-size: 2.1vw;
+
+      .number {
+        font-size: 2.3vw;
+        font-weight: 500;
+      }
+
+      p {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+      }
+    }
+
+    .tbl-lists {
+      padding: 0 1rem !important;
+
+      select {
+        height: 30px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+      }
+
+      .name {
+        font-size: 0.8rem;
+        line-height: 1rem;
+      }
+    }
+
+    .summary {
+      font-size: 0.75rem;
+      font-weight: 400;
+
+      h5 {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+      }
+
+      input {
+        height: 35px;
+        &::placeholder {
+          font-size: 0.85rem;
+          color: $grey-smoke;
+        }
+      }
+
+      .btn {
+        font-size: 0.9rem;
+      }
+    }
+
+    .tbl-lists-sub {
+      padding: 0;
+    }
+
+    .tbl-container {
+      @include tbl-container;
+    }
+
+    .custom-select {
+      width: 70%;
     }
   }
 }

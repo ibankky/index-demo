@@ -12,17 +12,25 @@
     color: $grey-smoke;
   }
 
+  h2 {
+    font-size: 3vw;
+  }
+
   h3 {
     color: $yellow;
     margin-top: 45px;
     padding-top: 40px;
     font-weight: 600;
-    font-size: 34px;
+    font-size: 2.8vw;
   }
 
   p {
     color: $grey-ash;
     padding: 0;
+  }
+
+  .contents {
+    margin-bottom: 80px;
   }
 
   .lists {
@@ -67,12 +75,61 @@
     top: 150px;
     left: -115px;
     padding: 25px 80px;
+    z-index: 99;
+    opacity: 0.8;
   }
 
   .affix {
     position: fixed;
     top: 100px;
-    z-index: 99;
     width: 200px;
+    z-index: 99;
+  }
+}
+
+@include tablet {
+  #franchise {
+    .tbl-container {
+      @include tbl-container;
+      padding-bottom: 0 !important;
+    }
+
+    h2 {
+      font-size: 3.5vw;
+      padding: 15px 0 20px !important;
+      margin-bottom: 20px !important;
+    }
+
+    h3 {
+      font-size: 2.8vw;
+      padding-top: 20px !important;
+    }
+
+    .contents {
+      margin-bottom: 40px;
+    }
+
+    .lists {
+      .topic {
+        font-size: 2.1vw;
+        margin-top: 10px;
+      }
+
+      .description {
+        padding-bottom: 10px !important;
+      }
+    }
+
+    .left-menu {
+      padding: 10px 20px;
+      left: -60px;
+      opacity: 0.8;
+      font-size: 80%;
+    }
+
+    .affix {
+      top: 80px;
+      width: 140px;
+    }
   }
 }

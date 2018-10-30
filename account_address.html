@@ -576,7 +576,7 @@
           </header>
     <!-- main body -->
     <div role="main" class="container-fuild bg-grey">
-      <div class="container">
+      <div class="container tbl-container">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/index.html">หน้าแรก</a></li>
@@ -585,13 +585,14 @@
         </nav>
       </div>
 
-      <div class="container">
-        <div class="row px-0">
-          <div class="col-sm-4">
+      <div class="container tbl-container">
+        <div class="row px-0 mx-0">
+          <div class="col-sm-4 px-0 mx-0 wrapper-menu">
             <ul class="row ml-0 menu">
               <li class="col-sm-12">
+                <div class="position-absolute icon"><i class="far fa-user"></i></div>
                 <a href="/account_dashboard.html" title="">
-                  <i class="far fa-user"></i>Account Dashboard
+                  Account Dashboard
                 </a>
               </li>
               <li class="col-sm-12 border-top">
@@ -621,8 +622,8 @@
               </li>
             </ul>
           </div>
-          <div class="col-sm-8 description mb-5">
-            <div class="row mr-0 bg-white">
+          <div class="col-sm-8 px-0 mx-0 description mb-5">
+            <div class="row px-0 mx-0 mr-0 bg-white">
               <h3 class="col-sm-12 border-bottom pt-3 py-2 px-3">Hello, Premrutai Fai!</h3>
               <div class="row px-3 pb-4">
                 <h5 class="col-sm-12 pb-3 pt-2">ADD NEW ADDRESS</h5>
@@ -636,19 +637,19 @@
                       <label for="lastname">LASTNAME*</label>
                       <input type="text" class="form-control" id="lastname">
                     </div>
-                    <div class="form-group col-sm-12">
+                    <div class="form-group px-default col-sm-12">
                       <label for="company">COMPANY</label>
                       <input type="text" class="form-control" id="company">
                     </div>
-                    <div class="form-group col-sm-6">
+                    <div class="form-group form-revert col-sm-6">
                       <label for="firstname">MOBILE*</label>
                       <input type="text" class="form-control" id="mobile">
                     </div>
-                    <div class="form-group col-sm-6">
+                    <div class="form-group form-revert col-sm-6">
                       <label for="lastname">TELEPHONE*</label>
                       <input type="text" class="form-control" id="telephone">
                     </div>
-                    <div class="form-group col-sm-12">
+                    <div class="form-group px-default col-sm-12">
                       <label for="company">STREET ADDRESS*</label>
                       <input type="text" class="form-control" id="street">
                     </div>

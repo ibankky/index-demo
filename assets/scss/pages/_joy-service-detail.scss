@@ -3,6 +3,11 @@
     background-color: $black-choco;
   }
 
+  h2 {
+    font-size: 3vw;
+    margin: 40px 0;
+  }
+
   .nav-links {
     a {
       border-left: 1px solid #eee;
@@ -17,6 +22,72 @@
 
       &.active {
         color: $yellow;
+      }
+    }
+  }
+
+  .description {
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+@include tablet-width {
+  #joy-service-detail {
+    .tbl-container {
+      @include tbl-container;
+    }
+
+    h2 {
+      font-size: 2.7vw;
+      margin: 20px 0 25px;
+    }
+
+    .tbl-header {
+      max-width: 100vw;
+      padding: 0;
+
+      .row {
+        margin: 0;
+        padding: 10px 0 !important;
+      }
+
+      .nav-links {
+        a {
+         font-size: 1.8vw;
+         padding: 0 5px !important;
+        }
+      }
+    }
+  }
+}
+
+@include tablet {
+  #joy-service-detail {
+    .tbl-container {
+      @include tbl-container;
+    }
+
+    h2 {
+      font-size: 3.5vw;
+      margin: 20px 0 25px;
+    }
+
+    .tbl-header {
+      max-width: 100vw;
+      padding: 0;
+
+      .row {
+        margin: 0;
+        padding: 10px 0 !important;
+      }
+
+      .nav-links {
+        a {
+         font-size: 2vw;
+         padding: 0 5px !important;
+        }
       }
     }
   }

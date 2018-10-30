@@ -12,22 +12,25 @@
   }
 
   .hero-banner {
-    height: 600px;
-    background-size: 100% auto;
+    height: auto;
+    background-size: auto 100%;
     background-repeat: no-repeat;
+    background-position: center;
   }
 
   .banner-text {
-    bottom: 0;
-    background-size: 100% auto;
+    padding: 4.2vw 3.5vw;
+    margin-top: 23vw;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-  }
 
-  .footer-banner {
-    height: 180px;
-    background-position: center center;
-    background-size: auto 180px;
-    background-repeat: no-repeat;
+    h3 {
+      padding-bottom: 1rem;
+    }
+
+    .btn {
+      max-width: 300px;
+    }
   }
 
   .btn-contact {
@@ -47,7 +50,8 @@
       font-weight: 500;
       width: 100%;
       text-align: left;
-      font-size: 18px;
+      font-size: 22px;
+      text-decoration: none;
 
       &.btn {
         border-radius: 0;
@@ -63,14 +67,13 @@
         line-height: 32px;
         vertical-align: middle;
         float: right;
-        margin-top: -3px;
 
         i {
           margin-left: 3px;
         }
       }
 
-      &.active, &:hover {
+      &[aria-expanded="true"], &:hover {
         background-color: $yellow;
         color: $black;
       }
@@ -86,18 +89,43 @@
     background-color: $grey-snow;
     li {
       list-style: none;
-      padding: 15px 0;
+      padding: 20.5px 0;
       color: $grey-smoke;
       cursor: pointer;
+      line-height: 140%;
 
-      &.active {
+      &[aria-expanded="true"] {
         color: $black;
         font-weight: 500;
       }
     }
   }
 
+  .lists {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+
+    a img {
+      margin-bottom: 15px;
+    }
+    .topic {
+      color: $yellow;
+      font-size: 1rem;
+      font-weight: 500;
+      padding: 0 15px;
+    }
+
+    .description {
+      line-height: 2vw;
+      font-size: 1.2vw;
+      padding: 0 15px 10px;
+    }
+  }
+
   .pagination {
+    margin: 50px 0;
+
     select {
       width: auto;
     }
@@ -154,17 +182,201 @@
   }
 
   .subscribe {
-    top: calc(65% - 20px);
+    top: 4vw;
 
     input {
       border-color: $black;
       border-radius: 0;
+      max-width: 100%;
     }
 
     button {
       border-color: $black;
       border-radius: 0;
       background-color: $black;
+      padding: 0 3vw;
+    }
+  }
+}
+
+@include tablet-width {
+  #project_sale {
+    .tbl-container {
+      @include tbl-container;
+      padding-bottom: 0 !important;
+      width: 90vw;
+    }
+
+    ul.left-menu {
+      padding-left: 0;
+      li {
+        padding: 10px 15px;
+        font-size: 1rem;
+
+        .arrow {
+          width: 24px;
+          height: 24px;
+          line-height: 24px;
+          font-size: 0.9rem;
+          i {
+            margin-top: -3px;
+          }
+        }
+      }
+    }
+
+    ul.sub-menu {
+      min-height: 42px;
+
+      li {
+        padding: 5px 10px;
+        font-size: 0.9rem;
+        text-align: center;
+      }
+    }
+
+    .lists {
+      a img {
+        margin-bottom: 5px;
+      }
+
+      .topic {
+        font-size: 1rem;
+        padding: 0 10px;
+      }
+
+      .description {
+        line-height: 2.5vw;
+        padding: 0 10px 10px;
+        font-size: 0.9rem;
+      }
+    }
+
+    .pagination {
+      font-size: 80%;
+      margin: 20px 0;
+
+      a.arrow {
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+      }
+    }
+
+    .banner-text {
+      padding: 3vw 1.5vw;
+      font-size: 0.9rem;
+
+      h3 {
+        font-size: 2.5vw;
+        padding-bottom: 0rem;
+      }
+      a.btn {
+        padding: 10px !important;
+        font-size: 90%;
+        word-wrap: normal;
+      }
+    }
+
+    .subscribe {
+      top: 2.5vw;
+
+      input {
+        padding: 0px 5px !important;
+        font-size: 80%;
+        max-width: 80%;
+      }
+    }
+  }
+}
+
+@include tablet {
+  #project_sale {
+    .tbl-container {
+      @include tbl-container;
+      padding-bottom: 0 !important;
+      width: 90vw;
+    }
+
+    ul.left-menu {
+      padding-left: 0;
+      li {
+        padding: 10px 15px;
+        font-size: 1rem;
+
+        .arrow {
+          width: 24px;
+          height: 24px;
+          line-height: 24px;
+          font-size: 0.9rem;
+          i {
+            margin-top: -3px;
+          }
+        }
+      }
+    }
+
+    ul.sub-menu {
+      min-height: 42px;
+
+      li {
+        padding: 5px 10px;
+        font-size: 0.8rem;
+        text-align: center;
+      }
+    }
+
+    .lists {
+      a img {
+        margin-bottom: 5px;
+      }
+
+      .topic {
+        font-size: 0.9rem;
+        padding: 0 10px;
+      }
+
+      .description {
+        line-height: 2.5vw;
+        padding: 0 10px 10px;
+        font-size: 0.8rem;
+      }
+    }
+
+    .pagination {
+      font-size: 80%;
+      margin: 20px 0;
+
+      a.arrow {
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+      }
+    }
+
+    .banner-text {
+      padding: 3vw 1.5vw;
+      font-size: 1.8vw;
+
+      h3 {
+        font-size: 2.5vw;
+        padding-bottom: 0rem;
+      }
+      a.btn {
+        padding: 10px !important;
+        font-size: 90%;
+        word-wrap: normal;
+      }
+    }
+
+    .subscribe {
+      top: 2.5vw;
+
+      input {
+        padding: 0px 5px !important;
+        font-size: 80%;
+        max-width: 80%;
+      }
     }
   }
 }

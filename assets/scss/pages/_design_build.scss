@@ -5,6 +5,12 @@
 
   iframe {
     border: 0;
+    &.hero-video {
+      height: 450px;
+    }
+    &.sub-video {
+      height: 210px;
+    }
   }
 
   .description {
@@ -17,23 +23,38 @@
 
   .our-services {
     font-size: 22px;
+    color: $white;
+
+    .description {
+      img {
+        width: 50px;
+        max-width: 100%;
+        height: auto !important;
+      }
+    }
   }
 
   .progress-services {
     font-size: 18px;
 
+    h1 {
+      strong {
+        color: $yellow;
+      }
+    }
+
     .process {
-      top: -53px;
+      top: -50px;
       text-align: center;
       color: $black;
       font-size: 22px;
       font-weight: 500;
 
       .circle {
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
         background-color: $black;
-        line-height: 80px;
+        line-height: 70px;
         vertical-align: middle;
         font-size: 36px;
         border-radius: 50%;
@@ -83,7 +104,7 @@
       margin-bottom: 10px;
 
       &:before {
-        content: "- "; 
+        content: "- ";
         margin-left: -13px;
       }
     }
@@ -96,8 +117,246 @@
 
     strong {
       color: $yellow;
-      font-size: 36px;
+      font-size: 2.5rem;
       font-weight: 400;
+    }
+  }
+}
+
+@include tablet-width {
+  #design_build {
+    .tbl-container {
+      @include tbl-container;
+    }
+
+    .our-services {
+      font-size: 2.1vw;
+      padding-top: 4vw !important;
+      padding-bottom: 4vw !important;
+
+      .description {
+        border-color: $grey-ash !important;
+
+        img {
+          width: 60%;
+        }
+      }
+
+      h3 {
+        font-size: 2.4vw;
+        margin-bottom: -15px;
+      }
+
+      .logo {
+        img {
+          width: 80%;
+          height: auto;
+        }
+      }
+
+      img {
+        width: 45%;
+        height: auto;
+      }
+    }
+
+    iframe {
+      border: 0;
+      &.hero-video {
+        height: 40vw;
+      }
+      &.sub-video {
+        height: 18.9vw;
+        width: 100%;
+        margin-left: 0.3vw;
+
+        &:nth-child(odd) {
+          margin-bottom: -16px;
+        }
+      }
+    }
+
+    .progress-services {
+      h1 { font-size: 3.5vw; font-weight: 500; }
+      h2 { font-size: 2.7vw; margin-bottom: 4vw !important; font-weight: 400; }
+      .process {
+        font-size: 1.8vw;
+        margin-bottom: -1.5vw !important;
+
+        .circle {
+          width: 70px;
+          height: 70px;
+          line-height: 50px;
+          font-size: 2.9vw;
+        }
+      }
+
+      .border-dash {
+        margin-top: 1.7rem !important;
+        margin-bottom: 1rem;
+      }
+
+      .tabb {
+        font-size: 0.9rem;
+        line-height: 2.6vw;
+      }
+    }
+
+    .payment {
+      h2 {
+        font-size: 2.7vw;
+        font-weight: 500;
+        margin-bottom: 4.5vw !important;
+      }
+
+      .process {
+        top: -40px;
+
+        .image {
+          margin-bottom: 40px;
+        }
+
+        .topic {
+          font-size: 2.5vw;
+        }
+
+        ul li {
+          font-size: 1.8vw;
+          font-weight: 500;
+        }
+
+        img {
+          width: 73%;
+        }
+      }
+    }
+
+    .contact {
+      font-size: 2.5vw;
+      line-height: 4.5vw;
+
+      strong {
+        font-size: 3vw;
+      }
+    }
+  }
+}
+
+@include tablet {
+  #design_build {
+    .tbl-container {
+      @include tbl-container;
+    }
+
+    .our-services {
+      font-size: 2.1vw;
+      padding-top: 4vw !important;
+      padding-bottom: 4vw !important;
+
+      .description {
+        border-color: $grey-ash !important;
+
+        img {
+          width: 60%;
+        }
+      }
+
+      h3 {
+        font-size: 2.4vw;
+        margin-bottom: -15px;
+      }
+
+      .logo {
+        img {
+          width: 80%;
+          height: auto;
+        }
+      }
+
+      img {
+        width: 45%;
+        height: auto;
+      }
+    }
+
+    iframe {
+      border: 0;
+      &.hero-video {
+        height: 40vw;
+      }
+      &.sub-video {
+        height: 18.9vw;
+        width: 100%;
+        margin-left: 0.3vw;
+
+        &:nth-child(odd) {
+          margin-bottom: -16px;
+        }
+      }
+    }
+
+    .progress-services {
+      h1 { font-size: 4vw; font-weight: 500; }
+      h2 { font-size: 3vw; margin-bottom: 4vw !important; font-weight: 400; }
+      .process {
+        font-size: 2.1vw;
+        margin-bottom: -4.5vw !important;
+
+        .circle {
+          width: 70px;
+          height: 70px;
+          line-height: 50px;
+          font-size: 3.5vw;
+        }
+      }
+
+      .border-dash {
+        margin-top: 1.7rem !important;
+        margin-bottom: 1rem;
+      }
+
+      .tabb {
+        font-size: 0.8rem;
+        line-height: 3.2vw;
+      }
+    }
+
+    .payment {
+      h2 {
+        font-size: 3.5vw;
+        font-weight: 500;
+        margin-bottom: 4.5vw !important;
+      }
+
+      .process {
+        top: -40px;
+
+        .image {
+          margin-bottom: 40px;
+        }
+
+        .topic {
+          font-size: 2.5vw;
+        }
+
+        ul li {
+          font-size: 2vw;
+          font-weight: 500;
+        }
+
+        img {
+          width: 75%;
+        }
+      }
+    }
+
+    .contact {
+      font-size: 2.5vw;
+      line-height: 4.5vw;
+
+      strong {
+        font-size: 3vw;
+      }
     }
   }
 }

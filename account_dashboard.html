@@ -576,7 +576,7 @@
           </header>
     <!-- main body -->
     <div role="main" class="container-fuild bg-grey">
-      <div class="container">
+      <div class="container tbl-container">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/index.html">หน้าแรก</a></li>
@@ -585,13 +585,14 @@
         </nav>
       </div>
 
-      <div class="container">
-        <div class="row px-0">
-          <div class="col-sm-4">
-            <ul class="row ml-0 menu">
+      <div class="container tbl-container">
+        <div class="row px-0 mx-0">
+          <div class="col-sm-4 px-0 mx-0 wrapper-menu">
+            <ul class="row ml-0 menu position-relative">
               <li class="col-sm-12 active">
+                <div class="position-absolute icon"><i class="far fa-user"></i></div>
                 <a href="/account_dashboard.html" title="">
-                  <i class="far fa-user"></i>Account Dashboard
+                  Account Dashboard
                 </a>
               </li>
               <li class="col-sm-12 border-top">
@@ -621,10 +622,10 @@
               </li>
             </ul>
           </div>
-          <div class="col-sm-8 description mb-5">
-            <div class="row mr-0 bg-white">
+          <div class="col-sm-8 px-0 mx-0 description mb-5">
+            <div class="row px-0 mx-0 mr-0 bg-white">
               <h3 class="col-sm-12 border-bottom pt-3 py-2 px-3">Hello, Premrutai Fai! <button type="button" class="btn btn-sm btn-link float-right text-warning mt-1 pr-0"><i class="fas fa-pencil-alt"></i> Edit</button></h3>
-              <div class="row px-3 pb-5">
+              <div class="row px-3 pb-4">
                 <h5 class="col-sm-12 pb-3 pt-2">PERSONAL DETAILS</h5>
                 <p class="col-sm-6"><span class="upper">FIRST NAME : </span>Premrutai</p>
                 <p class="col-sm-6"><span class="upper">LAST NAME : </span>Kearpreu</p>
@@ -638,13 +639,13 @@
               </div>
               <div class="col-sm-12 padding-none address-book">
                 <div class="row px-3 pt-3 pb-4 text-secondary">
-                  <div class="col-sm-6">
+                  <div class="col-sm-6 address">
                     <h6 class="txt-weight-medium">DEFAULT BILLING ADDRESS <a href="" class="float-right text-warning"><i class="fas fa-pencil-alt"></i> <small class="text-warning">Edit</small></a></h6>
                     <div class="col-sm-12 py-2 bg-grey border">
                       <small class="txt-weight-light">You have not set a default billing address.</small>
                     </div>
                   </div>
-                  <div class="col-sm-6">
+                  <div class="col-sm-6 address">
                     <h6 class="txt-weight-medium">DEFAULT SHIPPING ADDRESS <a href="" class="float-right text-warning"><i class="fas fa-pencil-alt"></i> <small class="text-warning">Edit</small></a></h6>
                     <div class="col-sm-12 py-2 bg-grey border">
                       <small class="txt-weight-light">You have not set a default shipping address.</small>

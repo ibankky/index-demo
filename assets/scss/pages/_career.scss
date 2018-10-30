@@ -3,8 +3,11 @@
     background-color: $white;
   }
 
-  .bg-yellow {
+  .hilight {
     background-color: $yellow;
+    width: 1.5vw;
+    margin: 3vw auto;
+    float: right;
   }
 
   .color-yellow {
@@ -15,37 +18,65 @@
     color: $grey-smoke;
   }
 
+  .bg-yellow {
+    float: right;
+    height: auto;
+    width: 40%;
+    margin: 3vw 0;
+  }
+
   .text-banner {
     line-height: 20px;
+    padding: 3vw;
+    float: left;
+    text-align: left;
+    margin-right: 6vw;
+
+    h2 {
+      font-size: 2.1vw;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+      line-height: 1.5rem;
+
+      &:last-child {
+        margin-bottom: 0px;
+      }
+    }
   }
 
   .hero-banner {
     max-height: 370px;
-    overflow: hidden;
+    background-size: 100% auto;
+    background-position: left center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
   }
 
   .border-bold {
     border-bottom: 5px solid !important;
   }
 
+  .topic {
+    font-weight: 500;
+    font-size: 18px;
+  }
+
   .header {
     &-yellow {
       border-bottom: 5px solid $yellow;
       color: $black;
-      font-weight: 500;
-      font-size: 18px;
     }
     &-grey {
       border-bottom: 5px solid $grey-white;
       color: $grey-smoke;
-      font-weight: 500;
-      font-size: 18px;
     }
     &-grey-dark {
       border-bottom: 5px solid $grey-smoke;
       color: $black;
-      font-weight: 500;
-      font-size: 18px;
     }
   }
 
@@ -68,17 +99,66 @@
   }
 
   .subscribe {
-    top: calc(65% - 20px);
+    top: 4vw;
 
     input {
       border-color: $black;
       border-radius: 0;
+      max-width: 100%;
     }
 
     button {
       border-color: $black;
       border-radius: 0;
       background-color: $black;
+      padding: 0 3vw;
+    }
+  }
+}
+
+
+@include tablet {
+  #career {
+    .tbl-container {
+      @include tbl-container;
+    }
+
+    .text-banner {
+      line-height: 20px;
+      padding: 15px;
+
+      h2 {
+        font-size: 2.7vw;
+      }
+
+      p {
+        font-size: 0.85rem;
+        margin-bottom: 10px;
+        line-height: 1.2rem;
+
+        &:last-child {
+          margin-bottom: 0px;
+        }
+      }
+    }
+
+    .topic, .description {
+      font-size: 90%;
+    }
+
+    .description {
+      padding: 10px 0;
+      line-height: 18px;
+    }
+
+    .subscribe {
+      top: 2.5vw;
+
+      input {
+        padding: 0px 5px !important;
+        font-size: 80%;
+        max-width: 80%;
+      }
     }
   }
 }

@@ -2581,7 +2581,10 @@ header {
     margin: 0;
     text-transform: uppercase;
     background-color: #fff;
-    font-size: 1.4vw; }
+    font-size: 1.1rem; }
+    #account .wrapper-menu ul.menu .icon {
+      top: 11px;
+      left: 15px; }
     #account .wrapper-menu ul.menu li {
       list-style: none;
       padding: 0 !important;
@@ -2591,18 +2594,12 @@ header {
         color: #000;
         padding: 12px 0 12px 50px;
         display: block; }
-      #account .wrapper-menu ul.menu li:first-child {
-        padding: 13px 15px; }
-        #account .wrapper-menu ul.menu li:first-child i {
-          margin-top: -1px; }
-        #account .wrapper-menu ul.menu li:first-child a {
-          color: #000;
-          padding: 12px 0 12px 15px;
-          display: block; }
       #account .wrapper-menu ul.menu li.active, #account .wrapper-menu ul.menu li:hover {
-        background: #fdc30f; }
+        background: #fdc30f;
+        color: #fff; }
         #account .wrapper-menu ul.menu li.active a, #account .wrapper-menu ul.menu li:hover a {
-          color: #fff; }
+          color: #fff;
+          font-weight: 500; }
       #account .wrapper-menu ul.menu li i {
         font-size: 28px;
         vertical-align: middle;
@@ -2626,18 +2623,19 @@ header {
     border-radius: 0; }
 
 @media (min-width: 640px) and (max-width: 990px) {
-  #account .wrapper-menu ul.menu li {
-    padding: 12px 0px 12px 37px;
-    font-size: 2vw;
-    font-weight: 500; }
-    #account .wrapper-menu ul.menu li:first-child {
-      padding: 13px 10px; }
-      #account .wrapper-menu ul.menu li:first-child i {
-        margin-top: -1px; }
-    #account .wrapper-menu ul.menu li i {
-      font-size: 24px;
-      vertical-align: middle;
-      margin-right: 6px; }
+  #account .wrapper-menu ul.menu {
+    font-size: 0.9rem; }
+    #account .wrapper-menu ul.menu li {
+      padding: 12px 0px 12px 37px;
+      font-weight: 500; }
+      #account .wrapper-menu ul.menu li:first-child {
+        padding: 13px 10px; }
+        #account .wrapper-menu ul.menu li:first-child i {
+          margin-top: -1px; }
+      #account .wrapper-menu ul.menu li i {
+        font-size: 24px;
+        vertical-align: middle;
+        margin-right: 13px; }
   #account .description {
     font-size: 1.8vw;
     font-weight: 500; }

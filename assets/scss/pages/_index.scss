@@ -305,3 +305,33 @@
         }
     }
 }
+
+@media (max-width: 1080px){
+    .collection-banner{
+        .txt-collection{
+           font-size: 0.5em;
+           h2{
+               font-size: 1.5rem;
+           }
+        }     
+    }
+    .giftcard-banner .txt-collection{
+        font-size: 0.5em;
+        h2{
+            font-size: 1.5rem;
+        }
+    }
+    .what-more .what-more-txt{
+        padding-top: 1em;
+    }
+    .idea-forhome .txt-head{
+        font-size: 1.2em;
+    }
+    .idea-forhome .txt-detail{
+        font-size: 1.4em;
+    }
+    .locate-banner .txt-banner{
+        padding: 2em 4em;
+        font-size: 0.6em;
+    }
+}
